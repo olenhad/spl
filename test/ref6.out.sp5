@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int -> int -> int}     power = recfun mypower {int -> int -> int}                x y ->                if y = 0                then 1                else x * (mypower x (y - 1))                end            end            in  {int}    (power 17 3)end
+ AS ==> let {Int->Int->Int} power = recfun mypower {Int->Int->Int} x y -> if =[Var(y),Int(0)] then Int(1) else *[Var(x),Appln[Var(mypower); Var(x);-[Var(y),Int(1)]]] end in {Int}Appln[Var(power); Int(17);Int(3)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int->Int)->Int} power -> Appln[Var(power); Int(17);Int(3)] end; recfun mypower {Int->Int->Int} x y -> if =[Var(y),Int(0)] then Int(1) else *[Var(x),Appln[Var(mypower); Var(x);-[Var(y),Int(1)]]] end]

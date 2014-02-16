@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  recfun f {int -> int} n -> (f n) end
+ AS ==> recfun f {Int->Int} n -> Appln[Var(f); Var(n)] end
+TYPE CHECKING program ..
+ ==> inferred type Int->Int
+TRANSFORMING ==> recfun f {Int->Int} n -> Appln[Var(f); Var(n)] end

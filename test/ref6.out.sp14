@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int->int}   f =      recfun foo {int->int} n ->                 if n=0 then 0                else 2 + (foo (n-1))                end             endin {int}   f 4end
+ AS ==> let {Int->Int} f = recfun foo {Int->Int} n -> if =[Var(n),Int(0)] then Int(0) else +[Int(2),Appln[Var(foo); -[Var(n),Int(1)]]] end in {Int}Appln[Var(f); Int(4)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int)->Int} f -> Appln[Var(f); Int(4)] end; recfun foo {Int->Int} n -> if =[Var(n),Int(0)] then Int(0) else +[Int(2),Appln[Var(foo); -[Var(n),Int(1)]]] end]

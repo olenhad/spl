@@ -1,0 +1,6423 @@
+"sPL_type.ml" 9 82 86 "sPL_type.ml" 9 82 104
+type(
+  bool ref
+)
+ident(
+  def tail_optimize_flag "sPL_type.ml" 10 117 117 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 9 82 107 "sPL_type.ml" 9 82 110
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"sPL_type.ml" 9 82 111 "sPL_type.ml" 9 82 116
+type(
+  bool
+)
+"sPL_type.ml" 9 82 107 "sPL_type.ml" 9 82 116
+type(
+  bool ref
+)
+"sPL_type.ml" 10 117 121 "sPL_type.ml" 10 117 136
+type(
+  bool ref
+)
+ident(
+  def pa_removal_flag "sPL_type.ml" 11 148 148 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 10 117 139 "sPL_type.ml" 10 117 142
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"sPL_type.ml" 10 117 143 "sPL_type.ml" 10 117 147
+type(
+  bool
+)
+"sPL_type.ml" 10 117 139 "sPL_type.ml" 10 117 147
+type(
+  bool ref
+)
+"sPL_type.ml" 11 148 152 "sPL_type.ml" 11 148 162
+type(
+  int ref
+)
+ident(
+  def stack_size "sPL_type.ml" 13 176 176 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 11 148 165 "sPL_type.ml" 11 148 168
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"sPL_type.ml" 11 148 169 "sPL_type.ml" 11 148 174
+type(
+  int
+)
+"sPL_type.ml" 11 148 165 "sPL_type.ml" 11 148 174
+type(
+  int ref
+)
+"sPL_type.ml" 13 176 180 "sPL_type.ml" 13 176 191
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def option_flag "sPL_type.ml" 23 512 512 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 14 196 199 "sPL_type.ml" 14 196 207
+type(
+  string
+)
+"sPL_type.ml" 14 196 217 "sPL_type.ml" 14 196 235
+type(
+  bool ref
+)
+ident(
+  int_ref tail_optimize_flag "sPL_type.ml" 9 82 86 "sPL_type.ml" 9 82 104
+)
+"sPL_type.ml" 14 196 209 "sPL_type.ml" 14 196 235
+type(
+  Arg.spec
+)
+"sPL_type.ml" 14 196 237 "sPL_type.ml" 14 196 269
+type(
+  string
+)
+"sPL_type.ml" 14 196 199 "sPL_type.ml" 14 196 269
+type(
+  string * Arg.spec * string
+)
+"sPL_type.ml" 15 271 275 "sPL_type.ml" 15 271 285
+type(
+  string
+)
+"sPL_type.ml" 15 271 297 "sPL_type.ml" 15 271 312
+type(
+  bool ref
+)
+ident(
+  int_ref pa_removal_flag "sPL_type.ml" 10 117 121 "sPL_type.ml" 10 117 136
+)
+"sPL_type.ml" 15 271 287 "sPL_type.ml" 15 271 312
+type(
+  Arg.spec
+)
+"sPL_type.ml" 15 271 314 "sPL_type.ml" 15 271 352
+type(
+  string
+)
+"sPL_type.ml" 15 271 275 "sPL_type.ml" 15 271 352
+type(
+  string * Arg.spec * string
+)
+"sPL_type.ml" 16 354 358 "sPL_type.ml" 16 354 369
+type(
+  string
+)
+"sPL_type.ml" 16 354 383 "sPL_type.ml" 16 354 393
+type(
+  int ref
+)
+ident(
+  int_ref stack_size "sPL_type.ml" 11 148 152 "sPL_type.ml" 11 148 162
+)
+"sPL_type.ml" 16 354 371 "sPL_type.ml" 16 354 393
+type(
+  Arg.spec
+)
+"sPL_type.ml" 17 395 399 "sPL_type.ml" 17 395 440
+type(
+  string
+)
+"sPL_type.ml" 16 354 358 "sPL_type.ml" 17 395 440
+type(
+  string * Arg.spec * string
+)
+"sPL_type.ml" 16 354 357 "sPL_type.ml" 17 395 441
+type(
+  (string * Arg.spec * string) list
+)
+"sPL_type.ml" 15 271 274 "sPL_type.ml" 17 395 441
+type(
+  (string * Arg.spec * string) list
+)
+"sPL_type.ml" 14 196 198 "sPL_type.ml" 17 395 441
+type(
+  (string * Arg.spec * string) list
+)
+type(
+  (string * Arg.spec * string) list
+)
+"sPL_type.ml" 23 512 516 "sPL_type.ml" 23 512 524
+type(
+  'a Debug.Basic.Environ.et -> Debug.Basic.id -> 'a option
+)
+ident(
+  def get_type "sPL_type.ml" 34 902 902 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 23 512 525 "sPL_type.ml" 23 512 528
+type(
+  'a Debug.Basic.Environ.et
+)
+ident(
+  def env "sPL_type.ml" 23 512 529 "sPL_type.ml" 23 512 554
+)
+"sPL_type.ml" 23 512 529 "sPL_type.ml" 23 512 530
+type(
+  Debug.Basic.id
+)
+ident(
+  def v "sPL_type.ml" 23 512 533 "sPL_type.ml" 23 512 554
+)
+"sPL_type.ml" 23 512 533 "sPL_type.ml" 23 512 548
+type(
+  'a Debug.Basic.Environ.et -> Debug.Basic.id -> 'a option
+)
+ident(
+  ext_ref Debug.Basic.Environ.get_val
+)
+"sPL_type.ml" 23 512 549 "sPL_type.ml" 23 512 552
+type(
+  'a Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 23 512 525 "sPL_type.ml" 23 512 528
+)
+"sPL_type.ml" 23 512 553 "sPL_type.ml" 23 512 554
+type(
+  Debug.Basic.id
+)
+ident(
+  int_ref v "sPL_type.ml" 23 512 529 "sPL_type.ml" 23 512 530
+)
+"sPL_type.ml" 23 512 533 "sPL_type.ml" 23 512 554
+call(
+  tail
+)
+type(
+  'a option
+)
+"sPL_type.ml" 23 512 529 "sPL_type.ml" 23 512 554
+type(
+  Debug.Basic.id -> 'a option
+)
+"sPL_type.ml" 23 512 525 "sPL_type.ml" 23 512 554
+type(
+  'a Debug.Basic.Environ.et -> Debug.Basic.id -> 'a option
+)
+"sPL_type.ml" 34 902 906 "sPL_type.ml" 34 902 919
+type(
+  SPL.sPL_type -> 'a list -> (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  def extr_arg_type "sPL_type.ml" 41 1165 1165 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 34 902 921 "sPL_type.ml" 34 902 922
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 34 902 933 "sPL_type.ml" 40 1146 1164
+)
+"sPL_type.ml" 34 902 934 "sPL_type.ml" 34 902 938
+type(
+  'a list
+)
+ident(
+  def args "sPL_type.ml" 34 902 948 "sPL_type.ml" 40 1146 1164
+)
+"sPL_type.ml" 35 993 1003 "sPL_type.ml" 35 993 1006
+type(
+  ('b * SPL.sPL_type) list ->
+  SPL.sPL_type -> 'b list -> (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  def aux "sPL_type.ml" 35 993 995 "sPL_type.ml" 40 1146 1164
+)
+"sPL_type.ml" 35 993 1007 "sPL_type.ml" 35 993 1010
+type(
+  ('b * SPL.sPL_type) list
+)
+ident(
+  def env "sPL_type.ml" 35 993 1011 "sPL_type.ml" 39 1126 1145
+)
+"sPL_type.ml" 35 993 1011 "sPL_type.ml" 35 993 1012
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 35 993 1013 "sPL_type.ml" 39 1126 1145
+)
+"sPL_type.ml" 35 993 1013 "sPL_type.ml" 35 993 1017
+type(
+  'b list
+)
+ident(
+  def args "sPL_type.ml" 36 1020 1024 "sPL_type.ml" 39 1126 1145
+)
+"sPL_type.ml" 36 1020 1030 "sPL_type.ml" 36 1020 1034
+type(
+  'b list
+)
+ident(
+  int_ref args "sPL_type.ml" 35 993 1013 "sPL_type.ml" 35 993 1017
+)
+"sPL_type.ml" 36 1020 1035 "sPL_type.ml" 36 1020 1036
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 35 993 1011 "sPL_type.ml" 35 993 1012
+)
+"sPL_type.ml" 36 1020 1030 "sPL_type.ml" 36 1020 1036
+type(
+  'b list * SPL.sPL_type
+)
+"sPL_type.ml" 37 1042 1050 "sPL_type.ml" 37 1042 1052
+type(
+  'b list
+)
+"sPL_type.ml" 37 1042 1053 "sPL_type.ml" 37 1042 1054
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 37 1042 1050 "sPL_type.ml" 37 1042 1054
+type(
+  'b list * SPL.sPL_type
+)
+"sPL_type.ml" 37 1042 1064 "sPL_type.ml" 37 1042 1067
+type(
+  ('b * SPL.sPL_type) list
+)
+ident(
+  int_ref env "sPL_type.ml" 35 993 1007 "sPL_type.ml" 35 993 1010
+)
+"sPL_type.ml" 37 1042 1068 "sPL_type.ml" 37 1042 1069
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 35 993 1011 "sPL_type.ml" 35 993 1012
+)
+"sPL_type.ml" 37 1042 1058 "sPL_type.ml" 37 1042 1070
+type(
+  ('b * SPL.sPL_type) list * SPL.sPL_type
+)
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 38 1071 1079 "sPL_type.ml" 38 1071 1080
+type(
+  'b
+)
+ident(
+  def v "sPL_type.ml" 38 1071 1102 "sPL_type.ml" 38 1071 1125
+)
+"sPL_type.ml" 38 1071 1082 "sPL_type.ml" 38 1071 1084
+type(
+  'b list
+)
+ident(
+  def vs "sPL_type.ml" 38 1071 1102 "sPL_type.ml" 38 1071 1125
+)
+"sPL_type.ml" 38 1071 1079 "sPL_type.ml" 38 1071 1084
+type(
+  'b list
+)
+"sPL_type.ml" 38 1071 1092 "sPL_type.ml" 38 1071 1094
+type(
+  SPL.sPL_type
+)
+ident(
+  def t1 "sPL_type.ml" 38 1071 1102 "sPL_type.ml" 38 1071 1125
+)
+"sPL_type.ml" 38 1071 1095 "sPL_type.ml" 38 1071 1097
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 38 1071 1102 "sPL_type.ml" 38 1071 1125
+)
+"sPL_type.ml" 38 1071 1085 "sPL_type.ml" 38 1071 1098
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 38 1071 1079 "sPL_type.ml" 38 1071 1098
+type(
+  'b list * SPL.sPL_type
+)
+"sPL_type.ml" 38 1071 1102 "sPL_type.ml" 38 1071 1105
+type(
+  ('b * SPL.sPL_type) list ->
+  SPL.sPL_type -> 'b list -> (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref aux "sPL_type.ml" 35 993 1003 "sPL_type.ml" 35 993 1006
+)
+"sPL_type.ml" 38 1071 1108 "sPL_type.ml" 38 1071 1109
+type(
+  'b
+)
+ident(
+  int_ref v "sPL_type.ml" 38 1071 1079 "sPL_type.ml" 38 1071 1080
+)
+"sPL_type.ml" 38 1071 1110 "sPL_type.ml" 38 1071 1112
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 38 1071 1092 "sPL_type.ml" 38 1071 1094
+)
+"sPL_type.ml" 38 1071 1108 "sPL_type.ml" 38 1071 1112
+type(
+  'b * SPL.sPL_type
+)
+"sPL_type.ml" 38 1071 1115 "sPL_type.ml" 38 1071 1118
+type(
+  ('b * SPL.sPL_type) list
+)
+ident(
+  int_ref env "sPL_type.ml" 35 993 1007 "sPL_type.ml" 35 993 1010
+)
+"sPL_type.ml" 38 1071 1107 "sPL_type.ml" 38 1071 1118
+type(
+  ('b * SPL.sPL_type) list
+)
+"sPL_type.ml" 38 1071 1120 "sPL_type.ml" 38 1071 1122
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 38 1071 1095 "sPL_type.ml" 38 1071 1097
+)
+"sPL_type.ml" 38 1071 1123 "sPL_type.ml" 38 1071 1125
+type(
+  'b list
+)
+ident(
+  int_ref vs "sPL_type.ml" 38 1071 1082 "sPL_type.ml" 38 1071 1084
+)
+"sPL_type.ml" 38 1071 1102 "sPL_type.ml" 38 1071 1125
+call(
+  tail
+)
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 39 1126 1134 "sPL_type.ml" 39 1126 1135
+type(
+  'b list
+)
+"sPL_type.ml" 39 1126 1136 "sPL_type.ml" 39 1126 1137
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 39 1126 1134 "sPL_type.ml" 39 1126 1137
+type(
+  'b list * SPL.sPL_type
+)
+"sPL_type.ml" 39 1126 1141 "sPL_type.ml" 39 1126 1145
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 36 1020 1024 "sPL_type.ml" 39 1126 1145
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 35 993 1013 "sPL_type.ml" 39 1126 1145
+type(
+  'b list -> (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 35 993 1011 "sPL_type.ml" 39 1126 1145
+type(
+  SPL.sPL_type -> 'b list -> (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 35 993 1007 "sPL_type.ml" 39 1126 1145
+type(
+  ('b * SPL.sPL_type) list ->
+  SPL.sPL_type -> 'b list -> (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 40 1146 1151 "sPL_type.ml" 40 1146 1154
+type(
+  ('a * SPL.sPL_type) list ->
+  SPL.sPL_type -> 'a list -> (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref aux "sPL_type.ml" 35 993 1003 "sPL_type.ml" 35 993 1006
+)
+"sPL_type.ml" 40 1146 1155 "sPL_type.ml" 40 1146 1157
+type(
+  ('a * SPL.sPL_type) list
+)
+"sPL_type.ml" 40 1146 1158 "sPL_type.ml" 40 1146 1159
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 34 902 921 "sPL_type.ml" 34 902 922
+)
+"sPL_type.ml" 40 1146 1160 "sPL_type.ml" 40 1146 1164
+type(
+  'a list
+)
+ident(
+  int_ref args "sPL_type.ml" 34 902 934 "sPL_type.ml" 34 902 938
+)
+"sPL_type.ml" 40 1146 1151 "sPL_type.ml" 40 1146 1164
+call(
+  tail
+)
+type(
+  (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 35 993 995 "sPL_type.ml" 40 1146 1164
+type(
+  (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+type(
+  (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 34 902 933 "sPL_type.ml" 40 1146 1164
+type(
+  'a list -> (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 34 902 920 "sPL_type.ml" 40 1146 1164
+type(
+  SPL.sPL_type -> 'a list -> (('a * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 41 1165 1169 "sPL_type.ml" 41 1165 1187
+type(
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  def extr_arg_type_test "sPL_type.ml" 50 1589 1589 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 41 1165 1189 "sPL_type.ml" 41 1165 1190
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 41 1165 1201 "sPL_type.ml" 46 1430 1496
+)
+"sPL_type.ml" 41 1165 1202 "sPL_type.ml" 41 1165 1206
+type(
+  int list
+)
+ident(
+  def args "sPL_type.ml" 41 1165 1217 "sPL_type.ml" 46 1430 1496
+)
+"sPL_type.ml" 42 1263 1269 "sPL_type.ml" 42 1263 1272
+type(
+  SPL.sPL_type -> string
+)
+ident(
+  def pr1 "sPL_type.ml" 43 1297 1299 "sPL_type.ml" 46 1430 1496
+)
+"sPL_type.ml" 42 1263 1275 "sPL_type.ml" 42 1263 1293
+type(
+  SPL.sPL_type -> string
+)
+ident(
+  ext_ref SPL.string_of_sPL_type
+)
+"sPL_type.ml" 43 1297 1303 "sPL_type.ml" 43 1297 1306
+type(
+  int list -> string
+)
+ident(
+  def pr2 "sPL_type.ml" 44 1334 1336 "sPL_type.ml" 46 1430 1496
+)
+"sPL_type.ml" 43 1297 1309 "sPL_type.ml" 43 1297 1316
+type(
+  (int -> string) -> int list -> string
+)
+ident(
+  ext_ref Debug.Basic.pr_list
+)
+"sPL_type.ml" 43 1297 1317 "sPL_type.ml" 43 1297 1330
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"sPL_type.ml" 43 1297 1309 "sPL_type.ml" 43 1297 1330
+call(
+  stack
+)
+type(
+  int list -> string
+)
+"sPL_type.ml" 44 1334 1340 "sPL_type.ml" 44 1334 1344
+type(
+  (int * SPL.sPL_type) list -> string
+)
+ident(
+  def pr2a "sPL_type.ml" 45 1386 1388 "sPL_type.ml" 46 1430 1496
+)
+"sPL_type.ml" 44 1334 1347 "sPL_type.ml" 44 1334 1354
+type(
+  (int * SPL.sPL_type -> string) -> (int * SPL.sPL_type) list -> string
+)
+ident(
+  ext_ref Debug.Basic.pr_list
+)
+"sPL_type.ml" 44 1334 1356 "sPL_type.ml" 44 1334 1363
+type(
+  (int -> string) -> (SPL.sPL_type -> string) -> int * SPL.sPL_type -> string
+)
+ident(
+  ext_ref Debug.Basic.pr_pair
+)
+"sPL_type.ml" 44 1334 1364 "sPL_type.ml" 44 1334 1377
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"sPL_type.ml" 44 1334 1378 "sPL_type.ml" 44 1334 1381
+type(
+  SPL.sPL_type -> string
+)
+ident(
+  int_ref pr1 "sPL_type.ml" 42 1263 1269 "sPL_type.ml" 42 1263 1272
+)
+"sPL_type.ml" 44 1334 1356 "sPL_type.ml" 44 1334 1381
+call(
+  stack
+)
+type(
+  int * SPL.sPL_type -> string
+)
+"sPL_type.ml" 44 1334 1347 "sPL_type.ml" 44 1334 1382
+call(
+  stack
+)
+type(
+  (int * SPL.sPL_type) list -> string
+)
+"sPL_type.ml" 45 1386 1392 "sPL_type.ml" 45 1386 1395
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option -> string
+)
+ident(
+  def pr3 "sPL_type.ml" 46 1430 1432 "sPL_type.ml" 46 1430 1496
+)
+"sPL_type.ml" 45 1386 1398 "sPL_type.ml" 45 1386 1407
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type -> string) ->
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option -> string
+)
+ident(
+  ext_ref Debug.Basic.pr_option
+)
+"sPL_type.ml" 45 1386 1409 "sPL_type.ml" 45 1386 1416
+type(
+  ((int * SPL.sPL_type) list -> string) ->
+  (SPL.sPL_type -> string) ->
+  (int * SPL.sPL_type) list * SPL.sPL_type -> string
+)
+ident(
+  ext_ref Debug.Basic.pr_pair
+)
+"sPL_type.ml" 45 1386 1417 "sPL_type.ml" 45 1386 1421
+type(
+  (int * SPL.sPL_type) list -> string
+)
+ident(
+  int_ref pr2a "sPL_type.ml" 44 1334 1340 "sPL_type.ml" 44 1334 1344
+)
+"sPL_type.ml" 45 1386 1422 "sPL_type.ml" 45 1386 1425
+type(
+  SPL.sPL_type -> string
+)
+ident(
+  int_ref pr1 "sPL_type.ml" 42 1263 1269 "sPL_type.ml" 42 1263 1272
+)
+"sPL_type.ml" 45 1386 1409 "sPL_type.ml" 45 1386 1425
+call(
+  stack
+)
+type(
+  (int * SPL.sPL_type) list * SPL.sPL_type -> string
+)
+"sPL_type.ml" 45 1386 1398 "sPL_type.ml" 45 1386 1426
+call(
+  stack
+)
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option -> string
+)
+"sPL_type.ml" 46 1430 1432 "sPL_type.ml" 46 1430 1442
+type(
+  string ->
+  (SPL.sPL_type -> string) ->
+  (int list -> string) ->
+  (((int * SPL.sPL_type) list * SPL.sPL_type) option -> string) ->
+  (SPL.sPL_type ->
+   int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option) ->
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  ext_ref Debug.ho_2
+)
+"sPL_type.ml" 46 1430 1443 "sPL_type.ml" 46 1430 1463
+type(
+  string
+)
+"sPL_type.ml" 46 1430 1464 "sPL_type.ml" 46 1430 1467
+type(
+  SPL.sPL_type -> string
+)
+ident(
+  int_ref pr1 "sPL_type.ml" 42 1263 1269 "sPL_type.ml" 42 1263 1272
+)
+"sPL_type.ml" 46 1430 1468 "sPL_type.ml" 46 1430 1471
+type(
+  int list -> string
+)
+ident(
+  int_ref pr2 "sPL_type.ml" 43 1297 1303 "sPL_type.ml" 43 1297 1306
+)
+"sPL_type.ml" 46 1430 1472 "sPL_type.ml" 46 1430 1475
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option -> string
+)
+ident(
+  int_ref pr3 "sPL_type.ml" 45 1386 1392 "sPL_type.ml" 45 1386 1395
+)
+"sPL_type.ml" 46 1430 1476 "sPL_type.ml" 46 1430 1489
+type(
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type "sPL_type.ml" 34 902 906 "sPL_type.ml" 34 902 919
+)
+"sPL_type.ml" 46 1430 1490 "sPL_type.ml" 46 1430 1491
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 41 1165 1189 "sPL_type.ml" 41 1165 1190
+)
+"sPL_type.ml" 46 1430 1492 "sPL_type.ml" 46 1430 1496
+type(
+  int list
+)
+ident(
+  int_ref args "sPL_type.ml" 41 1165 1202 "sPL_type.ml" 41 1165 1206
+)
+"sPL_type.ml" 46 1430 1432 "sPL_type.ml" 46 1430 1496
+call(
+  tail
+)
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 45 1386 1388 "sPL_type.ml" 46 1430 1496
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 44 1334 1336 "sPL_type.ml" 46 1430 1496
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 43 1297 1299 "sPL_type.ml" 46 1430 1496
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 42 1263 1265 "sPL_type.ml" 46 1430 1496
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 41 1165 1201 "sPL_type.ml" 46 1430 1496
+type(
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 41 1165 1188 "sPL_type.ml" 46 1430 1496
+type(
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 50 1589 1593 "sPL_type.ml" 50 1589 1595
+type(
+  SPL.sPL_type
+)
+ident(
+  def t1 "sPL_type.ml" 51 1638 1638 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 50 1589 1605 "sPL_type.ml" 50 1589 1612
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 50 1589 1620 "sPL_type.ml" 50 1589 1627
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 50 1589 1628 "sPL_type.ml" 50 1589 1635
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 50 1589 1613 "sPL_type.ml" 50 1589 1636
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 50 1589 1598 "sPL_type.ml" 50 1589 1637
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 51 1638 1646 "sPL_type.ml" 51 1638 1664
+type(
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type_test "sPL_type.ml" 41 1165 1169 "sPL_type.ml" 41 1165 1187
+)
+"sPL_type.ml" 51 1638 1665 "sPL_type.ml" 51 1638 1667
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 50 1589 1593 "sPL_type.ml" 50 1589 1595
+)
+"sPL_type.ml" 51 1638 1669 "sPL_type.ml" 51 1638 1670
+type(
+  int list
+)
+type(
+  int
+)
+type(
+  int list
+)
+"sPL_type.ml" 51 1638 1646 "sPL_type.ml" 51 1638 1671
+call(
+  stack
+)
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 52 1672 1680 "sPL_type.ml" 52 1672 1698
+type(
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type_test "sPL_type.ml" 41 1165 1169 "sPL_type.ml" 41 1165 1187
+)
+"sPL_type.ml" 52 1672 1699 "sPL_type.ml" 52 1672 1701
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 50 1589 1593 "sPL_type.ml" 50 1589 1595
+)
+"sPL_type.ml" 52 1672 1703 "sPL_type.ml" 52 1672 1704
+type(
+  int
+)
+"sPL_type.ml" 52 1672 1705 "sPL_type.ml" 52 1672 1706
+type(
+  int
+)
+type(
+  int list
+)
+"sPL_type.ml" 52 1672 1703 "sPL_type.ml" 52 1672 1706
+type(
+  int list
+)
+type(
+  int list
+)
+"sPL_type.ml" 52 1672 1680 "sPL_type.ml" 52 1672 1707
+call(
+  stack
+)
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 53 1708 1716 "sPL_type.ml" 53 1708 1734
+type(
+  SPL.sPL_type ->
+  int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type_test "sPL_type.ml" 41 1165 1169 "sPL_type.ml" 41 1165 1187
+)
+"sPL_type.ml" 53 1708 1735 "sPL_type.ml" 53 1708 1737
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 50 1589 1593 "sPL_type.ml" 50 1589 1595
+)
+"sPL_type.ml" 53 1708 1739 "sPL_type.ml" 53 1708 1740
+type(
+  int
+)
+"sPL_type.ml" 53 1708 1741 "sPL_type.ml" 53 1708 1742
+type(
+  int
+)
+"sPL_type.ml" 53 1708 1743 "sPL_type.ml" 53 1708 1744
+type(
+  int
+)
+type(
+  int list
+)
+"sPL_type.ml" 53 1708 1741 "sPL_type.ml" 53 1708 1744
+type(
+  int list
+)
+"sPL_type.ml" 53 1708 1739 "sPL_type.ml" 53 1708 1744
+type(
+  int list
+)
+type(
+  int list
+)
+"sPL_type.ml" 53 1708 1716 "sPL_type.ml" 53 1708 1745
+call(
+  stack
+)
+type(
+  ((int * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 58 1858 1862 "sPL_type.ml" 58 1858 1872
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  def type_check "sPL_type.ml" 131 4742 4742 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 58 1858 1874 "sPL_type.ml" 58 1858 1877
+type(
+  env_type
+)
+ident(
+  def env "sPL_type.ml" 58 1858 1888 "sPL_type.ml" 127 4633 4649
+)
+"sPL_type.ml" 58 1858 1889 "sPL_type.ml" 58 1858 1890
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 58 1858 1901 "sPL_type.ml" 127 4633 4649
+)
+"sPL_type.ml" 58 1858 1902 "sPL_type.ml" 58 1858 1903
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 58 1858 1914 "sPL_type.ml" 127 4633 4649
+)
+"sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  def aux "sPL_type.ml" 59 1923 1925 "sPL_type.ml" 127 4633 4649
+)
+"sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  def env "sPL_type.ml" 59 1923 1941 "sPL_type.ml" 126 4610 4632
+)
+"sPL_type.ml" 59 1923 1941 "sPL_type.ml" 59 1923 1942
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 126 4610 4632
+)
+"sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 60 1947 1951 "sPL_type.ml" 126 4610 4632
+)
+"sPL_type.ml" 60 1947 1957 "sPL_type.ml" 60 1947 1958
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 59 1923 1941 "sPL_type.ml" 59 1923 1942
+)
+"sPL_type.ml" 61 1964 1981 "sPL_type.ml" 61 1964 1982
+type(
+  int
+)
+"sPL_type.ml" 61 1964 1972 "sPL_type.ml" 61 1964 1982
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 62 1986 2001 "sPL_type.ml" 62 1986 2002
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 62 1986 2002 "sPL_type.ml" 62 1986 2003
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 62 1986 2003 "sPL_type.ml" 62 1986 2010
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 62 1986 2001 "sPL_type.ml" 62 1986 2010
+type(
+  bool
+)
+"sPL_type.ml" 62 1986 2016 "sPL_type.ml" 62 1986 2020
+type(
+  bool
+)
+"sPL_type.ml" 62 1986 2026 "sPL_type.ml" 62 1986 2031
+type(
+  bool
+)
+"sPL_type.ml" 62 1986 1998 "sPL_type.ml" 62 1986 2031
+type(
+  bool
+)
+"sPL_type.ml" 63 2032 2050 "sPL_type.ml" 63 2032 2051
+type(
+  bool
+)
+"sPL_type.ml" 63 2032 2040 "sPL_type.ml" 63 2032 2051
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 64 2055 2070 "sPL_type.ml" 64 2055 2071
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 64 2055 2071 "sPL_type.ml" 64 2055 2072
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 64 2055 2072 "sPL_type.ml" 64 2055 2080
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 64 2055 2070 "sPL_type.ml" 64 2055 2080
+type(
+  bool
+)
+"sPL_type.ml" 64 2055 2086 "sPL_type.ml" 64 2055 2090
+type(
+  bool
+)
+"sPL_type.ml" 64 2055 2096 "sPL_type.ml" 64 2055 2101
+type(
+  bool
+)
+"sPL_type.ml" 64 2055 2067 "sPL_type.ml" 64 2055 2101
+type(
+  bool
+)
+"sPL_type.ml" 65 2102 2114 "sPL_type.ml" 65 2102 2115
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 66 2119 2132 "sPL_type.ml" 68 2190 2219
+)
+"sPL_type.ml" 65 2102 2110 "sPL_type.ml" 65 2102 2115
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 66 2119 2138 "sPL_type.ml" 66 2119 2146
+type(
+  SPL.sPL_type Debug.Basic.Environ.et ->
+  Debug.Basic.id -> SPL.sPL_type option
+)
+ident(
+  int_ref get_type "sPL_type.ml" 23 512 516 "sPL_type.ml" 23 512 524
+)
+"sPL_type.ml" 66 2119 2147 "sPL_type.ml" 66 2119 2150
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 66 2119 2151 "sPL_type.ml" 66 2119 2152
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 65 2102 2114 "sPL_type.ml" 65 2102 2115
+)
+"sPL_type.ml" 66 2119 2138 "sPL_type.ml" 66 2119 2152
+call(
+  stack
+)
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 67 2158 2179 "sPL_type.ml" 67 2158 2181
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 67 2158 2185 "sPL_type.ml" 67 2158 2189
+)
+"sPL_type.ml" 67 2158 2174 "sPL_type.ml" 67 2158 2181
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 67 2158 2185 "sPL_type.ml" 67 2158 2186
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 67 2158 2186 "sPL_type.ml" 67 2158 2187
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 67 2158 2187 "sPL_type.ml" 67 2158 2189
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 67 2158 2179 "sPL_type.ml" 67 2158 2181
+)
+"sPL_type.ml" 67 2158 2185 "sPL_type.ml" 67 2158 2189
+type(
+  bool
+)
+"sPL_type.ml" 68 2190 2206 "sPL_type.ml" 68 2190 2210
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 68 2190 2214 "sPL_type.ml" 68 2190 2219
+type(
+  bool
+)
+"sPL_type.ml" 66 2119 2132 "sPL_type.ml" 68 2190 2219
+type(
+  bool
+)
+"sPL_type.ml" 70 2292 2314 "sPL_type.ml" 70 2292 2316
+type(
+  SPL.op_id
+)
+ident(
+  def op "sPL_type.ml" 72 2343 2357 "sPL_type.ml" 78 2548 2578
+)
+"sPL_type.ml" 70 2292 2317 "sPL_type.ml" 70 2292 2320
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg "sPL_type.ml" 72 2343 2357 "sPL_type.ml" 78 2548 2578
+)
+"sPL_type.ml" 70 2292 2300 "sPL_type.ml" 70 2292 2321
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 72 2343 2363 "sPL_type.ml" 72 2343 2365
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 70 2292 2314 "sPL_type.ml" 70 2292 2316
+)
+"sPL_type.ml" 72 2343 2366 "sPL_type.ml" 72 2343 2367
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 72 2343 2363 "sPL_type.ml" 72 2343 2367
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 73 2373 2391 "sPL_type.ml" 73 2373 2394
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 73 2373 2395 "sPL_type.ml" 73 2373 2402
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 73 2373 2391 "sPL_type.ml" 73 2373 2402
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 74 2403 2428 "sPL_type.ml" 74 2403 2431
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 74 2403 2432 "sPL_type.ml" 74 2403 2435
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 74 2403 2436 "sPL_type.ml" 74 2403 2439
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg "sPL_type.ml" 70 2292 2317 "sPL_type.ml" 70 2292 2320
+)
+"sPL_type.ml" 74 2403 2440 "sPL_type.ml" 74 2403 2447
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 74 2403 2428 "sPL_type.ml" 74 2403 2447
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 75 2448 2466 "sPL_type.ml" 75 2448 2470
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 75 2448 2471 "sPL_type.ml" 75 2448 2479
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 75 2448 2466 "sPL_type.ml" 75 2448 2479
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 76 2480 2505 "sPL_type.ml" 76 2480 2508
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 76 2480 2509 "sPL_type.ml" 76 2480 2512
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 76 2480 2513 "sPL_type.ml" 76 2480 2516
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg "sPL_type.ml" 70 2292 2317 "sPL_type.ml" 70 2292 2320
+)
+"sPL_type.ml" 76 2480 2517 "sPL_type.ml" 76 2480 2525
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 76 2480 2505 "sPL_type.ml" 76 2480 2525
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 77 2526 2544 "sPL_type.ml" 77 2526 2545
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 77 2526 2546 "sPL_type.ml" 77 2526 2547
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 77 2526 2544 "sPL_type.ml" 77 2526 2547
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 78 2548 2573 "sPL_type.ml" 78 2548 2578
+type(
+  bool
+)
+"sPL_type.ml" 72 2343 2357 "sPL_type.ml" 78 2548 2578
+type(
+  bool
+)
+"sPL_type.ml" 80 2595 2618 "sPL_type.ml" 80 2595 2620
+type(
+  SPL.op_id
+)
+ident(
+  def op "sPL_type.ml" 82 2653 2667 "sPL_type.ml" 89 3086 3116
+)
+"sPL_type.ml" 80 2595 2621 "sPL_type.ml" 80 2595 2625
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg1 "sPL_type.ml" 82 2653 2667 "sPL_type.ml" 89 3086 3116
+)
+"sPL_type.ml" 80 2595 2626 "sPL_type.ml" 80 2595 2630
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg2 "sPL_type.ml" 82 2653 2667 "sPL_type.ml" 89 3086 3116
+)
+"sPL_type.ml" 80 2595 2603 "sPL_type.ml" 80 2595 2631
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 82 2653 2673 "sPL_type.ml" 82 2653 2675
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 80 2595 2618 "sPL_type.ml" 80 2595 2620
+)
+"sPL_type.ml" 82 2653 2676 "sPL_type.ml" 82 2653 2677
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 82 2653 2673 "sPL_type.ml" 82 2653 2677
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2701 "sPL_type.ml" 83 2683 2704
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 83 2683 2705 "sPL_type.ml" 83 2683 2712
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2701 "sPL_type.ml" 83 2683 2712
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2715 "sPL_type.ml" 83 2683 2718
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 83 2683 2719 "sPL_type.ml" 83 2683 2726
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2715 "sPL_type.ml" 83 2683 2726
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2701 "sPL_type.ml" 83 2683 2726
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2729 "sPL_type.ml" 83 2683 2732
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 83 2683 2733 "sPL_type.ml" 83 2683 2740
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2729 "sPL_type.ml" 83 2683 2740
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2701 "sPL_type.ml" 83 2683 2740
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2743 "sPL_type.ml" 83 2683 2746
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 83 2683 2747 "sPL_type.ml" 83 2683 2754
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2743 "sPL_type.ml" 83 2683 2754
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 83 2683 2701 "sPL_type.ml" 83 2683 2754
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 84 2755 2781 "sPL_type.ml" 84 2755 2784
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 84 2755 2785 "sPL_type.ml" 84 2755 2788
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 84 2755 2789 "sPL_type.ml" 84 2755 2793
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 80 2595 2621 "sPL_type.ml" 80 2595 2625
+)
+"sPL_type.ml" 84 2755 2794 "sPL_type.ml" 84 2755 2801
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 84 2755 2781 "sPL_type.ml" 84 2755 2801
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 84 2755 2803 "sPL_type.ml" 84 2755 2805
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"sPL_type.ml" 84 2755 2807 "sPL_type.ml" 84 2755 2810
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 84 2755 2811 "sPL_type.ml" 84 2755 2814
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 84 2755 2815 "sPL_type.ml" 84 2755 2819
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 80 2595 2626 "sPL_type.ml" 80 2595 2630
+)
+"sPL_type.ml" 84 2755 2820 "sPL_type.ml" 84 2755 2827
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 84 2755 2807 "sPL_type.ml" 84 2755 2827
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 84 2755 2780 "sPL_type.ml" 84 2755 2828
+type(
+  bool
+)
+"sPL_type.ml" 85 2829 2847 "sPL_type.ml" 85 2829 2850
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 85 2829 2851 "sPL_type.ml" 85 2829 2859
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2847 "sPL_type.ml" 85 2829 2859
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2862 "sPL_type.ml" 85 2829 2865
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 85 2829 2866 "sPL_type.ml" 85 2829 2874
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2862 "sPL_type.ml" 85 2829 2874
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2847 "sPL_type.ml" 85 2829 2874
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2877 "sPL_type.ml" 85 2829 2880
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 85 2829 2881 "sPL_type.ml" 85 2829 2889
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2877 "sPL_type.ml" 85 2829 2889
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 85 2829 2847 "sPL_type.ml" 85 2829 2889
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 86 2890 2916 "sPL_type.ml" 86 2890 2919
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 86 2890 2920 "sPL_type.ml" 86 2890 2923
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 86 2890 2924 "sPL_type.ml" 86 2890 2928
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 80 2595 2621 "sPL_type.ml" 80 2595 2625
+)
+"sPL_type.ml" 86 2890 2929 "sPL_type.ml" 86 2890 2936
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 86 2890 2916 "sPL_type.ml" 86 2890 2936
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 86 2890 2938 "sPL_type.ml" 86 2890 2940
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"sPL_type.ml" 86 2890 2942 "sPL_type.ml" 86 2890 2945
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 86 2890 2946 "sPL_type.ml" 86 2890 2949
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 86 2890 2950 "sPL_type.ml" 86 2890 2954
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 80 2595 2626 "sPL_type.ml" 80 2595 2630
+)
+"sPL_type.ml" 86 2890 2955 "sPL_type.ml" 86 2890 2962
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 86 2890 2942 "sPL_type.ml" 86 2890 2962
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 86 2890 2915 "sPL_type.ml" 86 2890 2963
+type(
+  bool
+)
+"sPL_type.ml" 87 2964 2982 "sPL_type.ml" 87 2964 2985
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 87 2964 2986 "sPL_type.ml" 87 2964 2994
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 87 2964 2982 "sPL_type.ml" 87 2964 2994
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 87 2964 2997 "sPL_type.ml" 87 2964 3000
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 87 2964 3001 "sPL_type.ml" 87 2964 3009
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 87 2964 2997 "sPL_type.ml" 87 2964 3009
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 87 2964 2982 "sPL_type.ml" 87 2964 3009
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 88 3010 3036 "sPL_type.ml" 88 3010 3039
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 88 3010 3040 "sPL_type.ml" 88 3010 3043
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 88 3010 3044 "sPL_type.ml" 88 3010 3048
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 80 2595 2621 "sPL_type.ml" 80 2595 2625
+)
+"sPL_type.ml" 88 3010 3049 "sPL_type.ml" 88 3010 3057
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 88 3010 3036 "sPL_type.ml" 88 3010 3057
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 88 3010 3059 "sPL_type.ml" 88 3010 3061
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"sPL_type.ml" 88 3010 3063 "sPL_type.ml" 88 3010 3066
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 88 3010 3067 "sPL_type.ml" 88 3010 3070
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 88 3010 3071 "sPL_type.ml" 88 3010 3075
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 80 2595 2626 "sPL_type.ml" 80 2595 2630
+)
+"sPL_type.ml" 88 3010 3076 "sPL_type.ml" 88 3010 3084
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 88 3010 3063 "sPL_type.ml" 88 3010 3084
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 88 3010 3035 "sPL_type.ml" 88 3010 3085
+type(
+  bool
+)
+"sPL_type.ml" 89 3086 3104 "sPL_type.ml" 89 3086 3105
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 89 3086 3106 "sPL_type.ml" 89 3086 3107
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 89 3086 3104 "sPL_type.ml" 89 3086 3107
+type(
+  SPL.op_id * SPL.sPL_type
+)
+"sPL_type.ml" 89 3086 3111 "sPL_type.ml" 89 3086 3116
+type(
+  bool
+)
+"sPL_type.ml" 82 2653 2667 "sPL_type.ml" 89 3086 3116
+type(
+  bool
+)
+"sPL_type.ml" 91 3133 3147 "sPL_type.ml" 91 3133 3149
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_type.ml" 92 3160 3172 "sPL_type.ml" 95 3278 3304
+)
+"sPL_type.ml" 91 3133 3150 "sPL_type.ml" 91 3133 3152
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_type.ml" 92 3160 3172 "sPL_type.ml" 95 3278 3304
+)
+"sPL_type.ml" 91 3133 3153 "sPL_type.ml" 91 3133 3155
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e3 "sPL_type.ml" 92 3160 3172 "sPL_type.ml" 95 3278 3304
+)
+"sPL_type.ml" 91 3133 3141 "sPL_type.ml" 91 3133 3156
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 92 3160 3176 "sPL_type.ml" 92 3160 3178
+type(
+  bool
+)
+ident(
+  def b1 "sPL_type.ml" 93 3204 3216 "sPL_type.ml" 95 3278 3304
+)
+"sPL_type.ml" 92 3160 3181 "sPL_type.ml" 92 3160 3184
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 92 3160 3185 "sPL_type.ml" 92 3160 3188
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 92 3160 3189 "sPL_type.ml" 92 3160 3191
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_type.ml" 91 3133 3147 "sPL_type.ml" 91 3133 3149
+)
+"sPL_type.ml" 92 3160 3192 "sPL_type.ml" 92 3160 3200
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 92 3160 3181 "sPL_type.ml" 92 3160 3200
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 93 3204 3220 "sPL_type.ml" 93 3204 3222
+type(
+  bool
+)
+ident(
+  def b2 "sPL_type.ml" 94 3241 3253 "sPL_type.ml" 95 3278 3304
+)
+"sPL_type.ml" 93 3204 3225 "sPL_type.ml" 93 3204 3228
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 93 3204 3229 "sPL_type.ml" 93 3204 3232
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 93 3204 3233 "sPL_type.ml" 93 3204 3235
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_type.ml" 91 3133 3150 "sPL_type.ml" 91 3133 3152
+)
+"sPL_type.ml" 93 3204 3236 "sPL_type.ml" 93 3204 3237
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 93 3204 3225 "sPL_type.ml" 93 3204 3237
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 94 3241 3257 "sPL_type.ml" 94 3241 3259
+type(
+  bool
+)
+ident(
+  def b3 "sPL_type.ml" 95 3278 3290 "sPL_type.ml" 95 3278 3304
+)
+"sPL_type.ml" 94 3241 3262 "sPL_type.ml" 94 3241 3265
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 94 3241 3266 "sPL_type.ml" 94 3241 3269
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 94 3241 3270 "sPL_type.ml" 94 3241 3272
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e3 "sPL_type.ml" 91 3133 3153 "sPL_type.ml" 91 3133 3155
+)
+"sPL_type.ml" 94 3241 3273 "sPL_type.ml" 94 3241 3274
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 94 3241 3262 "sPL_type.ml" 94 3241 3274
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 95 3278 3290 "sPL_type.ml" 95 3278 3292
+type(
+  bool
+)
+ident(
+  int_ref b1 "sPL_type.ml" 92 3160 3176 "sPL_type.ml" 92 3160 3178
+)
+"sPL_type.ml" 95 3278 3293 "sPL_type.ml" 95 3278 3295
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"sPL_type.ml" 95 3278 3296 "sPL_type.ml" 95 3278 3298
+type(
+  bool
+)
+ident(
+  int_ref b2 "sPL_type.ml" 93 3204 3220 "sPL_type.ml" 93 3204 3222
+)
+"sPL_type.ml" 95 3278 3299 "sPL_type.ml" 95 3278 3301
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"sPL_type.ml" 95 3278 3302 "sPL_type.ml" 95 3278 3304
+type(
+  bool
+)
+ident(
+  int_ref b3 "sPL_type.ml" 94 3241 3257 "sPL_type.ml" 94 3241 3259
+)
+"sPL_type.ml" 95 3278 3296 "sPL_type.ml" 95 3278 3304
+type(
+  bool
+)
+"sPL_type.ml" 95 3278 3290 "sPL_type.ml" 95 3278 3304
+type(
+  bool
+)
+"sPL_type.ml" 94 3241 3253 "sPL_type.ml" 95 3278 3304
+type(
+  bool
+)
+"sPL_type.ml" 93 3204 3216 "sPL_type.ml" 95 3278 3304
+type(
+  bool
+)
+"sPL_type.ml" 92 3160 3172 "sPL_type.ml" 95 3278 3304
+type(
+  bool
+)
+"sPL_type.ml" 96 3305 3319 "sPL_type.ml" 96 3305 3321
+type(
+  SPL.sPL_type
+)
+ident(
+  def te "sPL_type.ml" 97 3336 3348 "sPL_type.ml" 101 3537 3559
+)
+"sPL_type.ml" 96 3305 3322 "sPL_type.ml" 96 3305 3326
+type(
+  SPL.id list
+)
+ident(
+  def args "sPL_type.ml" 97 3336 3348 "sPL_type.ml" 101 3537 3559
+)
+"sPL_type.ml" 96 3305 3327 "sPL_type.ml" 96 3305 3331
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 97 3336 3348 "sPL_type.ml" 101 3537 3559
+)
+"sPL_type.ml" 96 3305 3313 "sPL_type.ml" 96 3305 3332
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 97 3336 3351 "sPL_type.ml" 97 3336 3353
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 96 3305 3319 "sPL_type.ml" 96 3305 3321
+)
+"sPL_type.ml" 97 3336 3353 "sPL_type.ml" 97 3336 3354
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 97 3336 3354 "sPL_type.ml" 97 3336 3355
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 97 3336 3351 "sPL_type.ml" 97 3336 3355
+type(
+  bool
+)
+"sPL_type.ml" 98 3361 3381 "sPL_type.ml" 98 3361 3394
+type(
+  SPL.sPL_type ->
+  SPL.id list -> ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type "sPL_type.ml" 34 902 906 "sPL_type.ml" 34 902 919
+)
+"sPL_type.ml" 98 3361 3395 "sPL_type.ml" 98 3361 3397
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 96 3305 3319 "sPL_type.ml" 96 3305 3321
+)
+"sPL_type.ml" 98 3361 3398 "sPL_type.ml" 98 3361 3402
+type(
+  SPL.id list
+)
+ident(
+  int_ref args "sPL_type.ml" 96 3305 3322 "sPL_type.ml" 96 3305 3326
+)
+"sPL_type.ml" 98 3361 3381 "sPL_type.ml" 98 3361 3402
+call(
+  stack
+)
+type(
+  ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 99 3408 3432 "sPL_type.ml" 99 3408 3436
+type(
+  (SPL.id * SPL.sPL_type) list
+)
+ident(
+  def env2 "sPL_type.ml" 99 3408 3444 "sPL_type.ml" 99 3408 3466
+)
+"sPL_type.ml" 99 3408 3437 "sPL_type.ml" 99 3408 3439
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 99 3408 3444 "sPL_type.ml" 99 3408 3466
+)
+"sPL_type.ml" 99 3408 3426 "sPL_type.ml" 99 3408 3440
+type(
+  ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+type(
+  (SPL.id * SPL.sPL_type) list * SPL.sPL_type
+)
+"sPL_type.ml" 99 3408 3444 "sPL_type.ml" 99 3408 3447
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 99 3408 3449 "sPL_type.ml" 99 3408 3453
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  int_ref env2 "sPL_type.ml" 99 3408 3432 "sPL_type.ml" 99 3408 3436
+)
+"sPL_type.ml" 99 3408 3453 "sPL_type.ml" 99 3408 3454
+type(
+  (Debug.Basic.id * SPL.sPL_type) list ->
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"sPL_type.ml" 99 3408 3454 "sPL_type.ml" 99 3408 3457
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 99 3408 3449 "sPL_type.ml" 99 3408 3457
+call(
+  stack
+)
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+"sPL_type.ml" 99 3408 3459 "sPL_type.ml" 99 3408 3463
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref body "sPL_type.ml" 96 3305 3327 "sPL_type.ml" 96 3305 3331
+)
+"sPL_type.ml" 99 3408 3464 "sPL_type.ml" 99 3408 3466
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 99 3408 3437 "sPL_type.ml" 99 3408 3439
+)
+"sPL_type.ml" 99 3408 3444 "sPL_type.ml" 99 3408 3466
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 100 3467 3485 "sPL_type.ml" 100 3467 3489
+type(
+  ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 100 3467 3493 "sPL_type.ml" 100 3467 3498
+type(
+  bool
+)
+"sPL_type.ml" 98 3361 3375 "sPL_type.ml" 100 3467 3498
+type(
+  bool
+)
+"sPL_type.ml" 101 3537 3554 "sPL_type.ml" 101 3537 3559
+type(
+  bool
+)
+"sPL_type.ml" 97 3336 3348 "sPL_type.ml" 101 3537 3559
+type(
+  bool
+)
+"sPL_type.ml" 102 3560 3577 "sPL_type.ml" 102 3560 3579
+type(
+  SPL.sPL_type
+)
+ident(
+  def te "sPL_type.ml" 103 3597 3609 "sPL_type.ml" 107 3807 3829
+)
+"sPL_type.ml" 102 3560 3580 "sPL_type.ml" 102 3560 3582
+type(
+  SPL.id
+)
+ident(
+  def id "sPL_type.ml" 103 3597 3609 "sPL_type.ml" 107 3807 3829
+)
+"sPL_type.ml" 102 3560 3583 "sPL_type.ml" 102 3560 3587
+type(
+  SPL.id list
+)
+ident(
+  def args "sPL_type.ml" 103 3597 3609 "sPL_type.ml" 107 3807 3829
+)
+"sPL_type.ml" 102 3560 3588 "sPL_type.ml" 102 3560 3592
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 103 3597 3609 "sPL_type.ml" 107 3807 3829
+)
+"sPL_type.ml" 102 3560 3568 "sPL_type.ml" 102 3560 3593
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 103 3597 3612 "sPL_type.ml" 103 3597 3614
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 102 3560 3577 "sPL_type.ml" 102 3560 3579
+)
+"sPL_type.ml" 103 3597 3614 "sPL_type.ml" 103 3597 3615
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 103 3597 3615 "sPL_type.ml" 103 3597 3616
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 103 3597 3612 "sPL_type.ml" 103 3597 3616
+type(
+  bool
+)
+"sPL_type.ml" 104 3622 3642 "sPL_type.ml" 104 3622 3655
+type(
+  SPL.sPL_type ->
+  SPL.id list -> ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type "sPL_type.ml" 34 902 906 "sPL_type.ml" 34 902 919
+)
+"sPL_type.ml" 104 3622 3656 "sPL_type.ml" 104 3622 3658
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 102 3560 3577 "sPL_type.ml" 102 3560 3579
+)
+"sPL_type.ml" 104 3622 3659 "sPL_type.ml" 104 3622 3663
+type(
+  SPL.id list
+)
+ident(
+  int_ref args "sPL_type.ml" 102 3560 3583 "sPL_type.ml" 102 3560 3587
+)
+"sPL_type.ml" 104 3622 3642 "sPL_type.ml" 104 3622 3663
+call(
+  stack
+)
+type(
+  ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 105 3669 3693 "sPL_type.ml" 105 3669 3697
+type(
+  (SPL.id * SPL.sPL_type) list
+)
+ident(
+  def env2 "sPL_type.ml" 105 3669 3705 "sPL_type.ml" 105 3669 3736
+)
+"sPL_type.ml" 105 3669 3698 "sPL_type.ml" 105 3669 3700
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 105 3669 3705 "sPL_type.ml" 105 3669 3736
+)
+"sPL_type.ml" 105 3669 3687 "sPL_type.ml" 105 3669 3701
+type(
+  ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+type(
+  (SPL.id * SPL.sPL_type) list * SPL.sPL_type
+)
+"sPL_type.ml" 105 3669 3705 "sPL_type.ml" 105 3669 3708
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 105 3669 3711 "sPL_type.ml" 105 3669 3713
+type(
+  SPL.id
+)
+ident(
+  int_ref id "sPL_type.ml" 102 3560 3580 "sPL_type.ml" 102 3560 3582
+)
+"sPL_type.ml" 105 3669 3714 "sPL_type.ml" 105 3669 3716
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 102 3560 3577 "sPL_type.ml" 102 3560 3579
+)
+"sPL_type.ml" 105 3669 3711 "sPL_type.ml" 105 3669 3716
+type(
+  Debug.Basic.id * SPL.sPL_type
+)
+"sPL_type.ml" 105 3669 3719 "sPL_type.ml" 105 3669 3723
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  int_ref env2 "sPL_type.ml" 105 3669 3693 "sPL_type.ml" 105 3669 3697
+)
+"sPL_type.ml" 105 3669 3710 "sPL_type.ml" 105 3669 3723
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+"sPL_type.ml" 105 3669 3723 "sPL_type.ml" 105 3669 3724
+type(
+  (Debug.Basic.id * SPL.sPL_type) list ->
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"sPL_type.ml" 105 3669 3724 "sPL_type.ml" 105 3669 3727
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 105 3669 3710 "sPL_type.ml" 105 3669 3727
+call(
+  stack
+)
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+"sPL_type.ml" 105 3669 3729 "sPL_type.ml" 105 3669 3733
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref body "sPL_type.ml" 102 3560 3588 "sPL_type.ml" 102 3560 3592
+)
+"sPL_type.ml" 105 3669 3734 "sPL_type.ml" 105 3669 3736
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 105 3669 3698 "sPL_type.ml" 105 3669 3700
+)
+"sPL_type.ml" 105 3669 3705 "sPL_type.ml" 105 3669 3736
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 106 3737 3755 "sPL_type.ml" 106 3737 3759
+type(
+  ((SPL.id * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 106 3737 3763 "sPL_type.ml" 106 3737 3768
+type(
+  bool
+)
+"sPL_type.ml" 104 3622 3636 "sPL_type.ml" 106 3737 3768
+type(
+  bool
+)
+"sPL_type.ml" 107 3807 3824 "sPL_type.ml" 107 3807 3829
+type(
+  bool
+)
+"sPL_type.ml" 103 3597 3609 "sPL_type.ml" 107 3807 3829
+type(
+  bool
+)
+"sPL_type.ml" 108 3830 3845 "sPL_type.ml" 108 3830 3847
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_type.ml" 110 3878 3892 "sPL_type.ml" 119 4269 4349
+)
+"sPL_type.ml" 108 3830 3848 "sPL_type.ml" 108 3830 3850
+type(
+  SPL.sPL_type option
+)
+ident(
+  def t1 "sPL_type.ml" 110 3878 3892 "sPL_type.ml" 119 4269 4349
+)
+"sPL_type.ml" 108 3830 3851 "sPL_type.ml" 108 3830 3855
+type(
+  SPL.sPL_expr list
+)
+ident(
+  def args "sPL_type.ml" 110 3878 3892 "sPL_type.ml" 119 4269 4349
+)
+"sPL_type.ml" 108 3830 3838 "sPL_type.ml" 108 3830 3856
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 110 3878 3898 "sPL_type.ml" 110 3878 3900
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref t1 "sPL_type.ml" 108 3830 3848 "sPL_type.ml" 108 3830 3850
+)
+"sPL_type.ml" 111 3906 3929 "sPL_type.ml" 111 3906 3932
+type(
+  SPL.sPL_type
+)
+ident(
+  def t1a "sPL_type.ml" 113 3964 3988 "sPL_type.ml" 117 4201 4242
+)
+"sPL_type.ml" 111 3906 3924 "sPL_type.ml" 111 3906 3932
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 113 3964 3994 "sPL_type.ml" 113 3964 4007
+type(
+  SPL.sPL_type ->
+  SPL.sPL_expr list ->
+  ((SPL.sPL_expr * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type "sPL_type.ml" 34 902 906 "sPL_type.ml" 34 902 919
+)
+"sPL_type.ml" 113 3964 4008 "sPL_type.ml" 113 3964 4011
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1a "sPL_type.ml" 111 3906 3929 "sPL_type.ml" 111 3906 3932
+)
+"sPL_type.ml" 113 3964 4012 "sPL_type.ml" 113 3964 4016
+type(
+  SPL.sPL_expr list
+)
+ident(
+  int_ref args "sPL_type.ml" 108 3830 3851 "sPL_type.ml" 108 3830 3855
+)
+"sPL_type.ml" 113 3964 3994 "sPL_type.ml" 113 3964 4016
+call(
+  stack
+)
+type(
+  ((SPL.sPL_expr * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 114 4022 4056 "sPL_type.ml" 114 4022 4058
+type(
+  (SPL.sPL_expr * SPL.sPL_type) list
+)
+ident(
+  def l2 "sPL_type.ml" 115 4066 4098 "sPL_type.ml" 116 4158 4200
+)
+"sPL_type.ml" 114 4022 4059 "sPL_type.ml" 114 4022 4061
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 115 4066 4098 "sPL_type.ml" 116 4158 4200
+)
+"sPL_type.ml" 114 4022 4050 "sPL_type.ml" 114 4022 4062
+type(
+  ((SPL.sPL_expr * SPL.sPL_type) list * SPL.sPL_type) option
+)
+type(
+  (SPL.sPL_expr * SPL.sPL_type) list * SPL.sPL_type
+)
+"sPL_type.ml" 115 4066 4101 "sPL_type.ml" 115 4066 4102
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 115 4066 4102 "sPL_type.ml" 115 4066 4103
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 115 4066 4103 "sPL_type.ml" 115 4066 4105
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 114 4022 4059 "sPL_type.ml" 114 4022 4061
+)
+"sPL_type.ml" 115 4066 4101 "sPL_type.ml" 115 4066 4105
+type(
+  bool
+)
+"sPL_type.ml" 115 4066 4111 "sPL_type.ml" 115 4066 4123
+type(
+  (SPL.sPL_expr * SPL.sPL_type -> bool) ->
+  (SPL.sPL_expr * SPL.sPL_type) list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"sPL_type.ml" 115 4066 4130 "sPL_type.ml" 115 4066 4132
+type(
+  SPL.sPL_expr
+)
+ident(
+  def ea "sPL_type.ml" 115 4066 4140 "sPL_type.ml" 115 4066 4153
+)
+"sPL_type.ml" 115 4066 4133 "sPL_type.ml" 115 4066 4135
+type(
+  SPL.sPL_type
+)
+ident(
+  def ta "sPL_type.ml" 115 4066 4140 "sPL_type.ml" 115 4066 4153
+)
+"sPL_type.ml" 115 4066 4130 "sPL_type.ml" 115 4066 4135
+type(
+  SPL.sPL_expr * SPL.sPL_type
+)
+"sPL_type.ml" 115 4066 4140 "sPL_type.ml" 115 4066 4143
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 115 4066 4144 "sPL_type.ml" 115 4066 4147
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 115 4066 4148 "sPL_type.ml" 115 4066 4150
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref ea "sPL_type.ml" 115 4066 4130 "sPL_type.ml" 115 4066 4132
+)
+"sPL_type.ml" 115 4066 4151 "sPL_type.ml" 115 4066 4153
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref ta "sPL_type.ml" 115 4066 4133 "sPL_type.ml" 115 4066 4135
+)
+"sPL_type.ml" 115 4066 4140 "sPL_type.ml" 115 4066 4153
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 115 4066 4129 "sPL_type.ml" 115 4066 4153
+type(
+  SPL.sPL_expr * SPL.sPL_type -> bool
+)
+"sPL_type.ml" 115 4066 4155 "sPL_type.ml" 115 4066 4157
+type(
+  (SPL.sPL_expr * SPL.sPL_type) list
+)
+ident(
+  int_ref l2 "sPL_type.ml" 114 4022 4056 "sPL_type.ml" 114 4022 4058
+)
+"sPL_type.ml" 115 4066 4111 "sPL_type.ml" 115 4066 4157
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 116 4158 4195 "sPL_type.ml" 116 4158 4200
+type(
+  bool
+)
+"sPL_type.ml" 115 4066 4098 "sPL_type.ml" 116 4158 4200
+type(
+  bool
+)
+"sPL_type.ml" 117 4201 4229 "sPL_type.ml" 117 4201 4233
+type(
+  ((SPL.sPL_expr * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 117 4201 4237 "sPL_type.ml" 117 4201 4242
+type(
+  bool
+)
+"sPL_type.ml" 113 3964 3988 "sPL_type.ml" 117 4201 4242
+type(
+  bool
+)
+"sPL_type.ml" 119 4269 4287 "sPL_type.ml" 119 4269 4291
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 119 4269 4295 "sPL_type.ml" 119 4269 4303
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 119 4269 4304 "sPL_type.ml" 119 4269 4349
+type(
+  string
+)
+"sPL_type.ml" 119 4269 4295 "sPL_type.ml" 119 4269 4349
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 110 3878 3892 "sPL_type.ml" 119 4269 4349
+type(
+  bool
+)
+"sPL_type.ml" 121 4366 4379 "sPL_type.ml" 121 4366 4384
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  def ldecl "sPL_type.ml" 122 4397 4409 "sPL_type.ml" 126 4610 4632
+)
+"sPL_type.ml" 121 4366 4385 "sPL_type.ml" 121 4366 4387
+type(
+  SPL.sPL_type
+)
+ident(
+  def te "sPL_type.ml" 122 4397 4409 "sPL_type.ml" 126 4610 4632
+)
+"sPL_type.ml" 121 4366 4388 "sPL_type.ml" 121 4366 4392
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 122 4397 4409 "sPL_type.ml" 126 4610 4632
+)
+"sPL_type.ml" 121 4366 4374 "sPL_type.ml" 121 4366 4393
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 122 4397 4412 "sPL_type.ml" 122 4397 4414
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 121 4366 4385 "sPL_type.ml" 121 4366 4387
+)
+"sPL_type.ml" 122 4397 4414 "sPL_type.ml" 122 4397 4415
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 122 4397 4415 "sPL_type.ml" 122 4397 4416
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 59 1923 1943 "sPL_type.ml" 59 1923 1944
+)
+"sPL_type.ml" 122 4397 4412 "sPL_type.ml" 122 4397 4416
+type(
+  bool
+)
+"sPL_type.ml" 123 4422 4440 "sPL_type.ml" 123 4422 4444
+type(
+  (SPL.id * SPL.sPL_type) list
+)
+ident(
+  def env2 "sPL_type.ml" 124 4488 4502 "sPL_type.ml" 125 4525 4609
+)
+"sPL_type.ml" 123 4422 4447 "sPL_type.ml" 123 4422 4455
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr -> SPL.id * SPL.sPL_type) ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> (SPL.id * SPL.sPL_type) list
+)
+ident(
+  ext_ref List.map
+)
+"sPL_type.ml" 123 4422 4462 "sPL_type.ml" 123 4422 4463
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 123 4422 4473 "sPL_type.ml" 123 4422 4476
+)
+"sPL_type.ml" 123 4422 4464 "sPL_type.ml" 123 4422 4465
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 123 4422 4473 "sPL_type.ml" 123 4422 4476
+)
+"sPL_type.ml" 123 4422 4466 "sPL_type.ml" 123 4422 4467
+type(
+  SPL.sPL_expr
+)
+ident(
+  def b "sPL_type.ml" 123 4422 4473 "sPL_type.ml" 123 4422 4476
+)
+"sPL_type.ml" 123 4422 4462 "sPL_type.ml" 123 4422 4467
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_type.ml" 123 4422 4473 "sPL_type.ml" 123 4422 4474
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 123 4422 4464 "sPL_type.ml" 123 4422 4465
+)
+"sPL_type.ml" 123 4422 4475 "sPL_type.ml" 123 4422 4476
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 123 4422 4462 "sPL_type.ml" 123 4422 4463
+)
+"sPL_type.ml" 123 4422 4473 "sPL_type.ml" 123 4422 4476
+type(
+  SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 123 4422 4461 "sPL_type.ml" 123 4422 4477
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr -> SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 123 4422 4479 "sPL_type.ml" 123 4422 4484
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  int_ref ldecl "sPL_type.ml" 121 4366 4379 "sPL_type.ml" 121 4366 4384
+)
+"sPL_type.ml" 123 4422 4447 "sPL_type.ml" 123 4422 4484
+call(
+  stack
+)
+type(
+  (SPL.id * SPL.sPL_type) list
+)
+"sPL_type.ml" 124 4488 4506 "sPL_type.ml" 124 4488 4510
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  def nenv "sPL_type.ml" 125 4525 4539 "sPL_type.ml" 125 4525 4609
+)
+"sPL_type.ml" 124 4488 4513 "sPL_type.ml" 124 4488 4517
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  int_ref env2 "sPL_type.ml" 123 4422 4440 "sPL_type.ml" 123 4422 4444
+)
+"sPL_type.ml" 124 4488 4517 "sPL_type.ml" 124 4488 4518
+type(
+  (Debug.Basic.id * SPL.sPL_type) list ->
+  SPL.sPL_type Debug.Basic.Environ.et -> (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"sPL_type.ml" 124 4488 4518 "sPL_type.ml" 124 4488 4521
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref env "sPL_type.ml" 59 1923 1937 "sPL_type.ml" 59 1923 1940
+)
+"sPL_type.ml" 124 4488 4513 "sPL_type.ml" 124 4488 4521
+call(
+  stack
+)
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+"sPL_type.ml" 125 4525 4540 "sPL_type.ml" 125 4525 4543
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 125 4525 4544 "sPL_type.ml" 125 4525 4548
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref nenv "sPL_type.ml" 124 4488 4506 "sPL_type.ml" 124 4488 4510
+)
+"sPL_type.ml" 125 4525 4549 "sPL_type.ml" 125 4525 4553
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref body "sPL_type.ml" 121 4366 4388 "sPL_type.ml" 121 4366 4392
+)
+"sPL_type.ml" 125 4525 4554 "sPL_type.ml" 125 4525 4556
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 121 4366 4385 "sPL_type.ml" 121 4366 4387
+)
+"sPL_type.ml" 125 4525 4540 "sPL_type.ml" 125 4525 4556
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 125 4525 4558 "sPL_type.ml" 125 4525 4560
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"sPL_type.ml" 125 4525 4561 "sPL_type.ml" 125 4525 4573
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr -> bool) ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"sPL_type.ml" 125 4525 4580 "sPL_type.ml" 125 4525 4581
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 125 4525 4590 "sPL_type.ml" 125 4525 4602
+)
+"sPL_type.ml" 125 4525 4582 "sPL_type.ml" 125 4525 4583
+type(
+  SPL.id
+)
+"sPL_type.ml" 125 4525 4584 "sPL_type.ml" 125 4525 4585
+type(
+  SPL.sPL_expr
+)
+ident(
+  def b "sPL_type.ml" 125 4525 4590 "sPL_type.ml" 125 4525 4602
+)
+"sPL_type.ml" 125 4525 4580 "sPL_type.ml" 125 4525 4585
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_type.ml" 125 4525 4590 "sPL_type.ml" 125 4525 4593
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 125 4525 4594 "sPL_type.ml" 125 4525 4598
+type(
+  SPL.sPL_type Debug.Basic.Environ.et
+)
+ident(
+  int_ref nenv "sPL_type.ml" 124 4488 4506 "sPL_type.ml" 124 4488 4510
+)
+"sPL_type.ml" 125 4525 4599 "sPL_type.ml" 125 4525 4600
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref b "sPL_type.ml" 125 4525 4584 "sPL_type.ml" 125 4525 4585
+)
+"sPL_type.ml" 125 4525 4601 "sPL_type.ml" 125 4525 4602
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 125 4525 4580 "sPL_type.ml" 125 4525 4581
+)
+"sPL_type.ml" 125 4525 4590 "sPL_type.ml" 125 4525 4602
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 125 4525 4579 "sPL_type.ml" 125 4525 4602
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr -> bool
+)
+"sPL_type.ml" 125 4525 4604 "sPL_type.ml" 125 4525 4609
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  int_ref ldecl "sPL_type.ml" 121 4366 4379 "sPL_type.ml" 121 4366 4384
+)
+"sPL_type.ml" 125 4525 4561 "sPL_type.ml" 125 4525 4609
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 125 4525 4539 "sPL_type.ml" 125 4525 4609
+type(
+  bool
+)
+"sPL_type.ml" 124 4488 4502 "sPL_type.ml" 125 4525 4609
+type(
+  bool
+)
+"sPL_type.ml" 123 4422 4436 "sPL_type.ml" 125 4525 4609
+type(
+  bool
+)
+"sPL_type.ml" 126 4610 4627 "sPL_type.ml" 126 4610 4632
+type(
+  bool
+)
+"sPL_type.ml" 122 4397 4409 "sPL_type.ml" 126 4610 4632
+type(
+  bool
+)
+"sPL_type.ml" 60 1947 1951 "sPL_type.ml" 126 4610 4632
+type(
+  bool
+)
+"sPL_type.ml" 59 1923 1943 "sPL_type.ml" 126 4610 4632
+type(
+  SPL.sPL_type -> bool
+)
+"sPL_type.ml" 59 1923 1941 "sPL_type.ml" 126 4610 4632
+type(
+  SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+"sPL_type.ml" 59 1923 1937 "sPL_type.ml" 126 4610 4632
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+"sPL_type.ml" 127 4633 4638 "sPL_type.ml" 127 4633 4641
+type(
+  SPL.sPL_type Debug.Basic.Environ.et -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+ident(
+  int_ref aux "sPL_type.ml" 59 1923 1933 "sPL_type.ml" 59 1923 1936
+)
+"sPL_type.ml" 127 4633 4642 "sPL_type.ml" 127 4633 4645
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 58 1858 1874 "sPL_type.ml" 58 1858 1877
+)
+"sPL_type.ml" 127 4633 4646 "sPL_type.ml" 127 4633 4647
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 58 1858 1889 "sPL_type.ml" 58 1858 1890
+)
+"sPL_type.ml" 127 4633 4648 "sPL_type.ml" 127 4633 4649
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 58 1858 1902 "sPL_type.ml" 58 1858 1903
+)
+"sPL_type.ml" 127 4633 4638 "sPL_type.ml" 127 4633 4649
+call(
+  tail
+)
+type(
+  bool
+)
+"sPL_type.ml" 59 1923 1925 "sPL_type.ml" 127 4633 4649
+type(
+  bool
+)
+type(
+  bool
+)
+"sPL_type.ml" 58 1858 1901 "sPL_type.ml" 127 4633 4649
+type(
+  SPL.sPL_type -> bool
+)
+"sPL_type.ml" 58 1858 1888 "sPL_type.ml" 127 4633 4649
+type(
+  SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+"sPL_type.ml" 58 1858 1873 "sPL_type.ml" 127 4633 4649
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type -> bool
+)
+"sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  def type_infer "sPL_type.ml" 131 4742 4742 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+type(
+  env_type
+)
+ident(
+  def env "sPL_type.ml" 131 4742 4776 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 131 4742 4789 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 132 4820 4828 "sPL_type.ml" 132 4820 4829
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 133 4835 4850 "sPL_type.ml" 133 4835 4851
+type(
+  int
+)
+"sPL_type.ml" 133 4835 4841 "sPL_type.ml" 133 4835 4851
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 133 4835 4861 "sPL_type.ml" 133 4835 4868
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 133 4835 4856 "sPL_type.ml" 133 4835 4868
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 133 4835 4869 "sPL_type.ml" 133 4835 4870
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 133 4835 4856 "sPL_type.ml" 133 4835 4870
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 134 4872 4888 "sPL_type.ml" 134 4872 4889
+type(
+  bool
+)
+"sPL_type.ml" 134 4872 4878 "sPL_type.ml" 134 4872 4889
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 134 4872 4899 "sPL_type.ml" 134 4872 4907
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 134 4872 4894 "sPL_type.ml" 134 4872 4907
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 134 4872 4908 "sPL_type.ml" 134 4872 4909
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 134 4872 4894 "sPL_type.ml" 134 4872 4909
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 135 4911 4921 "sPL_type.ml" 135 4911 4922
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 135 4911 4927 "sPL_type.ml" 135 4911 4943
+)
+"sPL_type.ml" 135 4911 4917 "sPL_type.ml" 135 4911 4922
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 135 4911 4927 "sPL_type.ml" 135 4911 4935
+type(
+  SPL.sPL_type Debug.Basic.Environ.et ->
+  Debug.Basic.id -> SPL.sPL_type option
+)
+ident(
+  int_ref get_type "sPL_type.ml" 23 512 516 "sPL_type.ml" 23 512 524
+)
+"sPL_type.ml" 135 4911 4936 "sPL_type.ml" 135 4911 4939
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 135 4911 4940 "sPL_type.ml" 135 4911 4941
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 135 4911 4921 "sPL_type.ml" 135 4911 4922
+)
+"sPL_type.ml" 135 4911 4927 "sPL_type.ml" 135 4911 4941
+call(
+  stack
+)
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 135 4911 4942 "sPL_type.ml" 135 4911 4943
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 135 4911 4927 "sPL_type.ml" 135 4911 4943
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 136 4945 4965 "sPL_type.ml" 136 4945 4967
+type(
+  SPL.op_id
+)
+ident(
+  def op "sPL_type.ml" 138 4992 5004 "sPL_type.ml" 149 5470 5499
+)
+"sPL_type.ml" 136 4945 4968 "sPL_type.ml" 136 4945 4971
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg "sPL_type.ml" 138 4992 5004 "sPL_type.ml" 149 5470 5499
+)
+"sPL_type.ml" 136 4945 4951 "sPL_type.ml" 136 4945 4972
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 138 4992 5010 "sPL_type.ml" 138 4992 5012
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 136 4945 4965 "sPL_type.ml" 136 4945 4967
+)
+"sPL_type.ml" 139 5018 5034 "sPL_type.ml" 139 5018 5037
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 140 5041 5066 "sPL_type.ml" 140 5041 5069
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at2 "sPL_type.ml" 141 5099 5120 "sPL_type.ml" 143 5204 5241
+)
+"sPL_type.ml" 140 5041 5070 "sPL_type.ml" 140 5041 5073
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na2 "sPL_type.ml" 141 5099 5120 "sPL_type.ml" 143 5204 5241
+)
+"sPL_type.ml" 140 5041 5066 "sPL_type.ml" 140 5041 5073
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 140 5041 5077 "sPL_type.ml" 140 5041 5087
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 140 5041 5088 "sPL_type.ml" 140 5041 5091
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 140 5041 5092 "sPL_type.ml" 140 5041 5095
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg "sPL_type.ml" 136 4945 4968 "sPL_type.ml" 136 4945 4971
+)
+"sPL_type.ml" 140 5041 5077 "sPL_type.ml" 140 5041 5095
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 141 5099 5126 "sPL_type.ml" 141 5099 5129
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 140 5041 5066 "sPL_type.ml" 140 5041 5069
+)
+"sPL_type.ml" 142 5135 5164 "sPL_type.ml" 142 5135 5171
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 142 5135 5159 "sPL_type.ml" 142 5135 5171
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 142 5135 5176 "sPL_type.ml" 142 5135 5179
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 140 5041 5066 "sPL_type.ml" 140 5041 5069
+)
+"sPL_type.ml" 142 5135 5195 "sPL_type.ml" 142 5135 5197
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 136 4945 4965 "sPL_type.ml" 136 4945 4967
+)
+"sPL_type.ml" 142 5135 5198 "sPL_type.ml" 142 5135 5201
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na2 "sPL_type.ml" 140 5041 5070 "sPL_type.ml" 140 5041 5073
+)
+"sPL_type.ml" 142 5135 5181 "sPL_type.ml" 142 5135 5202
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 142 5135 5176 "sPL_type.ml" 142 5135 5202
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 143 5204 5228 "sPL_type.ml" 143 5204 5229
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 143 5204 5234 "sPL_type.ml" 143 5204 5238
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 143 5204 5239 "sPL_type.ml" 143 5204 5240
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 143 5204 5234 "sPL_type.ml" 143 5204 5240
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 141 5099 5120 "sPL_type.ml" 143 5204 5241
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 140 5041 5061 "sPL_type.ml" 143 5204 5242
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 144 5243 5259 "sPL_type.ml" 144 5243 5263
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 145 5267 5292 "sPL_type.ml" 145 5267 5295
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at2 "sPL_type.ml" 146 5325 5346 "sPL_type.ml" 148 5431 5468
+)
+"sPL_type.ml" 145 5267 5296 "sPL_type.ml" 145 5267 5299
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na2 "sPL_type.ml" 146 5325 5346 "sPL_type.ml" 148 5431 5468
+)
+"sPL_type.ml" 145 5267 5292 "sPL_type.ml" 145 5267 5299
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 145 5267 5303 "sPL_type.ml" 145 5267 5313
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 145 5267 5314 "sPL_type.ml" 145 5267 5317
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 145 5267 5318 "sPL_type.ml" 145 5267 5321
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg "sPL_type.ml" 136 4945 4968 "sPL_type.ml" 136 4945 4971
+)
+"sPL_type.ml" 145 5267 5303 "sPL_type.ml" 145 5267 5321
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 146 5325 5352 "sPL_type.ml" 146 5325 5355
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 145 5267 5292 "sPL_type.ml" 145 5267 5295
+)
+"sPL_type.ml" 147 5361 5390 "sPL_type.ml" 147 5361 5398
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 147 5361 5385 "sPL_type.ml" 147 5361 5398
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 147 5361 5403 "sPL_type.ml" 147 5361 5406
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 145 5267 5292 "sPL_type.ml" 145 5267 5295
+)
+"sPL_type.ml" 147 5361 5422 "sPL_type.ml" 147 5361 5424
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 136 4945 4965 "sPL_type.ml" 136 4945 4967
+)
+"sPL_type.ml" 147 5361 5425 "sPL_type.ml" 147 5361 5428
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na2 "sPL_type.ml" 145 5267 5296 "sPL_type.ml" 145 5267 5299
+)
+"sPL_type.ml" 147 5361 5408 "sPL_type.ml" 147 5361 5429
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 147 5361 5403 "sPL_type.ml" 147 5361 5429
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 148 5431 5455 "sPL_type.ml" 148 5431 5456
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 148 5431 5461 "sPL_type.ml" 148 5431 5465
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 148 5431 5466 "sPL_type.ml" 148 5431 5467
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 148 5431 5461 "sPL_type.ml" 148 5431 5467
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 146 5325 5346 "sPL_type.ml" 148 5431 5468
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 145 5267 5287 "sPL_type.ml" 148 5431 5469
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 149 5470 5486 "sPL_type.ml" 149 5470 5487
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 149 5470 5492 "sPL_type.ml" 149 5470 5496
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 149 5470 5497 "sPL_type.ml" 149 5470 5498
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 149 5470 5492 "sPL_type.ml" 149 5470 5498
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 138 4992 5004 "sPL_type.ml" 149 5470 5499
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 151 5514 5535 "sPL_type.ml" 151 5514 5537
+type(
+  SPL.op_id
+)
+ident(
+  def op "sPL_type.ml" 153 5568 5580 "sPL_type.ml" 172 6574 6603
+)
+"sPL_type.ml" 151 5514 5538 "sPL_type.ml" 151 5514 5542
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg1 "sPL_type.ml" 153 5568 5580 "sPL_type.ml" 172 6574 6603
+)
+"sPL_type.ml" 151 5514 5543 "sPL_type.ml" 151 5514 5547
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg2 "sPL_type.ml" 153 5568 5580 "sPL_type.ml" 172 6574 6603
+)
+"sPL_type.ml" 151 5514 5520 "sPL_type.ml" 151 5514 5548
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 153 5568 5586 "sPL_type.ml" 153 5568 5588
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 151 5514 5535 "sPL_type.ml" 151 5514 5537
+)
+"sPL_type.ml" 154 5594 5610 "sPL_type.ml" 154 5594 5613
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 154 5594 5616 "sPL_type.ml" 154 5594 5619
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 154 5594 5610 "sPL_type.ml" 154 5594 5619
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 154 5594 5622 "sPL_type.ml" 154 5594 5625
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 154 5594 5610 "sPL_type.ml" 154 5594 5625
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 154 5594 5628 "sPL_type.ml" 154 5594 5631
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 154 5594 5610 "sPL_type.ml" 154 5594 5631
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 155 5636 5661 "sPL_type.ml" 155 5636 5664
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at1 "sPL_type.ml" 156 5695 5715 "sPL_type.ml" 159 5881 5919
+)
+"sPL_type.ml" 155 5636 5665 "sPL_type.ml" 155 5636 5668
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na1 "sPL_type.ml" 156 5695 5715 "sPL_type.ml" 159 5881 5919
+)
+"sPL_type.ml" 155 5636 5661 "sPL_type.ml" 155 5636 5668
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 155 5636 5672 "sPL_type.ml" 155 5636 5682
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 155 5636 5683 "sPL_type.ml" 155 5636 5686
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 155 5636 5687 "sPL_type.ml" 155 5636 5691
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 151 5514 5538 "sPL_type.ml" 151 5514 5542
+)
+"sPL_type.ml" 155 5636 5672 "sPL_type.ml" 155 5636 5691
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 156 5695 5720 "sPL_type.ml" 156 5695 5723
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at2 "sPL_type.ml" 157 5754 5775 "sPL_type.ml" 159 5881 5918
+)
+"sPL_type.ml" 156 5695 5724 "sPL_type.ml" 156 5695 5727
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na2 "sPL_type.ml" 157 5754 5775 "sPL_type.ml" 159 5881 5918
+)
+"sPL_type.ml" 156 5695 5720 "sPL_type.ml" 156 5695 5727
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 156 5695 5731 "sPL_type.ml" 156 5695 5741
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 156 5695 5742 "sPL_type.ml" 156 5695 5745
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 156 5695 5746 "sPL_type.ml" 156 5695 5750
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 151 5514 5543 "sPL_type.ml" 151 5514 5547
+)
+"sPL_type.ml" 156 5695 5731 "sPL_type.ml" 156 5695 5750
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 157 5754 5781 "sPL_type.ml" 157 5754 5784
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at1 "sPL_type.ml" 155 5636 5661 "sPL_type.ml" 155 5636 5664
+)
+"sPL_type.ml" 157 5754 5785 "sPL_type.ml" 157 5754 5788
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 156 5695 5720 "sPL_type.ml" 156 5695 5723
+)
+"sPL_type.ml" 157 5754 5781 "sPL_type.ml" 157 5754 5788
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 158 5794 5823 "sPL_type.ml" 158 5794 5830
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 158 5794 5818 "sPL_type.ml" 158 5794 5830
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 158 5794 5836 "sPL_type.ml" 158 5794 5843
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 158 5794 5831 "sPL_type.ml" 158 5794 5843
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 158 5794 5818 "sPL_type.ml" 158 5794 5843
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 158 5794 5848 "sPL_type.ml" 158 5794 5851
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 156 5695 5720 "sPL_type.ml" 156 5695 5723
+)
+"sPL_type.ml" 158 5794 5868 "sPL_type.ml" 158 5794 5870
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 151 5514 5535 "sPL_type.ml" 151 5514 5537
+)
+"sPL_type.ml" 158 5794 5871 "sPL_type.ml" 158 5794 5874
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na1 "sPL_type.ml" 155 5636 5665 "sPL_type.ml" 155 5636 5668
+)
+"sPL_type.ml" 158 5794 5875 "sPL_type.ml" 158 5794 5878
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na2 "sPL_type.ml" 156 5695 5724 "sPL_type.ml" 156 5695 5727
+)
+"sPL_type.ml" 158 5794 5853 "sPL_type.ml" 158 5794 5879
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 158 5794 5848 "sPL_type.ml" 158 5794 5879
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 159 5881 5905 "sPL_type.ml" 159 5881 5906
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 159 5881 5911 "sPL_type.ml" 159 5881 5915
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 159 5881 5916 "sPL_type.ml" 159 5881 5917
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 159 5881 5911 "sPL_type.ml" 159 5881 5917
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 157 5754 5775 "sPL_type.ml" 159 5881 5918
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 156 5695 5715 "sPL_type.ml" 159 5881 5919
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 155 5636 5656 "sPL_type.ml" 159 5881 5919
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 160 5920 5936 "sPL_type.ml" 160 5920 5939
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 160 5920 5942 "sPL_type.ml" 160 5920 5945
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 160 5920 5936 "sPL_type.ml" 160 5920 5945
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 160 5920 5948 "sPL_type.ml" 160 5920 5951
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 160 5920 5936 "sPL_type.ml" 160 5920 5951
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 161 5955 5980 "sPL_type.ml" 161 5955 5983
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at1 "sPL_type.ml" 162 6014 6034 "sPL_type.ml" 165 6210 6248
+)
+"sPL_type.ml" 161 5955 5984 "sPL_type.ml" 161 5955 5987
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na1 "sPL_type.ml" 162 6014 6034 "sPL_type.ml" 165 6210 6248
+)
+"sPL_type.ml" 161 5955 5980 "sPL_type.ml" 161 5955 5987
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 161 5955 5991 "sPL_type.ml" 161 5955 6001
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 161 5955 6002 "sPL_type.ml" 161 5955 6005
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 161 5955 6006 "sPL_type.ml" 161 5955 6010
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 151 5514 5538 "sPL_type.ml" 151 5514 5542
+)
+"sPL_type.ml" 161 5955 5991 "sPL_type.ml" 161 5955 6010
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 162 6014 6039 "sPL_type.ml" 162 6014 6042
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at2 "sPL_type.ml" 163 6073 6094 "sPL_type.ml" 165 6210 6247
+)
+"sPL_type.ml" 162 6014 6043 "sPL_type.ml" 162 6014 6046
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na2 "sPL_type.ml" 163 6073 6094 "sPL_type.ml" 165 6210 6247
+)
+"sPL_type.ml" 162 6014 6039 "sPL_type.ml" 162 6014 6046
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 162 6014 6050 "sPL_type.ml" 162 6014 6060
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 162 6014 6061 "sPL_type.ml" 162 6014 6064
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 162 6014 6065 "sPL_type.ml" 162 6014 6069
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 151 5514 5543 "sPL_type.ml" 151 5514 5547
+)
+"sPL_type.ml" 162 6014 6050 "sPL_type.ml" 162 6014 6069
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 163 6073 6100 "sPL_type.ml" 163 6073 6103
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at1 "sPL_type.ml" 161 5955 5980 "sPL_type.ml" 161 5955 5983
+)
+"sPL_type.ml" 163 6073 6104 "sPL_type.ml" 163 6073 6107
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 162 6014 6039 "sPL_type.ml" 162 6014 6042
+)
+"sPL_type.ml" 163 6073 6100 "sPL_type.ml" 163 6073 6107
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 164 6113 6142 "sPL_type.ml" 164 6113 6149
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 164 6113 6137 "sPL_type.ml" 164 6113 6149
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 164 6113 6155 "sPL_type.ml" 164 6113 6162
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 164 6113 6150 "sPL_type.ml" 164 6113 6162
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 164 6113 6137 "sPL_type.ml" 164 6113 6162
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 164 6113 6172 "sPL_type.ml" 164 6113 6180
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 164 6113 6167 "sPL_type.ml" 164 6113 6180
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 164 6113 6197 "sPL_type.ml" 164 6113 6199
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 151 5514 5535 "sPL_type.ml" 151 5514 5537
+)
+"sPL_type.ml" 164 6113 6200 "sPL_type.ml" 164 6113 6203
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na1 "sPL_type.ml" 161 5955 5984 "sPL_type.ml" 161 5955 5987
+)
+"sPL_type.ml" 164 6113 6204 "sPL_type.ml" 164 6113 6207
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na2 "sPL_type.ml" 162 6014 6043 "sPL_type.ml" 162 6014 6046
+)
+"sPL_type.ml" 164 6113 6182 "sPL_type.ml" 164 6113 6208
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 164 6113 6167 "sPL_type.ml" 164 6113 6208
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 165 6210 6234 "sPL_type.ml" 165 6210 6235
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 165 6210 6240 "sPL_type.ml" 165 6210 6244
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 165 6210 6245 "sPL_type.ml" 165 6210 6246
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 165 6210 6240 "sPL_type.ml" 165 6210 6246
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 163 6073 6094 "sPL_type.ml" 165 6210 6247
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 162 6014 6034 "sPL_type.ml" 165 6210 6248
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 161 5955 5975 "sPL_type.ml" 165 6210 6248
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 166 6249 6265 "sPL_type.ml" 166 6249 6268
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 166 6249 6271 "sPL_type.ml" 166 6249 6274
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 166 6249 6265 "sPL_type.ml" 166 6249 6274
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 167 6278 6303 "sPL_type.ml" 167 6278 6306
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at1 "sPL_type.ml" 168 6337 6357 "sPL_type.ml" 171 6535 6573
+)
+"sPL_type.ml" 167 6278 6307 "sPL_type.ml" 167 6278 6310
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na1 "sPL_type.ml" 168 6337 6357 "sPL_type.ml" 171 6535 6573
+)
+"sPL_type.ml" 167 6278 6303 "sPL_type.ml" 167 6278 6310
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 167 6278 6314 "sPL_type.ml" 167 6278 6324
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 167 6278 6325 "sPL_type.ml" 167 6278 6328
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 167 6278 6329 "sPL_type.ml" 167 6278 6333
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 151 5514 5538 "sPL_type.ml" 151 5514 5542
+)
+"sPL_type.ml" 167 6278 6314 "sPL_type.ml" 167 6278 6333
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 168 6337 6362 "sPL_type.ml" 168 6337 6365
+type(
+  SPL.sPL_type option
+)
+ident(
+  def at2 "sPL_type.ml" 169 6396 6417 "sPL_type.ml" 171 6535 6572
+)
+"sPL_type.ml" 168 6337 6366 "sPL_type.ml" 168 6337 6369
+type(
+  SPL.sPL_expr
+)
+ident(
+  def na2 "sPL_type.ml" 169 6396 6417 "sPL_type.ml" 171 6535 6572
+)
+"sPL_type.ml" 168 6337 6362 "sPL_type.ml" 168 6337 6369
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 168 6337 6373 "sPL_type.ml" 168 6337 6383
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 168 6337 6384 "sPL_type.ml" 168 6337 6387
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 168 6337 6388 "sPL_type.ml" 168 6337 6392
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 151 5514 5543 "sPL_type.ml" 151 5514 5547
+)
+"sPL_type.ml" 168 6337 6373 "sPL_type.ml" 168 6337 6392
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 169 6396 6423 "sPL_type.ml" 169 6396 6426
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at1 "sPL_type.ml" 167 6278 6303 "sPL_type.ml" 167 6278 6306
+)
+"sPL_type.ml" 169 6396 6427 "sPL_type.ml" 169 6396 6430
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref at2 "sPL_type.ml" 168 6337 6362 "sPL_type.ml" 168 6337 6365
+)
+"sPL_type.ml" 169 6396 6423 "sPL_type.ml" 169 6396 6430
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 170 6436 6465 "sPL_type.ml" 170 6436 6473
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 170 6436 6460 "sPL_type.ml" 170 6436 6473
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 170 6436 6479 "sPL_type.ml" 170 6436 6487
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 170 6436 6474 "sPL_type.ml" 170 6436 6487
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 170 6436 6460 "sPL_type.ml" 170 6436 6487
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 170 6436 6497 "sPL_type.ml" 170 6436 6505
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 170 6436 6492 "sPL_type.ml" 170 6436 6505
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 170 6436 6522 "sPL_type.ml" 170 6436 6524
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 151 5514 5535 "sPL_type.ml" 151 5514 5537
+)
+"sPL_type.ml" 170 6436 6525 "sPL_type.ml" 170 6436 6528
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na1 "sPL_type.ml" 167 6278 6307 "sPL_type.ml" 167 6278 6310
+)
+"sPL_type.ml" 170 6436 6529 "sPL_type.ml" 170 6436 6532
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref na2 "sPL_type.ml" 168 6337 6366 "sPL_type.ml" 168 6337 6369
+)
+"sPL_type.ml" 170 6436 6507 "sPL_type.ml" 170 6436 6533
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 170 6436 6492 "sPL_type.ml" 170 6436 6533
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 171 6535 6559 "sPL_type.ml" 171 6535 6560
+type(
+  SPL.sPL_type option * SPL.sPL_type option
+)
+"sPL_type.ml" 171 6535 6565 "sPL_type.ml" 171 6535 6569
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 171 6535 6570 "sPL_type.ml" 171 6535 6571
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 171 6535 6565 "sPL_type.ml" 171 6535 6571
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 169 6396 6417 "sPL_type.ml" 171 6535 6572
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 168 6337 6357 "sPL_type.ml" 171 6535 6573
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 167 6278 6298 "sPL_type.ml" 171 6535 6573
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 172 6574 6590 "sPL_type.ml" 172 6574 6591
+type(
+  SPL.op_id
+)
+"sPL_type.ml" 172 6574 6596 "sPL_type.ml" 172 6574 6600
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 172 6574 6601 "sPL_type.ml" 172 6574 6602
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 172 6574 6596 "sPL_type.ml" 172 6574 6602
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 153 5568 5580 "sPL_type.ml" 172 6574 6603
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 174 6618 6630 "sPL_type.ml" 174 6618 6632
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_type.ml" 177 6736 6746 "sPL_type.ml" 177 6736 6774
+)
+"sPL_type.ml" 174 6618 6633 "sPL_type.ml" 174 6618 6635
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_type.ml" 177 6736 6746 "sPL_type.ml" 177 6736 6774
+)
+"sPL_type.ml" 174 6618 6636 "sPL_type.ml" 174 6618 6638
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e3 "sPL_type.ml" 177 6736 6746 "sPL_type.ml" 177 6736 6774
+)
+"sPL_type.ml" 174 6618 6624 "sPL_type.ml" 174 6618 6639
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 177 6736 6746 "sPL_type.ml" 177 6736 6754
+type(
+  string -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 177 6736 6755 "sPL_type.ml" 177 6736 6774
+type(
+  string
+)
+"sPL_type.ml" 177 6736 6746 "sPL_type.ml" 177 6736 6774
+call(
+  tail
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 178 6775 6787 "sPL_type.ml" 178 6775 6789
+type(
+  SPL.sPL_type
+)
+ident(
+  def te "sPL_type.ml" 183 7022 7032 "sPL_type.ml" 183 7022 7060
+)
+"sPL_type.ml" 178 6775 6790 "sPL_type.ml" 178 6775 6794
+type(
+  SPL.id list
+)
+ident(
+  def args "sPL_type.ml" 183 7022 7032 "sPL_type.ml" 183 7022 7060
+)
+"sPL_type.ml" 178 6775 6795 "sPL_type.ml" 178 6775 6799
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 183 7022 7032 "sPL_type.ml" 183 7022 7060
+)
+"sPL_type.ml" 178 6775 6781 "sPL_type.ml" 178 6775 6800
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 183 7022 7032 "sPL_type.ml" 183 7022 7040
+type(
+  string -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 183 7022 7041 "sPL_type.ml" 183 7022 7060
+type(
+  string
+)
+"sPL_type.ml" 183 7022 7032 "sPL_type.ml" 183 7022 7060
+call(
+  tail
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 184 7061 7076 "sPL_type.ml" 184 7061 7078
+type(
+  SPL.sPL_type
+)
+ident(
+  def te "sPL_type.ml" 189 7313 7323 "sPL_type.ml" 189 7313 7351
+)
+"sPL_type.ml" 184 7061 7079 "sPL_type.ml" 184 7061 7081
+type(
+  SPL.id
+)
+ident(
+  def id "sPL_type.ml" 189 7313 7323 "sPL_type.ml" 189 7313 7351
+)
+"sPL_type.ml" 184 7061 7082 "sPL_type.ml" 184 7061 7086
+type(
+  SPL.id list
+)
+ident(
+  def args "sPL_type.ml" 189 7313 7323 "sPL_type.ml" 189 7313 7351
+)
+"sPL_type.ml" 184 7061 7087 "sPL_type.ml" 184 7061 7091
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 189 7313 7323 "sPL_type.ml" 189 7313 7351
+)
+"sPL_type.ml" 184 7061 7067 "sPL_type.ml" 184 7061 7092
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 189 7313 7323 "sPL_type.ml" 189 7313 7331
+type(
+  string -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 189 7313 7332 "sPL_type.ml" 189 7313 7351
+type(
+  string
+)
+"sPL_type.ml" 189 7313 7323 "sPL_type.ml" 189 7313 7351
+call(
+  tail
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 190 7352 7365 "sPL_type.ml" 190 7352 7367
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_type.ml" 195 7590 7600 "sPL_type.ml" 195 7590 7628
+)
+"sPL_type.ml" 190 7352 7368 "sPL_type.ml" 190 7352 7369
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 190 7352 7370 "sPL_type.ml" 190 7352 7374
+type(
+  SPL.sPL_expr list
+)
+ident(
+  def args "sPL_type.ml" 195 7590 7600 "sPL_type.ml" 195 7590 7628
+)
+"sPL_type.ml" 190 7352 7358 "sPL_type.ml" 190 7352 7375
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 195 7590 7600 "sPL_type.ml" 195 7590 7608
+type(
+  string -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 195 7590 7609 "sPL_type.ml" 195 7590 7628
+type(
+  string
+)
+"sPL_type.ml" 195 7590 7600 "sPL_type.ml" 195 7590 7628
+call(
+  tail
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 196 7629 7640 "sPL_type.ml" 196 7629 7645
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  def ldecl "sPL_type.ml" 199 7765 7775 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 196 7629 7646 "sPL_type.ml" 196 7629 7648
+type(
+  SPL.sPL_type
+)
+ident(
+  def te "sPL_type.ml" 199 7765 7775 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 196 7629 7649 "sPL_type.ml" 196 7629 7653
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 199 7765 7775 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 196 7629 7635 "sPL_type.ml" 196 7629 7654
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 199 7765 7779 "sPL_type.ml" 199 7765 7783
+type(
+  (SPL.id * SPL.sPL_type) list
+)
+ident(
+  def env2 "sPL_type.ml" 201 7896 7906 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 199 7765 7786 "sPL_type.ml" 199 7765 7794
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr -> SPL.id * SPL.sPL_type) ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> (SPL.id * SPL.sPL_type) list
+)
+ident(
+  ext_ref List.map
+)
+"sPL_type.ml" 199 7765 7801 "sPL_type.ml" 199 7765 7802
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 199 7765 7812 "sPL_type.ml" 199 7765 7815
+)
+"sPL_type.ml" 199 7765 7803 "sPL_type.ml" 199 7765 7804
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 199 7765 7812 "sPL_type.ml" 199 7765 7815
+)
+"sPL_type.ml" 199 7765 7805 "sPL_type.ml" 199 7765 7806
+type(
+  SPL.sPL_expr
+)
+ident(
+  def b "sPL_type.ml" 199 7765 7812 "sPL_type.ml" 199 7765 7815
+)
+"sPL_type.ml" 199 7765 7801 "sPL_type.ml" 199 7765 7806
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_type.ml" 199 7765 7812 "sPL_type.ml" 199 7765 7813
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 199 7765 7803 "sPL_type.ml" 199 7765 7804
+)
+"sPL_type.ml" 199 7765 7814 "sPL_type.ml" 199 7765 7815
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 199 7765 7801 "sPL_type.ml" 199 7765 7802
+)
+"sPL_type.ml" 199 7765 7812 "sPL_type.ml" 199 7765 7815
+type(
+  SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 199 7765 7800 "sPL_type.ml" 199 7765 7816
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr -> SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 199 7765 7818 "sPL_type.ml" 199 7765 7823
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  int_ref ldecl "sPL_type.ml" 196 7629 7640 "sPL_type.ml" 196 7629 7645
+)
+"sPL_type.ml" 199 7765 7786 "sPL_type.ml" 199 7765 7823
+call(
+  stack
+)
+type(
+  (SPL.id * SPL.sPL_type) list
+)
+"sPL_type.ml" 201 7896 7910 "sPL_type.ml" 201 7896 7914
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  def nenv "sPL_type.ml" 203 7968 7978 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 201 7896 7917 "sPL_type.ml" 201 7896 7921
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  int_ref env2 "sPL_type.ml" 199 7765 7779 "sPL_type.ml" 199 7765 7783
+)
+"sPL_type.ml" 201 7896 7921 "sPL_type.ml" 201 7896 7922
+type(
+  (Debug.Basic.id * SPL.sPL_type) list ->
+  env_type -> (Debug.Basic.id * SPL.sPL_type) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"sPL_type.ml" 201 7896 7922 "sPL_type.ml" 201 7896 7925
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 201 7896 7917 "sPL_type.ml" 201 7896 7925
+call(
+  stack
+)
+type(
+  (Debug.Basic.id * SPL.sPL_type) list
+)
+"sPL_type.ml" 203 7968 7983 "sPL_type.ml" 203 7968 7986
+type(
+  SPL.sPL_type option
+)
+ident(
+  def nt1 "sPL_type.ml" 205 8072 8082 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 203 7968 7987 "sPL_type.ml" 203 7968 7992
+type(
+  SPL.sPL_expr
+)
+ident(
+  def nbody "sPL_type.ml" 205 8072 8082 "sPL_type.ml" 218 8745 8758
+)
+"sPL_type.ml" 203 7968 7983 "sPL_type.ml" 203 7968 7992
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 203 7968 7996 "sPL_type.ml" 203 7968 8006
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 203 7968 8007 "sPL_type.ml" 203 7968 8011
+type(
+  env_type
+)
+ident(
+  int_ref nenv "sPL_type.ml" 201 7896 7910 "sPL_type.ml" 201 7896 7914
+)
+"sPL_type.ml" 203 7968 8012 "sPL_type.ml" 203 7968 8016
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref body "sPL_type.ml" 196 7629 7649 "sPL_type.ml" 196 7629 7653
+)
+"sPL_type.ml" 203 7968 7996 "sPL_type.ml" 203 7968 8016
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 205 8072 8086 "sPL_type.ml" 205 8072 8092
+type(
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list
+)
+ident(
+  def ls_res "sPL_type.ml" 208 8242 8254 "sPL_type.ml" 217 8712 8744
+)
+"sPL_type.ml" 205 8072 8095 "sPL_type.ml" 205 8072 8103
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr ->
+   (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list
+)
+ident(
+  ext_ref List.map
+)
+"sPL_type.ml" 205 8072 8110 "sPL_type.ml" 205 8072 8111
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 205 8072 8121 "sPL_type.ml" 205 8072 8141
+)
+"sPL_type.ml" 205 8072 8112 "sPL_type.ml" 205 8072 8113
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 205 8072 8121 "sPL_type.ml" 205 8072 8141
+)
+"sPL_type.ml" 205 8072 8114 "sPL_type.ml" 205 8072 8115
+type(
+  SPL.sPL_expr
+)
+ident(
+  def b "sPL_type.ml" 205 8072 8121 "sPL_type.ml" 205 8072 8141
+)
+"sPL_type.ml" 205 8072 8110 "sPL_type.ml" 205 8072 8115
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_type.ml" 205 8072 8121 "sPL_type.ml" 205 8072 8131
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  int_ref type_infer "sPL_type.ml" 131 4742 4750 "sPL_type.ml" 131 4742 4760
+)
+"sPL_type.ml" 205 8072 8132 "sPL_type.ml" 205 8072 8135
+type(
+  env_type
+)
+ident(
+  int_ref env "sPL_type.ml" 131 4742 4762 "sPL_type.ml" 131 4742 4765
+)
+"sPL_type.ml" 205 8072 8136 "sPL_type.ml" 205 8072 8137
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref b "sPL_type.ml" 205 8072 8114 "sPL_type.ml" 205 8072 8115
+)
+"sPL_type.ml" 205 8072 8121 "sPL_type.ml" 205 8072 8137
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 205 8072 8138 "sPL_type.ml" 205 8072 8139
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 205 8072 8112 "sPL_type.ml" 205 8072 8113
+)
+"sPL_type.ml" 205 8072 8140 "sPL_type.ml" 205 8072 8141
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 205 8072 8110 "sPL_type.ml" 205 8072 8111
+)
+"sPL_type.ml" 205 8072 8121 "sPL_type.ml" 205 8072 8141
+type(
+  (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 205 8072 8109 "sPL_type.ml" 205 8072 8142
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr ->
+  (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 205 8072 8144 "sPL_type.ml" 205 8072 8149
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  int_ref ldecl "sPL_type.ml" 196 7629 7640 "sPL_type.ml" 196 7629 7645
+)
+"sPL_type.ml" 205 8072 8095 "sPL_type.ml" 205 8072 8149
+call(
+  stack
+)
+type(
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list
+)
+"sPL_type.ml" 208 8242 8260 "sPL_type.ml" 208 8242 8263
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref nt1 "sPL_type.ml" 203 7968 7983 "sPL_type.ml" 203 7968 7986
+)
+"sPL_type.ml" 209 8269 8290 "sPL_type.ml" 209 8269 8292
+type(
+  SPL.sPL_type
+)
+ident(
+  def t1 "sPL_type.ml" 211 8357 8377 "sPL_type.ml" 216 8678 8711
+)
+"sPL_type.ml" 209 8269 8285 "sPL_type.ml" 209 8269 8292
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 211 8357 8380 "sPL_type.ml" 211 8357 8382
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 209 8269 8290 "sPL_type.ml" 209 8269 8292
+)
+"sPL_type.ml" 211 8357 8382 "sPL_type.ml" 211 8357 8383
+type(
+  SPL.sPL_type -> SPL.sPL_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 211 8357 8383 "sPL_type.ml" 211 8357 8385
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 196 7629 7646 "sPL_type.ml" 196 7629 7648
+)
+"sPL_type.ml" 211 8357 8380 "sPL_type.ml" 211 8357 8385
+type(
+  bool
+)
+"sPL_type.ml" 213 8472 8497 "sPL_type.ml" 213 8472 8509
+type(
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type -> bool) ->
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"sPL_type.ml" 213 8472 8517 "sPL_type.ml" 213 8472 8518
+type(
+  SPL.sPL_type option
+)
+ident(
+  def t "sPL_type.ml" 213 8472 8531 "sPL_type.ml" 213 8472 8540
+)
+"sPL_type.ml" 213 8472 8519 "sPL_type.ml" 213 8472 8520
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 213 8472 8531 "sPL_type.ml" 213 8472 8540
+)
+"sPL_type.ml" 213 8472 8517 "sPL_type.ml" 213 8472 8520
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 213 8472 8522 "sPL_type.ml" 213 8472 8523
+type(
+  SPL.id
+)
+"sPL_type.ml" 213 8472 8524 "sPL_type.ml" 213 8472 8526
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 213 8472 8531 "sPL_type.ml" 213 8472 8540
+)
+"sPL_type.ml" 213 8472 8516 "sPL_type.ml" 213 8472 8526
+type(
+  (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 213 8472 8531 "sPL_type.ml" 213 8472 8532
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref t "sPL_type.ml" 213 8472 8517 "sPL_type.ml" 213 8472 8518
+)
+"sPL_type.ml" 213 8472 8532 "sPL_type.ml" 213 8472 8533
+type(
+  SPL.sPL_type option -> SPL.sPL_type option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 213 8472 8538 "sPL_type.ml" 213 8472 8540
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 213 8472 8524 "sPL_type.ml" 213 8472 8526
+)
+"sPL_type.ml" 213 8472 8533 "sPL_type.ml" 213 8472 8540
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 213 8472 8531 "sPL_type.ml" 213 8472 8540
+type(
+  bool
+)
+"sPL_type.ml" 213 8472 8515 "sPL_type.ml" 213 8472 8540
+type(
+  (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type -> bool
+)
+"sPL_type.ml" 213 8472 8542 "sPL_type.ml" 213 8472 8548
+type(
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list
+)
+ident(
+  int_ref ls_res "sPL_type.ml" 205 8072 8086 "sPL_type.ml" 205 8072 8092
+)
+"sPL_type.ml" 213 8472 8497 "sPL_type.ml" 213 8472 8548
+call(
+  stack
+)
+type(
+  bool
+)
+"sPL_type.ml" 214 8554 8579 "sPL_type.ml" 214 8554 8582
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref nt1 "sPL_type.ml" 203 7968 7983 "sPL_type.ml" 203 7968 7986
+)
+"sPL_type.ml" 214 8554 8588 "sPL_type.ml" 214 8554 8596
+type(
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type ->
+   SPL.sPL_type * SPL.id * SPL.sPL_expr) ->
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  ext_ref List.map
+)
+"sPL_type.ml" 214 8554 8604 "sPL_type.ml" 214 8554 8605
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 214 8554 8606 "sPL_type.ml" 214 8554 8607
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 214 8554 8616 "sPL_type.ml" 214 8554 8621
+)
+"sPL_type.ml" 214 8554 8604 "sPL_type.ml" 214 8554 8607
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 214 8554 8609 "sPL_type.ml" 214 8554 8610
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 214 8554 8616 "sPL_type.ml" 214 8554 8621
+)
+"sPL_type.ml" 214 8554 8611 "sPL_type.ml" 214 8554 8612
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 214 8554 8616 "sPL_type.ml" 214 8554 8621
+)
+"sPL_type.ml" 214 8554 8603 "sPL_type.ml" 214 8554 8612
+type(
+  (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type
+)
+"sPL_type.ml" 214 8554 8616 "sPL_type.ml" 214 8554 8617
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 214 8554 8611 "sPL_type.ml" 214 8554 8612
+)
+"sPL_type.ml" 214 8554 8618 "sPL_type.ml" 214 8554 8619
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 214 8554 8609 "sPL_type.ml" 214 8554 8610
+)
+"sPL_type.ml" 214 8554 8620 "sPL_type.ml" 214 8554 8621
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 214 8554 8606 "sPL_type.ml" 214 8554 8607
+)
+"sPL_type.ml" 214 8554 8616 "sPL_type.ml" 214 8554 8621
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_type.ml" 214 8554 8602 "sPL_type.ml" 214 8554 8622
+type(
+  (SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type ->
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_type.ml" 214 8554 8624 "sPL_type.ml" 214 8554 8630
+type(
+  ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list
+)
+ident(
+  int_ref ls_res "sPL_type.ml" 205 8072 8086 "sPL_type.ml" 205 8072 8092
+)
+"sPL_type.ml" 214 8554 8588 "sPL_type.ml" 214 8554 8630
+call(
+  stack
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+"sPL_type.ml" 214 8554 8631 "sPL_type.ml" 214 8554 8633
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref te "sPL_type.ml" 196 7629 7646 "sPL_type.ml" 196 7629 7648
+)
+"sPL_type.ml" 214 8554 8634 "sPL_type.ml" 214 8554 8639
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref nbody "sPL_type.ml" 203 7968 7987 "sPL_type.ml" 203 7968 7992
+)
+"sPL_type.ml" 214 8554 8584 "sPL_type.ml" 214 8554 8640
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 214 8554 8579 "sPL_type.ml" 214 8554 8640
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 215 8642 8670 "sPL_type.ml" 215 8642 8674
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 215 8642 8675 "sPL_type.ml" 215 8642 8676
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 215 8642 8670 "sPL_type.ml" 215 8642 8676
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 213 8472 8494 "sPL_type.ml" 215 8642 8677
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 216 8678 8704 "sPL_type.ml" 216 8678 8708
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 216 8678 8709 "sPL_type.ml" 216 8678 8710
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 216 8678 8704 "sPL_type.ml" 216 8678 8710
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 211 8357 8377 "sPL_type.ml" 216 8678 8711
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 217 8712 8728 "sPL_type.ml" 217 8712 8732
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 217 8712 8737 "sPL_type.ml" 217 8712 8741
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 217 8712 8742 "sPL_type.ml" 217 8712 8743
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 131 4742 4777 "sPL_type.ml" 131 4742 4778
+)
+"sPL_type.ml" 217 8712 8737 "sPL_type.ml" 217 8712 8743
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 208 8242 8254 "sPL_type.ml" 217 8712 8744
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 205 8072 8082 "sPL_type.ml" 218 8745 8758
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 203 7968 7978 "sPL_type.ml" 218 8745 8758
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 201 7896 7906 "sPL_type.ml" 218 8745 8758
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 199 7765 7775 "sPL_type.ml" 218 8745 8758
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 132 4820 4822 "sPL_type.ml" 218 8745 8758
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 131 4742 4776 "sPL_type.ml" 218 8745 8758
+type(
+  SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 131 4742 4761 "sPL_type.ml" 218 8745 8758
+type(
+  env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type.ml" 223 8858 8866 "sPL_type.ml" 223 8858 8876
+type(
+  SPL.sPL_type -> int
+)
+ident(
+  def num_of_arg "sPL_type.ml" 223 8858 8858 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 223 8858 8877 "sPL_type.ml" 223 8858 8879
+type(
+  SPL.sPL_type
+)
+ident(
+  def rt "sPL_type.ml" 224 8882 8884 "sPL_type.ml" 226 8938 8950
+)
+"sPL_type.ml" 224 8882 8890 "sPL_type.ml" 224 8882 8892
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref rt "sPL_type.ml" 223 8858 8877 "sPL_type.ml" 223 8858 8879
+)
+"sPL_type.ml" 225 8898 8911 "sPL_type.ml" 225 8898 8912
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 225 8898 8913 "sPL_type.ml" 225 8898 8915
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 225 8898 8920 "sPL_type.ml" 225 8898 8937
+)
+"sPL_type.ml" 225 8898 8904 "sPL_type.ml" 225 8898 8916
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 225 8898 8920 "sPL_type.ml" 225 8898 8921
+type(
+  int
+)
+"sPL_type.ml" 225 8898 8921 "sPL_type.ml" 225 8898 8922
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"sPL_type.ml" 225 8898 8923 "sPL_type.ml" 225 8898 8933
+type(
+  SPL.sPL_type -> int
+)
+ident(
+  int_ref num_of_arg "sPL_type.ml" 223 8858 8866 "sPL_type.ml" 223 8858 8876
+)
+"sPL_type.ml" 225 8898 8934 "sPL_type.ml" 225 8898 8936
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 225 8898 8913 "sPL_type.ml" 225 8898 8915
+)
+"sPL_type.ml" 225 8898 8923 "sPL_type.ml" 225 8898 8936
+call(
+  stack
+)
+type(
+  int
+)
+"sPL_type.ml" 225 8898 8920 "sPL_type.ml" 225 8898 8937
+type(
+  int
+)
+"sPL_type.ml" 226 8938 8944 "sPL_type.ml" 226 8938 8945
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 226 8938 8949 "sPL_type.ml" 226 8938 8950
+type(
+  int
+)
+"sPL_type.ml" 224 8882 8884 "sPL_type.ml" 226 8938 8950
+type(
+  int
+)
+"sPL_type.ml" 223 8858 8877 "sPL_type.ml" 226 8938 8950
+type(
+  SPL.sPL_type -> int
+)
+"sPL_type.ml" 232 9205 9209 "sPL_type.ml" 232 9205 9220
+type(
+  SPL.sPL_type -> 'b list -> (SPL.sPL_type * string list) option
+)
+ident(
+  def get_partial "sPL_type.ml" 243 9503 9503 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 232 9205 9222 "sPL_type.ml" 232 9205 9223
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 232 9205 9234 "sPL_type.ml" 240 9438 9500
+)
+"sPL_type.ml" 232 9205 9235 "sPL_type.ml" 232 9205 9239
+type(
+  'b list
+)
+ident(
+  def args "sPL_type.ml" 233 9251 9253 "sPL_type.ml" 240 9438 9500
+)
+"sPL_type.ml" 233 9251 9256 "sPL_type.ml" 233 9251 9259
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"sPL_type.ml" 233 9251 9261 "sPL_type.ml" 233 9251 9276
+type(
+  bool ref
+)
+ident(
+  int_ref pa_removal_flag "sPL_type.ml" 10 117 121 "sPL_type.ml" 10 117 136
+)
+"sPL_type.ml" 233 9251 9260 "sPL_type.ml" 233 9251 9276
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"sPL_type.ml" 233 9251 9256 "sPL_type.ml" 233 9251 9277
+type(
+  bool
+)
+"sPL_type.ml" 233 9251 9283 "sPL_type.ml" 233 9251 9287
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 235 9295 9303 "sPL_type.ml" 235 9295 9316
+type(
+  SPL.sPL_type -> 'b list -> (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+ident(
+  int_ref extr_arg_type "sPL_type.ml" 34 902 906 "sPL_type.ml" 34 902 919
+)
+"sPL_type.ml" 235 9295 9317 "sPL_type.ml" 235 9295 9318
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 232 9205 9222 "sPL_type.ml" 232 9205 9223
+)
+"sPL_type.ml" 235 9295 9319 "sPL_type.ml" 235 9295 9323
+type(
+  'b list
+)
+ident(
+  int_ref args "sPL_type.ml" 232 9205 9235 "sPL_type.ml" 232 9205 9239
+)
+"sPL_type.ml" 235 9295 9303 "sPL_type.ml" 235 9295 9323
+call(
+  stack
+)
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 236 9329 9335 "sPL_type.ml" 236 9329 9339
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+"sPL_type.ml" 236 9329 9343 "sPL_type.ml" 236 9329 9347
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 237 9348 9360 "sPL_type.ml" 237 9348 9362
+type(
+  ('b * SPL.sPL_type) list
+)
+ident(
+  def ls "sPL_type.ml" 238 9370 9380 "sPL_type.ml" 240 9438 9500
+)
+"sPL_type.ml" 237 9348 9363 "sPL_type.ml" 237 9348 9365
+type(
+  SPL.sPL_type
+)
+ident(
+  def rt "sPL_type.ml" 238 9370 9380 "sPL_type.ml" 240 9438 9500
+)
+"sPL_type.ml" 237 9348 9354 "sPL_type.ml" 237 9348 9366
+type(
+  (('b * SPL.sPL_type) list * SPL.sPL_type) option
+)
+type(
+  ('b * SPL.sPL_type) list * SPL.sPL_type
+)
+"sPL_type.ml" 238 9370 9384 "sPL_type.ml" 238 9370 9388
+type(
+  int
+)
+ident(
+  def narg "sPL_type.ml" 239 9408 9418 "sPL_type.ml" 240 9438 9500
+)
+"sPL_type.ml" 238 9370 9391 "sPL_type.ml" 238 9370 9401
+type(
+  SPL.sPL_type -> int
+)
+ident(
+  int_ref num_of_arg "sPL_type.ml" 223 8858 8866 "sPL_type.ml" 223 8858 8876
+)
+"sPL_type.ml" 238 9370 9402 "sPL_type.ml" 238 9370 9404
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref rt "sPL_type.ml" 237 9348 9363 "sPL_type.ml" 237 9348 9365
+)
+"sPL_type.ml" 238 9370 9391 "sPL_type.ml" 238 9370 9404
+call(
+  stack
+)
+type(
+  int
+)
+"sPL_type.ml" 239 9408 9421 "sPL_type.ml" 239 9408 9425
+type(
+  int
+)
+ident(
+  int_ref narg "sPL_type.ml" 238 9370 9384 "sPL_type.ml" 238 9370 9388
+)
+"sPL_type.ml" 239 9408 9425 "sPL_type.ml" 239 9408 9426
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"sPL_type.ml" 239 9408 9426 "sPL_type.ml" 239 9408 9427
+type(
+  int
+)
+"sPL_type.ml" 239 9408 9421 "sPL_type.ml" 239 9408 9427
+type(
+  bool
+)
+"sPL_type.ml" 239 9408 9433 "sPL_type.ml" 239 9408 9437
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 240 9438 9461 "sPL_type.ml" 240 9438 9463
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref rt "sPL_type.ml" 237 9348 9363 "sPL_type.ml" 237 9348 9365
+)
+"sPL_type.ml" 240 9438 9465 "sPL_type.ml" 240 9438 9470
+type(
+  Debug.Basic.generator
+)
+ident(
+  ext_ref Debug.Basic.names
+)
+"sPL_type.ml" 240 9438 9465 "sPL_type.ml" 240 9438 9483
+call(
+  stack
+)
+type(
+  string -> int -> string list
+)
+"sPL_type.ml" 240 9438 9484 "sPL_type.ml" 240 9438 9493
+type(
+  string
+)
+"sPL_type.ml" 240 9438 9494 "sPL_type.ml" 240 9438 9498
+type(
+  int
+)
+ident(
+  int_ref narg "sPL_type.ml" 238 9370 9384 "sPL_type.ml" 238 9370 9388
+)
+"sPL_type.ml" 240 9438 9465 "sPL_type.ml" 240 9438 9498
+type(
+  string list
+)
+"sPL_type.ml" 240 9438 9455 "sPL_type.ml" 240 9438 9500
+type(
+  SPL.sPL_type * string list
+)
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 239 9408 9418 "sPL_type.ml" 240 9438 9500
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 238 9370 9380 "sPL_type.ml" 240 9438 9500
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 235 9295 9297 "sPL_type.ml" 240 9438 9500
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 233 9251 9253 "sPL_type.ml" 240 9438 9500
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 232 9205 9234 "sPL_type.ml" 240 9438 9500
+type(
+  'b list -> (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 232 9205 9221 "sPL_type.ml" 240 9438 9500
+type(
+  SPL.sPL_type -> 'b list -> (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 243 9503 9511 "sPL_type.ml" 243 9503 9521
+type(
+  (SPL.sPL_type * 'a * 'b) list -> SPL.sPL_type -> SPL.sPL_type
+)
+ident(
+  def build_type "sPL_type.ml" 243 9503 9503 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 243 9503 9522 "sPL_type.ml" 243 9503 9524
+type(
+  (SPL.sPL_type * 'a * 'b) list
+)
+ident(
+  def ls "sPL_type.ml" 243 9503 9525 "sPL_type.ml" 246 9561 9607
+)
+"sPL_type.ml" 243 9503 9525 "sPL_type.ml" 243 9503 9527
+type(
+  SPL.sPL_type
+)
+ident(
+  def bt "sPL_type.ml" 244 9530 9532 "sPL_type.ml" 246 9561 9607
+)
+"sPL_type.ml" 244 9530 9538 "sPL_type.ml" 244 9530 9540
+type(
+  (SPL.sPL_type * 'a * 'b) list
+)
+ident(
+  int_ref ls "sPL_type.ml" 243 9503 9522 "sPL_type.ml" 243 9503 9524
+)
+"sPL_type.ml" 245 9546 9552 "sPL_type.ml" 245 9546 9554
+type(
+  (SPL.sPL_type * 'a * 'b) list
+)
+"sPL_type.ml" 245 9546 9558 "sPL_type.ml" 245 9546 9560
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref bt "sPL_type.ml" 243 9503 9525 "sPL_type.ml" 243 9503 9527
+)
+"sPL_type.ml" 246 9561 9568 "sPL_type.ml" 246 9561 9569
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 246 9561 9582 "sPL_type.ml" 246 9561 9607
+)
+"sPL_type.ml" 246 9561 9570 "sPL_type.ml" 246 9561 9571
+type(
+  'a
+)
+"sPL_type.ml" 246 9561 9572 "sPL_type.ml" 246 9561 9573
+type(
+  'b
+)
+"sPL_type.ml" 246 9561 9568 "sPL_type.ml" 246 9561 9573
+type(
+  SPL.sPL_type * 'a * 'b
+)
+"sPL_type.ml" 246 9561 9576 "sPL_type.ml" 246 9561 9578
+type(
+  (SPL.sPL_type * 'a * 'b) list
+)
+ident(
+  def ls "sPL_type.ml" 246 9561 9582 "sPL_type.ml" 246 9561 9607
+)
+"sPL_type.ml" 246 9561 9567 "sPL_type.ml" 246 9561 9578
+type(
+  (SPL.sPL_type * 'a * 'b) list
+)
+"sPL_type.ml" 246 9561 9588 "sPL_type.ml" 246 9561 9589
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 246 9561 9568 "sPL_type.ml" 246 9561 9569
+)
+"sPL_type.ml" 246 9561 9590 "sPL_type.ml" 246 9561 9600
+type(
+  (SPL.sPL_type * 'a * 'b) list -> SPL.sPL_type -> SPL.sPL_type
+)
+ident(
+  int_ref build_type "sPL_type.ml" 243 9503 9511 "sPL_type.ml" 243 9503 9521
+)
+"sPL_type.ml" 246 9561 9601 "sPL_type.ml" 246 9561 9603
+type(
+  (SPL.sPL_type * 'a * 'b) list
+)
+ident(
+  int_ref ls "sPL_type.ml" 246 9561 9576 "sPL_type.ml" 246 9561 9578
+)
+"sPL_type.ml" 246 9561 9604 "sPL_type.ml" 246 9561 9606
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref bt "sPL_type.ml" 243 9503 9525 "sPL_type.ml" 243 9503 9527
+)
+"sPL_type.ml" 246 9561 9590 "sPL_type.ml" 246 9561 9606
+call(
+  stack
+)
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 246 9561 9582 "sPL_type.ml" 246 9561 9607
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 244 9530 9532 "sPL_type.ml" 246 9561 9607
+type(
+  SPL.sPL_type
+)
+"sPL_type.ml" 243 9503 9525 "sPL_type.ml" 246 9561 9607
+type(
+  SPL.sPL_type -> SPL.sPL_type
+)
+"sPL_type.ml" 243 9503 9522 "sPL_type.ml" 246 9561 9607
+type(
+  (SPL.sPL_type * 'a * 'b) list -> SPL.sPL_type -> SPL.sPL_type
+)
+"sPL_type.ml" 255 9723 9727 "sPL_type.ml" 255 9723 9736
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  def trans_exp "sPL_type.ml" 300 11356 11356 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 255 9723 9738 "sPL_type.ml" 255 9723 9739
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 255 9723 9750 "sPL_type.ml" 297 11319 11329
+)
+"sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  def aux "sPL_type.ml" 256 9766 9768 "sPL_type.ml" 297 11319 11329
+)
+"sPL_type.ml" 256 9766 9780 "sPL_type.ml" 256 9766 9781
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_type.ml" 257 9784 9788 "sPL_type.ml" 296 11278 11318
+)
+"sPL_type.ml" 257 9784 9794 "sPL_type.ml" 257 9784 9795
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 256 9766 9780 "sPL_type.ml" 256 9766 9781
+)
+"sPL_type.ml" 258 9801 9819 "sPL_type.ml" 258 9801 9820
+type(
+  bool
+)
+ident(
+  def v "sPL_type.ml" 258 9801 9824 "sPL_type.ml" 258 9801 9837
+)
+"sPL_type.ml" 258 9801 9809 "sPL_type.ml" 258 9801 9820
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 258 9801 9836 "sPL_type.ml" 258 9801 9837
+type(
+  bool
+)
+ident(
+  int_ref v "sPL_type.ml" 258 9801 9819 "sPL_type.ml" 258 9801 9820
+)
+"sPL_type.ml" 258 9801 9824 "sPL_type.ml" 258 9801 9837
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 259 9838 9855 "sPL_type.ml" 259 9838 9856
+type(
+  int
+)
+ident(
+  def v "sPL_type.ml" 259 9838 9860 "sPL_type.ml" 259 9838 9872
+)
+"sPL_type.ml" 259 9838 9846 "sPL_type.ml" 259 9838 9856
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 259 9838 9871 "sPL_type.ml" 259 9838 9872
+type(
+  int
+)
+ident(
+  int_ref v "sPL_type.ml" 259 9838 9855 "sPL_type.ml" 259 9838 9856
+)
+"sPL_type.ml" 259 9838 9860 "sPL_type.ml" 259 9838 9872
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 260 9873 9885 "sPL_type.ml" 260 9873 9886
+type(
+  SPL.id
+)
+ident(
+  def v "sPL_type.ml" 260 9873 9890 "sPL_type.ml" 260 9873 9897
+)
+"sPL_type.ml" 260 9873 9881 "sPL_type.ml" 260 9873 9886
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 260 9873 9896 "sPL_type.ml" 260 9873 9897
+type(
+  SPL.id
+)
+ident(
+  int_ref v "sPL_type.ml" 260 9873 9885 "sPL_type.ml" 260 9873 9886
+)
+"sPL_type.ml" 260 9873 9890 "sPL_type.ml" 260 9873 9897
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 261 9898 9920 "sPL_type.ml" 261 9898 9922
+type(
+  SPL.op_id
+)
+ident(
+  def op "sPL_type.ml" 262 9931 9943 "sPL_type.ml" 263 9965 10003
+)
+"sPL_type.ml" 261 9898 9923 "sPL_type.ml" 261 9898 9926
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg "sPL_type.ml" 262 9931 9943 "sPL_type.ml" 263 9965 10003
+)
+"sPL_type.ml" 261 9898 9906 "sPL_type.ml" 261 9898 9927
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 262 9931 9947 "sPL_type.ml" 262 9931 9951
+type(
+  C.sPL_expr
+)
+ident(
+  def varg "sPL_type.ml" 263 9965 9978 "sPL_type.ml" 263 9965 10002
+)
+"sPL_type.ml" 262 9931 9954 "sPL_type.ml" 262 9931 9957
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 262 9931 9958 "sPL_type.ml" 262 9931 9961
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg "sPL_type.ml" 261 9898 9923 "sPL_type.ml" 261 9898 9926
+)
+"sPL_type.ml" 262 9931 9954 "sPL_type.ml" 262 9931 9961
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 263 9965 9994 "sPL_type.ml" 263 9965 9996
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 261 9898 9920 "sPL_type.ml" 261 9898 9922
+)
+"sPL_type.ml" 263 9965 9997 "sPL_type.ml" 263 9965 10001
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref varg "sPL_type.ml" 262 9931 9947 "sPL_type.ml" 262 9931 9951
+)
+"sPL_type.ml" 263 9965 9978 "sPL_type.ml" 263 9965 10002
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 262 9931 9943 "sPL_type.ml" 263 9965 10003
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 264 10004 10027 "sPL_type.ml" 264 10004 10029
+type(
+  SPL.op_id
+)
+ident(
+  def op "sPL_type.ml" 265 10044 10056 "sPL_type.ml" 267 10116 10162
+)
+"sPL_type.ml" 264 10004 10030 "sPL_type.ml" 264 10004 10034
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg1 "sPL_type.ml" 265 10044 10056 "sPL_type.ml" 267 10116 10162
+)
+"sPL_type.ml" 264 10004 10035 "sPL_type.ml" 264 10004 10039
+type(
+  SPL.sPL_expr
+)
+ident(
+  def arg2 "sPL_type.ml" 265 10044 10056 "sPL_type.ml" 267 10116 10162
+)
+"sPL_type.ml" 264 10004 10012 "sPL_type.ml" 264 10004 10040
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 265 10044 10060 "sPL_type.ml" 265 10044 10065
+type(
+  C.sPL_expr
+)
+ident(
+  def varg1 "sPL_type.ml" 266 10080 10092 "sPL_type.ml" 267 10116 10162
+)
+"sPL_type.ml" 265 10044 10068 "sPL_type.ml" 265 10044 10071
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 265 10044 10072 "sPL_type.ml" 265 10044 10076
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg1 "sPL_type.ml" 264 10004 10030 "sPL_type.ml" 264 10004 10034
+)
+"sPL_type.ml" 265 10044 10068 "sPL_type.ml" 265 10044 10076
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 266 10080 10096 "sPL_type.ml" 266 10080 10101
+type(
+  C.sPL_expr
+)
+ident(
+  def varg2 "sPL_type.ml" 267 10116 10129 "sPL_type.ml" 267 10116 10161
+)
+"sPL_type.ml" 266 10080 10104 "sPL_type.ml" 266 10080 10107
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 266 10080 10108 "sPL_type.ml" 266 10080 10112
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref arg2 "sPL_type.ml" 264 10004 10035 "sPL_type.ml" 264 10004 10039
+)
+"sPL_type.ml" 266 10080 10104 "sPL_type.ml" 266 10080 10112
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 267 10116 10146 "sPL_type.ml" 267 10116 10148
+type(
+  SPL.op_id
+)
+ident(
+  int_ref op "sPL_type.ml" 264 10004 10027 "sPL_type.ml" 264 10004 10029
+)
+"sPL_type.ml" 267 10116 10149 "sPL_type.ml" 267 10116 10154
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref varg1 "sPL_type.ml" 265 10044 10060 "sPL_type.ml" 265 10044 10065
+)
+"sPL_type.ml" 267 10116 10155 "sPL_type.ml" 267 10116 10160
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref varg2 "sPL_type.ml" 266 10080 10096 "sPL_type.ml" 266 10080 10101
+)
+"sPL_type.ml" 267 10116 10129 "sPL_type.ml" 267 10116 10161
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 266 10080 10092 "sPL_type.ml" 267 10116 10162
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 265 10044 10056 "sPL_type.ml" 267 10116 10162
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 268 10163 10177 "sPL_type.ml" 268 10163 10179
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_type.ml" 269 10190 10202 "sPL_type.ml" 272 10283 10312
+)
+"sPL_type.ml" 268 10163 10180 "sPL_type.ml" 268 10163 10182
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_type.ml" 269 10190 10202 "sPL_type.ml" 272 10283 10312
+)
+"sPL_type.ml" 268 10163 10183 "sPL_type.ml" 268 10163 10185
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e3 "sPL_type.ml" 269 10190 10202 "sPL_type.ml" 272 10283 10312
+)
+"sPL_type.ml" 268 10163 10171 "sPL_type.ml" 268 10163 10186
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 269 10190 10206 "sPL_type.ml" 269 10190 10208
+type(
+  C.sPL_expr
+)
+ident(
+  def v1 "sPL_type.ml" 270 10221 10233 "sPL_type.ml" 272 10283 10312
+)
+"sPL_type.ml" 269 10190 10211 "sPL_type.ml" 269 10190 10214
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 269 10190 10215 "sPL_type.ml" 269 10190 10217
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_type.ml" 268 10163 10177 "sPL_type.ml" 268 10163 10179
+)
+"sPL_type.ml" 269 10190 10211 "sPL_type.ml" 269 10190 10217
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 270 10221 10237 "sPL_type.ml" 270 10221 10239
+type(
+  C.sPL_expr
+)
+ident(
+  def v2 "sPL_type.ml" 271 10252 10264 "sPL_type.ml" 272 10283 10312
+)
+"sPL_type.ml" 270 10221 10242 "sPL_type.ml" 270 10221 10245
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 270 10221 10246 "sPL_type.ml" 270 10221 10248
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_type.ml" 268 10163 10180 "sPL_type.ml" 268 10163 10182
+)
+"sPL_type.ml" 270 10221 10242 "sPL_type.ml" 270 10221 10248
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 271 10252 10268 "sPL_type.ml" 271 10252 10270
+type(
+  C.sPL_expr
+)
+ident(
+  def v3 "sPL_type.ml" 272 10283 10295 "sPL_type.ml" 272 10283 10312
+)
+"sPL_type.ml" 271 10252 10273 "sPL_type.ml" 271 10252 10276
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 271 10252 10277 "sPL_type.ml" 271 10252 10279
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e3 "sPL_type.ml" 268 10163 10183 "sPL_type.ml" 268 10163 10185
+)
+"sPL_type.ml" 271 10252 10273 "sPL_type.ml" 271 10252 10279
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 272 10283 10303 "sPL_type.ml" 272 10283 10305
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref v1 "sPL_type.ml" 269 10190 10206 "sPL_type.ml" 269 10190 10208
+)
+"sPL_type.ml" 272 10283 10306 "sPL_type.ml" 272 10283 10308
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref v2 "sPL_type.ml" 270 10221 10237 "sPL_type.ml" 270 10221 10239
+)
+"sPL_type.ml" 272 10283 10309 "sPL_type.ml" 272 10283 10311
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref v3 "sPL_type.ml" 271 10252 10268 "sPL_type.ml" 271 10252 10270
+)
+"sPL_type.ml" 272 10283 10295 "sPL_type.ml" 272 10283 10312
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 271 10252 10264 "sPL_type.ml" 272 10283 10312
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 270 10221 10233 "sPL_type.ml" 272 10283 10312
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 269 10190 10202 "sPL_type.ml" 272 10283 10312
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 273 10313 10327 "sPL_type.ml" 273 10313 10328
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 274 10341 10353 "sPL_type.ml" 275 10377 10408
+)
+"sPL_type.ml" 273 10313 10329 "sPL_type.ml" 273 10313 10331
+type(
+  SPL.id list
+)
+ident(
+  def vs "sPL_type.ml" 274 10341 10353 "sPL_type.ml" 275 10377 10408
+)
+"sPL_type.ml" 273 10313 10332 "sPL_type.ml" 273 10313 10336
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 274 10341 10353 "sPL_type.ml" 275 10377 10408
+)
+"sPL_type.ml" 273 10313 10321 "sPL_type.ml" 273 10313 10337
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 274 10341 10357 "sPL_type.ml" 274 10341 10362
+type(
+  C.sPL_expr
+)
+ident(
+  def nbody "sPL_type.ml" 275 10377 10389 "sPL_type.ml" 275 10377 10408
+)
+"sPL_type.ml" 274 10341 10365 "sPL_type.ml" 274 10341 10368
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 274 10341 10369 "sPL_type.ml" 274 10341 10373
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref body "sPL_type.ml" 273 10313 10332 "sPL_type.ml" 273 10313 10336
+)
+"sPL_type.ml" 274 10341 10365 "sPL_type.ml" 274 10341 10373
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 275 10377 10397 "sPL_type.ml" 275 10377 10398
+type(
+  C.sPL_type
+)
+ident(
+  int_ref t "sPL_type.ml" 273 10313 10327 "sPL_type.ml" 273 10313 10328
+)
+"sPL_type.ml" 275 10377 10399 "sPL_type.ml" 275 10377 10401
+type(
+  Debug.Basic.id list
+)
+ident(
+  int_ref vs "sPL_type.ml" 273 10313 10329 "sPL_type.ml" 273 10313 10331
+)
+"sPL_type.ml" 275 10377 10402 "sPL_type.ml" 275 10377 10407
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref nbody "sPL_type.ml" 274 10341 10357 "sPL_type.ml" 274 10341 10362
+)
+"sPL_type.ml" 275 10377 10389 "sPL_type.ml" 275 10377 10408
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 274 10341 10353 "sPL_type.ml" 275 10377 10408
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 276 10409 10426 "sPL_type.ml" 276 10409 10427
+type(
+  SPL.sPL_type
+)
+ident(
+  def f "sPL_type.ml" 277 10442 10454 "sPL_type.ml" 278 10478 10514
+)
+"sPL_type.ml" 276 10409 10428 "sPL_type.ml" 276 10409 10429
+type(
+  SPL.id
+)
+ident(
+  def t "sPL_type.ml" 277 10442 10454 "sPL_type.ml" 278 10478 10514
+)
+"sPL_type.ml" 276 10409 10430 "sPL_type.ml" 276 10409 10432
+type(
+  SPL.id list
+)
+ident(
+  def vs "sPL_type.ml" 277 10442 10454 "sPL_type.ml" 278 10478 10514
+)
+"sPL_type.ml" 276 10409 10433 "sPL_type.ml" 276 10409 10437
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 277 10442 10454 "sPL_type.ml" 278 10478 10514
+)
+"sPL_type.ml" 276 10409 10417 "sPL_type.ml" 276 10409 10438
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 277 10442 10458 "sPL_type.ml" 277 10442 10463
+type(
+  C.sPL_expr
+)
+ident(
+  def nbody "sPL_type.ml" 278 10478 10490 "sPL_type.ml" 278 10478 10514
+)
+"sPL_type.ml" 277 10442 10466 "sPL_type.ml" 277 10442 10469
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 277 10442 10470 "sPL_type.ml" 277 10442 10474
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref body "sPL_type.ml" 276 10409 10433 "sPL_type.ml" 276 10409 10437
+)
+"sPL_type.ml" 277 10442 10466 "sPL_type.ml" 277 10442 10474
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 278 10478 10501 "sPL_type.ml" 278 10478 10502
+type(
+  C.sPL_type
+)
+ident(
+  int_ref f "sPL_type.ml" 276 10409 10426 "sPL_type.ml" 276 10409 10427
+)
+"sPL_type.ml" 278 10478 10503 "sPL_type.ml" 278 10478 10504
+type(
+  SPL.id
+)
+ident(
+  int_ref t "sPL_type.ml" 276 10409 10428 "sPL_type.ml" 276 10409 10429
+)
+"sPL_type.ml" 278 10478 10505 "sPL_type.ml" 278 10478 10507
+type(
+  Debug.Basic.id list
+)
+ident(
+  int_ref vs "sPL_type.ml" 276 10409 10430 "sPL_type.ml" 276 10409 10432
+)
+"sPL_type.ml" 278 10478 10508 "sPL_type.ml" 278 10478 10513
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref nbody "sPL_type.ml" 277 10442 10458 "sPL_type.ml" 277 10442 10463
+)
+"sPL_type.ml" 278 10478 10490 "sPL_type.ml" 278 10478 10514
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 277 10442 10454 "sPL_type.ml" 278 10478 10514
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 279 10515 10530 "sPL_type.ml" 279 10515 10531
+type(
+  SPL.sPL_expr
+)
+ident(
+  def f "sPL_type.ml" 281 10561 10575 "sPL_type.ml" 290 10990 11051
+)
+"sPL_type.ml" 279 10515 10532 "sPL_type.ml" 279 10515 10533
+type(
+  SPL.sPL_type option
+)
+ident(
+  def t "sPL_type.ml" 281 10561 10575 "sPL_type.ml" 290 10990 11051
+)
+"sPL_type.ml" 279 10515 10534 "sPL_type.ml" 279 10515 10538
+type(
+  SPL.sPL_expr list
+)
+ident(
+  def args "sPL_type.ml" 281 10561 10575 "sPL_type.ml" 290 10990 11051
+)
+"sPL_type.ml" 279 10515 10523 "sPL_type.ml" 279 10515 10539
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 281 10561 10581 "sPL_type.ml" 281 10561 10582
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref t "sPL_type.ml" 279 10515 10532 "sPL_type.ml" 279 10515 10533
+)
+"sPL_type.ml" 282 10588 10611 "sPL_type.ml" 282 10588 10613
+type(
+  SPL.sPL_type
+)
+ident(
+  def t1 "sPL_type.ml" 284 10645 10669 "sPL_type.ml" 288 10854 10963
+)
+"sPL_type.ml" 282 10588 10606 "sPL_type.ml" 282 10588 10613
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 284 10645 10673 "sPL_type.ml" 284 10645 10677
+type(
+  C.sPL_expr list
+)
+ident(
+  def args "sPL_type.ml" 285 10701 10725 "sPL_type.ml" 288 10854 10963
+)
+"sPL_type.ml" 284 10645 10680 "sPL_type.ml" 284 10645 10688
+type(
+  (SPL.sPL_expr -> C.sPL_expr) -> SPL.sPL_expr list -> C.sPL_expr list
+)
+ident(
+  ext_ref List.map
+)
+"sPL_type.ml" 284 10645 10689 "sPL_type.ml" 284 10645 10692
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 284 10645 10693 "sPL_type.ml" 284 10645 10697
+type(
+  SPL.sPL_expr list
+)
+ident(
+  int_ref args "sPL_type.ml" 279 10515 10534 "sPL_type.ml" 279 10515 10538
+)
+"sPL_type.ml" 284 10645 10680 "sPL_type.ml" 284 10645 10697
+call(
+  stack
+)
+type(
+  C.sPL_expr list
+)
+"sPL_type.ml" 285 10701 10729 "sPL_type.ml" 285 10701 10730
+type(
+  C.sPL_expr
+)
+ident(
+  def f "sPL_type.ml" 286 10742 10766 "sPL_type.ml" 288 10854 10963
+)
+"sPL_type.ml" 285 10701 10733 "sPL_type.ml" 285 10701 10736
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 285 10701 10737 "sPL_type.ml" 285 10701 10738
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref f "sPL_type.ml" 279 10515 10530 "sPL_type.ml" 279 10515 10531
+)
+"sPL_type.ml" 285 10701 10733 "sPL_type.ml" 285 10701 10738
+call(
+  stack
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 286 10742 10772 "sPL_type.ml" 286 10742 10783
+type(
+  SPL.sPL_type -> C.sPL_expr list -> (SPL.sPL_type * string list) option
+)
+ident(
+  int_ref get_partial "sPL_type.ml" 232 9205 9209 "sPL_type.ml" 232 9205 9220
+)
+"sPL_type.ml" 286 10742 10784 "sPL_type.ml" 286 10742 10786
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 282 10588 10611 "sPL_type.ml" 282 10588 10613
+)
+"sPL_type.ml" 286 10742 10787 "sPL_type.ml" 286 10742 10791
+type(
+  C.sPL_expr list
+)
+ident(
+  int_ref args "sPL_type.ml" 284 10645 10673 "sPL_type.ml" 284 10645 10677
+)
+"sPL_type.ml" 286 10742 10772 "sPL_type.ml" 286 10742 10791
+call(
+  stack
+)
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 287 10797 10825 "sPL_type.ml" 287 10797 10829
+type(
+  (SPL.sPL_type * string list) option
+)
+"sPL_type.ml" 287 10797 10843 "sPL_type.ml" 287 10797 10844
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref f "sPL_type.ml" 285 10701 10729 "sPL_type.ml" 285 10701 10730
+)
+"sPL_type.ml" 287 10797 10845 "sPL_type.ml" 287 10797 10847
+type(
+  C.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 282 10588 10611 "sPL_type.ml" 282 10588 10613
+)
+"sPL_type.ml" 287 10797 10848 "sPL_type.ml" 287 10797 10852
+type(
+  C.sPL_expr list
+)
+ident(
+  int_ref args "sPL_type.ml" 284 10645 10673 "sPL_type.ml" 284 10645 10677
+)
+"sPL_type.ml" 287 10797 10834 "sPL_type.ml" 287 10797 10853
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 288 10854 10888 "sPL_type.ml" 288 10854 10890
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_type.ml" 288 10854 10898 "sPL_type.ml" 288 10854 10963
+)
+"sPL_type.ml" 288 10854 10891 "sPL_type.ml" 288 10854 10893
+type(
+  string list
+)
+ident(
+  def ns "sPL_type.ml" 288 10854 10898 "sPL_type.ml" 288 10854 10963
+)
+"sPL_type.ml" 288 10854 10882 "sPL_type.ml" 288 10854 10894
+type(
+  (SPL.sPL_type * string list) option
+)
+type(
+  SPL.sPL_type * string list
+)
+"sPL_type.ml" 288 10854 10905 "sPL_type.ml" 288 10854 10907
+type(
+  C.sPL_type
+)
+ident(
+  int_ref t2 "sPL_type.ml" 288 10854 10888 "sPL_type.ml" 288 10854 10890
+)
+"sPL_type.ml" 288 10854 10908 "sPL_type.ml" 288 10854 10910
+type(
+  Debug.Basic.id list
+)
+ident(
+  int_ref ns "sPL_type.ml" 288 10854 10891 "sPL_type.ml" 288 10854 10893
+)
+"sPL_type.ml" 288 10854 10919 "sPL_type.ml" 288 10854 10920
+type(
+  C.sPL_expr
+)
+ident(
+  int_ref f "sPL_type.ml" 285 10701 10729 "sPL_type.ml" 285 10701 10730
+)
+"sPL_type.ml" 288 10854 10921 "sPL_type.ml" 288 10854 10923
+type(
+  C.sPL_type
+)
+ident(
+  int_ref t1 "sPL_type.ml" 282 10588 10611 "sPL_type.ml" 282 10588 10613
+)
+"sPL_type.ml" 288 10854 10924 "sPL_type.ml" 288 10854 10928
+type(
+  C.sPL_expr list
+)
+ident(
+  int_ref args "sPL_type.ml" 284 10645 10673 "sPL_type.ml" 284 10645 10677
+)
+"sPL_type.ml" 288 10854 10928 "sPL_type.ml" 288 10854 10929
+type(
+  C.sPL_expr list -> C.sPL_expr list -> C.sPL_expr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"sPL_type.ml" 288 10854 10930 "sPL_type.ml" 288 10854 10938
+type(
+  (Debug.Basic.id -> C.sPL_expr) -> Debug.Basic.id list -> C.sPL_expr list
+)
+ident(
+  ext_ref List.map
+)
+"sPL_type.ml" 288 10854 10944 "sPL_type.ml" 288 10854 10945
+type(
+  Debug.Basic.id
+)
+ident(
+  def v "sPL_type.ml" 288 10854 10949 "sPL_type.ml" 288 10854 10956
+)
+"sPL_type.ml" 288 10854 10955 "sPL_type.ml" 288 10854 10956
+type(
+  Debug.Basic.id
+)
+ident(
+  int_ref v "sPL_type.ml" 288 10854 10944 "sPL_type.ml" 288 10854 10945
+)
+"sPL_type.ml" 288 10854 10949 "sPL_type.ml" 288 10854 10956
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 288 10854 10944 "sPL_type.ml" 288 10854 10956
+type(
+  Debug.Basic.id -> C.sPL_expr
+)
+"sPL_type.ml" 288 10854 10958 "sPL_type.ml" 288 10854 10960
+type(
+  Debug.Basic.id list
+)
+ident(
+  int_ref ns "sPL_type.ml" 288 10854 10891 "sPL_type.ml" 288 10854 10893
+)
+"sPL_type.ml" 288 10854 10930 "sPL_type.ml" 288 10854 10960
+call(
+  stack
+)
+type(
+  C.sPL_expr list
+)
+"sPL_type.ml" 288 10854 10924 "sPL_type.ml" 288 10854 10961
+call(
+  stack
+)
+type(
+  C.sPL_expr list
+)
+"sPL_type.ml" 288 10854 10911 "sPL_type.ml" 288 10854 10962
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 288 10854 10898 "sPL_type.ml" 288 10854 10963
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 286 10742 10766 "sPL_type.ml" 288 10854 10963
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 285 10701 10725 "sPL_type.ml" 288 10854 10963
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 284 10645 10669 "sPL_type.ml" 288 10854 10963
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 290 10990 11008 "sPL_type.ml" 290 10990 11009
+type(
+  SPL.sPL_type option
+)
+"sPL_type.ml" 290 10990 11013 "sPL_type.ml" 290 10990 11021
+type(
+  string -> C.sPL_expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 290 10990 11022 "sPL_type.ml" 290 10990 11051
+type(
+  string
+)
+"sPL_type.ml" 290 10990 11013 "sPL_type.ml" 290 10990 11051
+call(
+  tail
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 281 10561 10575 "sPL_type.ml" 290 10990 11051
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 292 11068 11081 "sPL_type.ml" 292 11068 11083
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  def ls "sPL_type.ml" 296 11278 11290 "sPL_type.ml" 296 11278 11318
+)
+"sPL_type.ml" 292 11068 11084 "sPL_type.ml" 292 11068 11085
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type.ml" 296 11278 11290 "sPL_type.ml" 296 11278 11318
+)
+"sPL_type.ml" 292 11068 11086 "sPL_type.ml" 292 11068 11090
+type(
+  SPL.sPL_expr
+)
+ident(
+  def body "sPL_type.ml" 296 11278 11290 "sPL_type.ml" 296 11278 11318
+)
+"sPL_type.ml" 292 11068 11076 "sPL_type.ml" 292 11068 11091
+type(
+  SPL.sPL_expr
+)
+"sPL_type.ml" 296 11278 11290 "sPL_type.ml" 296 11278 11298
+type(
+  string -> C.sPL_expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"sPL_type.ml" 296 11278 11299 "sPL_type.ml" 296 11278 11318
+type(
+  string
+)
+"sPL_type.ml" 296 11278 11290 "sPL_type.ml" 296 11278 11318
+call(
+  tail
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 257 9784 9788 "sPL_type.ml" 296 11278 11318
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 256 9766 9780 "sPL_type.ml" 296 11278 11318
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+"sPL_type.ml" 297 11319 11324 "sPL_type.ml" 297 11319 11327
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+ident(
+  int_ref aux "sPL_type.ml" 256 9766 9776 "sPL_type.ml" 256 9766 9779
+)
+"sPL_type.ml" 297 11319 11328 "sPL_type.ml" 297 11319 11329
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_type.ml" 255 9723 9738 "sPL_type.ml" 255 9723 9739
+)
+"sPL_type.ml" 297 11319 11324 "sPL_type.ml" 297 11319 11329
+call(
+  tail
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 256 9766 9768 "sPL_type.ml" 297 11319 11329
+type(
+  C.sPL_expr
+)
+type(
+  C.sPL_expr
+)
+"sPL_type.ml" 255 9723 9737 "sPL_type.ml" 297 11319 11329
+type(
+  SPL.sPL_expr -> C.sPL_expr
+)
+"sPL_type.ml" 300 11356 11360 "sPL_type.ml" 300 11356 11370
+type(
+  string -> string * SPL.sPL_expr
+)
+ident(
+  def parse_file "sPL_type.ml" 305 11510 11510 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 300 11356 11372 "sPL_type.ml" 300 11356 11380
+type(
+  string
+)
+ident(
+  def filename "sPL_type.ml" 300 11356 11389 "sPL_type.ml" 301 11413 11445
+)
+"sPL_type.ml" 301 11413 11415 "sPL_type.ml" 301 11413 11436
+type(
+  string -> string * SPL.sPL_expr
+)
+ident(
+  ext_ref SPL_parser.parse_file
+)
+"sPL_type.ml" 301 11413 11437 "sPL_type.ml" 301 11413 11445
+type(
+  string
+)
+ident(
+  int_ref filename "sPL_type.ml" 300 11356 11372 "sPL_type.ml" 300 11356 11380
+)
+"sPL_type.ml" 301 11413 11415 "sPL_type.ml" 301 11413 11445
+call(
+  tail
+)
+type(
+  string * SPL.sPL_expr
+)
+type(
+  string * SPL.sPL_expr
+)
+"sPL_type.ml" 300 11356 11371 "sPL_type.ml" 301 11413 11445
+type(
+  string -> string * SPL.sPL_expr
+)
+"sPL_type.ml" 305 11510 11514 "sPL_type.ml" 305 11510 11519
+type(
+  string
+)
+ident(
+  def usage "sPL_type.ml" 306 11563 11563 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 305 11510 11522 "sPL_type.ml" 305 11510 11531
+type(
+  string
+)
+"sPL_type.ml" 305 11510 11532 "sPL_type.ml" 305 11510 11533
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type.ml" 305 11510 11534 "sPL_type.ml" 305 11510 11542
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"sPL_type.ml" 305 11510 11544 "sPL_type.ml" 305 11510 11545
+type(
+  int
+)
+"sPL_type.ml" 305 11510 11534 "sPL_type.ml" 305 11510 11546
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Array.get
+)
+"sPL_type.ml" 305 11510 11547 "sPL_type.ml" 305 11510 11548
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type.ml" 305 11510 11549 "sPL_type.ml" 305 11510 11562
+type(
+  string
+)
+"sPL_type.ml" 305 11510 11534 "sPL_type.ml" 305 11510 11562
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type.ml" 305 11510 11522 "sPL_type.ml" 305 11510 11562
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type.ml" 306 11563 11567 "sPL_type.ml" 306 11563 11571
+type(
+  string ref
+)
+ident(
+  def file "sPL_type.ml" 306 11563 11580 "sPL_type.ml" 1 0 -1
+)
+"sPL_type.ml" 306 11563 11574 "sPL_type.ml" 306 11563 11577
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"sPL_type.ml" 306 11563 11578 "sPL_type.ml" 306 11563 11580
+type(
+  string
+)
+"sPL_type.ml" 306 11563 11574 "sPL_type.ml" 306 11563 11580
+type(
+  string ref
+)

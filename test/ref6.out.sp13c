@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int} fac = if true then 1 else 2 end in  {int}  fac + 3 end
+ AS ==> let {Int} fac = if Bool(true) then Int(1) else Int(2) in {Int}+[Var(fac),Int(3)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {Int->Int} fac -> +[Var(fac),Int(3)] end; if Bool(true) then Int(1) else Int(2)]

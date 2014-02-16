@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  recfun fac {int -> int} n ->    if n < 2 then 1    else n * (fac (n-1))    endend 20
+ AS ==> Appln[recfun fac {Int->Int} n -> if <[Var(n),Int(2)] then Int(1) else *[Var(n),Appln[Var(fac); -[Var(n),Int(1)]]] end; Int(20)]
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[recfun fac {Int->Int} n -> if <[Var(n),Int(2)] then Int(1) else *[Var(n),Appln[Var(fac); -[Var(n),Int(1)]]] end; Int(20)]

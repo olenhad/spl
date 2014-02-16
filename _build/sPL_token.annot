@@ -1,0 +1,830 @@
+"sPL_token.ml" 28 570 576 "sPL_token.ml" 28 570 578
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  def sf "sPL_token.ml" 30 597 599 "sPL_token.ml" 77 1979 1982
+)
+"sPL_token.ml" 28 570 581 "sPL_token.ml" 28 570 595
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"sPL_token.ml" 30 597 603 "sPL_token.ml" 30 597 612
+type(
+  sPL_token -> string
+)
+ident(
+  def to_string "sPL_token.ml" 44 1210 1212 "sPL_token.ml" 77 1979 1982
+)
+"sPL_token.ml" 30 597 613 "sPL_token.ml" 30 597 614
+type(
+  sPL_token
+)
+ident(
+  def k "sPL_token.ml" 30 597 617 "sPL_token.ml" 42 1193 1208
+)
+"sPL_token.ml" 30 597 623 "sPL_token.ml" 30 597 624
+type(
+  sPL_token
+)
+ident(
+  int_ref k "sPL_token.ml" 30 597 613 "sPL_token.ml" 30 597 614
+)
+"sPL_token.ml" 31 630 647 "sPL_token.ml" 31 630 648
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 31 630 697 "sPL_token.ml" 31 630 698
+)
+"sPL_token.ml" 31 630 636 "sPL_token.ml" 31 630 648
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 659 "sPL_token.ml" 31 630 660
+type(
+  int
+)
+"sPL_token.ml" 31 630 661 "sPL_token.ml" 31 630 662
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 31 630 697 "sPL_token.ml" 31 630 698
+)
+"sPL_token.ml" 31 630 651 "sPL_token.ml" 31 630 663
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 636 "sPL_token.ml" 31 630 663
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 675 "sPL_token.ml" 31 630 676
+type(
+  char
+)
+"sPL_token.ml" 31 630 677 "sPL_token.ml" 31 630 678
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 31 630 697 "sPL_token.ml" 31 630 698
+)
+"sPL_token.ml" 31 630 666 "sPL_token.ml" 31 630 679
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 636 "sPL_token.ml" 31 630 679
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 689 "sPL_token.ml" 31 630 690
+type(
+  string
+)
+"sPL_token.ml" 31 630 691 "sPL_token.ml" 31 630 692
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 31 630 697 "sPL_token.ml" 31 630 698
+)
+"sPL_token.ml" 31 630 682 "sPL_token.ml" 31 630 693
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 636 "sPL_token.ml" 31 630 693
+type(
+  sPL_token
+)
+"sPL_token.ml" 31 630 697 "sPL_token.ml" 31 630 698
+type(
+  string
+)
+ident(
+  int_ref s "sPL_token.ml" 31 630 647 "sPL_token.ml" 31 630 648
+)
+"sPL_token.ml" 32 699 705 "sPL_token.ml" 32 699 709
+type(
+  sPL_token
+)
+"sPL_token.ml" 32 699 713 "sPL_token.ml" 32 699 719
+type(
+  string
+)
+"sPL_token.ml" 32 699 722 "sPL_token.ml" 32 699 727
+type(
+  sPL_token
+)
+"sPL_token.ml" 32 699 731 "sPL_token.ml" 32 699 738
+type(
+  string
+)
+"sPL_token.ml" 33 739 745 "sPL_token.ml" 33 739 752
+type(
+  sPL_token
+)
+"sPL_token.ml" 33 739 756 "sPL_token.ml" 33 739 761
+type(
+  string
+)
+"sPL_token.ml" 33 739 764 "sPL_token.ml" 33 739 772
+type(
+  sPL_token
+)
+"sPL_token.ml" 33 739 776 "sPL_token.ml" 33 739 782
+type(
+  string
+)
+"sPL_token.ml" 34 783 789 "sPL_token.ml" 34 783 793
+type(
+  sPL_token
+)
+"sPL_token.ml" 34 783 797 "sPL_token.ml" 34 783 800
+type(
+  string
+)
+"sPL_token.ml" 34 783 803 "sPL_token.ml" 34 783 809
+type(
+  sPL_token
+)
+"sPL_token.ml" 34 783 813 "sPL_token.ml" 34 783 816
+type(
+  string
+)
+"sPL_token.ml" 34 783 819 "sPL_token.ml" 34 783 824
+type(
+  sPL_token
+)
+"sPL_token.ml" 34 783 828 "sPL_token.ml" 34 783 831
+type(
+  string
+)
+"sPL_token.ml" 34 783 834 "sPL_token.ml" 34 783 838
+type(
+  sPL_token
+)
+"sPL_token.ml" 34 783 842 "sPL_token.ml" 34 783 845
+type(
+  string
+)
+"sPL_token.ml" 34 783 848 "sPL_token.ml" 34 783 851
+type(
+  sPL_token
+)
+"sPL_token.ml" 34 783 855 "sPL_token.ml" 34 783 858
+type(
+  string
+)
+"sPL_token.ml" 35 859 865 "sPL_token.ml" 35 859 867
+type(
+  sPL_token
+)
+"sPL_token.ml" 35 859 871 "sPL_token.ml" 35 859 874
+type(
+  string
+)
+"sPL_token.ml" 35 859 877 "sPL_token.ml" 35 859 879
+type(
+  sPL_token
+)
+"sPL_token.ml" 35 859 883 "sPL_token.ml" 35 859 886
+type(
+  string
+)
+"sPL_token.ml" 35 859 889 "sPL_token.ml" 35 859 891
+type(
+  sPL_token
+)
+"sPL_token.ml" 35 859 895 "sPL_token.ml" 35 859 898
+type(
+  string
+)
+"sPL_token.ml" 36 899 905 "sPL_token.ml" 36 899 908
+type(
+  sPL_token
+)
+"sPL_token.ml" 36 899 912 "sPL_token.ml" 36 899 915
+type(
+  string
+)
+"sPL_token.ml" 36 899 918 "sPL_token.ml" 36 899 920
+type(
+  sPL_token
+)
+"sPL_token.ml" 36 899 924 "sPL_token.ml" 36 899 927
+type(
+  string
+)
+"sPL_token.ml" 36 899 930 "sPL_token.ml" 36 899 933
+type(
+  sPL_token
+)
+"sPL_token.ml" 36 899 937 "sPL_token.ml" 36 899 941
+type(
+  string
+)
+"sPL_token.ml" 37 942 948 "sPL_token.ml" 37 942 955
+type(
+  sPL_token
+)
+"sPL_token.ml" 37 942 959 "sPL_token.ml" 37 942 964
+type(
+  string
+)
+"sPL_token.ml" 37 942 967 "sPL_token.ml" 37 942 973
+type(
+  sPL_token
+)
+"sPL_token.ml" 37 942 977 "sPL_token.ml" 37 942 981
+type(
+  string
+)
+"sPL_token.ml" 37 942 984 "sPL_token.ml" 37 942 991
+type(
+  sPL_token
+)
+"sPL_token.ml" 37 942 995 "sPL_token.ml" 37 942 1000
+type(
+  string
+)
+"sPL_token.ml" 38 1001 1007 "sPL_token.ml" 38 1001 1010
+type(
+  sPL_token
+)
+"sPL_token.ml" 38 1001 1014 "sPL_token.ml" 38 1001 1019
+type(
+  string
+)
+"sPL_token.ml" 38 1001 1022 "sPL_token.ml" 38 1001 1028
+type(
+  sPL_token
+)
+"sPL_token.ml" 38 1001 1032 "sPL_token.ml" 38 1001 1040
+type(
+  string
+)
+"sPL_token.ml" 38 1001 1043 "sPL_token.ml" 38 1001 1049
+type(
+  sPL_token
+)
+"sPL_token.ml" 38 1001 1053 "sPL_token.ml" 38 1001 1057
+type(
+  string
+)
+"sPL_token.ml" 39 1058 1064 "sPL_token.ml" 39 1058 1070
+type(
+  sPL_token
+)
+"sPL_token.ml" 39 1058 1074 "sPL_token.ml" 39 1058 1077
+type(
+  string
+)
+"sPL_token.ml" 39 1058 1080 "sPL_token.ml" 39 1058 1086
+type(
+  sPL_token
+)
+"sPL_token.ml" 39 1058 1090 "sPL_token.ml" 39 1058 1093
+type(
+  string
+)
+"sPL_token.ml" 40 1094 1100 "sPL_token.ml" 40 1094 1106
+type(
+  sPL_token
+)
+"sPL_token.ml" 40 1094 1110 "sPL_token.ml" 40 1094 1113
+type(
+  string
+)
+"sPL_token.ml" 40 1094 1116 "sPL_token.ml" 40 1094 1122
+type(
+  sPL_token
+)
+"sPL_token.ml" 40 1094 1126 "sPL_token.ml" 40 1094 1129
+type(
+  string
+)
+"sPL_token.ml" 41 1130 1136 "sPL_token.ml" 41 1130 1142
+type(
+  sPL_token
+)
+"sPL_token.ml" 41 1130 1146 "sPL_token.ml" 41 1130 1150
+type(
+  string
+)
+"sPL_token.ml" 41 1130 1153 "sPL_token.ml" 41 1130 1161
+type(
+  sPL_token
+)
+"sPL_token.ml" 41 1130 1165 "sPL_token.ml" 41 1130 1171
+type(
+  string
+)
+"sPL_token.ml" 41 1130 1174 "sPL_token.ml" 41 1130 1182
+type(
+  sPL_token
+)
+"sPL_token.ml" 41 1130 1186 "sPL_token.ml" 41 1130 1192
+type(
+  string
+)
+"sPL_token.ml" 42 1193 1199 "sPL_token.ml" 42 1193 1202
+type(
+  sPL_token
+)
+"sPL_token.ml" 42 1193 1206 "sPL_token.ml" 42 1193 1208
+type(
+  string
+)
+"sPL_token.ml" 30 597 617 "sPL_token.ml" 42 1193 1208
+type(
+  string
+)
+"sPL_token.ml" 30 597 613 "sPL_token.ml" 42 1193 1208
+type(
+  sPL_token -> string
+)
+"sPL_token.ml" 44 1210 1216 "sPL_token.ml" 44 1210 1221
+type(
+  Format.formatter -> sPL_token -> unit
+)
+ident(
+  def print "sPL_token.ml" 46 1265 1267 "sPL_token.ml" 77 1979 1982
+)
+"sPL_token.ml" 44 1210 1222 "sPL_token.ml" 44 1210 1225
+type(
+  Format.formatter
+)
+ident(
+  def ppf "sPL_token.ml" 44 1210 1226 "sPL_token.ml" 44 1210 1263
+)
+"sPL_token.ml" 44 1210 1226 "sPL_token.ml" 44 1210 1227
+type(
+  sPL_token
+)
+ident(
+  def x "sPL_token.ml" 44 1210 1230 "sPL_token.ml" 44 1210 1263
+)
+"sPL_token.ml" 44 1210 1230 "sPL_token.ml" 44 1210 1245
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"sPL_token.ml" 44 1210 1246 "sPL_token.ml" 44 1210 1249
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "sPL_token.ml" 44 1210 1222 "sPL_token.ml" 44 1210 1225
+)
+"sPL_token.ml" 44 1210 1251 "sPL_token.ml" 44 1210 1260
+type(
+  sPL_token -> string
+)
+ident(
+  int_ref to_string "sPL_token.ml" 30 597 603 "sPL_token.ml" 30 597 612
+)
+"sPL_token.ml" 44 1210 1261 "sPL_token.ml" 44 1210 1262
+type(
+  sPL_token
+)
+ident(
+  int_ref x "sPL_token.ml" 44 1210 1226 "sPL_token.ml" 44 1210 1227
+)
+"sPL_token.ml" 44 1210 1251 "sPL_token.ml" 44 1210 1262
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_token.ml" 44 1210 1230 "sPL_token.ml" 44 1210 1263
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_token.ml" 44 1210 1226 "sPL_token.ml" 44 1210 1263
+type(
+  sPL_token -> unit
+)
+"sPL_token.ml" 44 1210 1222 "sPL_token.ml" 44 1210 1263
+type(
+  Format.formatter -> sPL_token -> unit
+)
+"sPL_token.ml" 46 1265 1271 "sPL_token.ml" 46 1265 1284
+type(
+  'b -> 'c -> bool
+)
+ident(
+  def match_keyword "sPL_token.ml" 48 1300 1302 "sPL_token.ml" 77 1979 1982
+)
+"sPL_token.ml" 46 1265 1285 "sPL_token.ml" 46 1265 1288
+type(
+  'b
+)
+ident(
+  def kwd "sPL_token.ml" 46 1265 1289 "sPL_token.ml" 46 1265 1298
+)
+"sPL_token.ml" 46 1265 1289 "sPL_token.ml" 46 1265 1290
+type(
+  'c
+)
+"sPL_token.ml" 46 1265 1293 "sPL_token.ml" 46 1265 1298
+type(
+  bool
+)
+"sPL_token.ml" 46 1265 1289 "sPL_token.ml" 46 1265 1298
+type(
+  'c -> bool
+)
+"sPL_token.ml" 46 1265 1285 "sPL_token.ml" 46 1265 1298
+type(
+  'b -> 'c -> bool
+)
+"sPL_token.ml" 48 1300 1306 "sPL_token.ml" 48 1300 1320
+type(
+  sPL_token -> string
+)
+ident(
+  def extract_string "sPL_token.ml" 52 1422 1424 "sPL_token.ml" 77 1979 1982
+)
+"sPL_token.ml" 48 1300 1321 "sPL_token.ml" 48 1300 1322
+type(
+  sPL_token
+)
+ident(
+  def t "sPL_token.ml" 48 1300 1325 "sPL_token.ml" 50 1407 1420
+)
+"sPL_token.ml" 48 1300 1331 "sPL_token.ml" 48 1300 1332
+type(
+  sPL_token
+)
+ident(
+  int_ref t "sPL_token.ml" 48 1300 1321 "sPL_token.ml" 48 1300 1322
+)
+"sPL_token.ml" 49 1338 1355 "sPL_token.ml" 49 1338 1356
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 49 1338 1405 "sPL_token.ml" 49 1338 1406
+)
+"sPL_token.ml" 49 1338 1344 "sPL_token.ml" 49 1338 1356
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1367 "sPL_token.ml" 49 1338 1368
+type(
+  int
+)
+"sPL_token.ml" 49 1338 1369 "sPL_token.ml" 49 1338 1370
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 49 1338 1405 "sPL_token.ml" 49 1338 1406
+)
+"sPL_token.ml" 49 1338 1359 "sPL_token.ml" 49 1338 1371
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1344 "sPL_token.ml" 49 1338 1371
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1383 "sPL_token.ml" 49 1338 1384
+type(
+  char
+)
+"sPL_token.ml" 49 1338 1385 "sPL_token.ml" 49 1338 1386
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 49 1338 1405 "sPL_token.ml" 49 1338 1406
+)
+"sPL_token.ml" 49 1338 1374 "sPL_token.ml" 49 1338 1387
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1344 "sPL_token.ml" 49 1338 1387
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1397 "sPL_token.ml" 49 1338 1398
+type(
+  string
+)
+"sPL_token.ml" 49 1338 1399 "sPL_token.ml" 49 1338 1400
+type(
+  string
+)
+ident(
+  def s "sPL_token.ml" 49 1338 1405 "sPL_token.ml" 49 1338 1406
+)
+"sPL_token.ml" 49 1338 1390 "sPL_token.ml" 49 1338 1401
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1344 "sPL_token.ml" 49 1338 1401
+type(
+  sPL_token
+)
+"sPL_token.ml" 49 1338 1405 "sPL_token.ml" 49 1338 1406
+type(
+  string
+)
+ident(
+  int_ref s "sPL_token.ml" 49 1338 1355 "sPL_token.ml" 49 1338 1356
+)
+"sPL_token.ml" 50 1407 1413 "sPL_token.ml" 50 1407 1414
+type(
+  sPL_token
+)
+"sPL_token.ml" 50 1407 1418 "sPL_token.ml" 50 1407 1420
+type(
+  string
+)
+"sPL_token.ml" 48 1300 1325 "sPL_token.ml" 50 1407 1420
+type(
+  string
+)
+"sPL_token.ml" 48 1300 1321 "sPL_token.ml" 50 1407 1420
+type(
+  sPL_token -> string
+)
+"sPL_token.ml" 55 1492 1500 "sPL_token.ml" 55 1492 1505
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def print "sPL_token.ml" 56 1524 1528 "sPL_token.ml" 57 1548 1553
+)
+"sPL_token.ml" 55 1492 1508 "sPL_token.ml" 55 1492 1523
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"sPL_token.ml" 56 1524 1532 "sPL_token.ml" 56 1524 1541
+type(
+  'd -> 'd
+)
+ident(
+  def to_string "sPL_token.ml" 56 1524 1547 "sPL_token.ml" 57 1548 1553
+)
+"sPL_token.ml" 56 1524 1542 "sPL_token.ml" 56 1524 1543
+type(
+  'd
+)
+ident(
+  def x "sPL_token.ml" 56 1524 1546 "sPL_token.ml" 56 1524 1547
+)
+"sPL_token.ml" 56 1524 1546 "sPL_token.ml" 56 1524 1547
+type(
+  'd
+)
+ident(
+  int_ref x "sPL_token.ml" 56 1524 1542 "sPL_token.ml" 56 1524 1543
+)
+"sPL_token.ml" 56 1524 1542 "sPL_token.ml" 56 1524 1547
+type(
+  'd -> 'd
+)
+"sPL_token.ml" 65 1724 1732 "sPL_token.ml" 65 1724 1734
+type(
+  (string -> bool) -> t
+)
+ident(
+  def mk "sPL_token.ml" 68 1807 1811 "sPL_token.ml" 75 1972 1977
+)
+"sPL_token.ml" 65 1724 1735 "sPL_token.ml" 65 1724 1741
+type(
+  string -> bool
+)
+ident(
+  def is_kwd "sPL_token.ml" 65 1724 1744 "sPL_token.ml" 66 1762 1805
+)
+"sPL_token.ml" 65 1724 1754 "sPL_token.ml" 65 1724 1760
+type(
+  string -> bool
+)
+ident(
+  int_ref is_kwd "sPL_token.ml" 65 1724 1735 "sPL_token.ml" 65 1724 1741
+)
+"sPL_token.ml" 66 1762 1797 "sPL_token.ml" 66 1762 1798
+type(
+  (t * Loc.t) Stream.t
+)
+ident(
+  def s "sPL_token.ml" 66 1762 1802 "sPL_token.ml" 66 1762 1803
+)
+"sPL_token.ml" 66 1762 1802 "sPL_token.ml" 66 1762 1803
+type(
+  (t * Loc.t) Stream.t
+)
+ident(
+  int_ref s "sPL_token.ml" 66 1762 1797 "sPL_token.ml" 66 1762 1798
+)
+"sPL_token.ml" 66 1762 1797 "sPL_token.ml" 66 1762 1803
+type(
+  token_filter
+)
+"sPL_token.ml" 65 1724 1744 "sPL_token.ml" 66 1762 1805
+type(
+  t
+)
+"sPL_token.ml" 65 1724 1735 "sPL_token.ml" 66 1762 1805
+type(
+  (string -> bool) -> t
+)
+"sPL_token.ml" 68 1807 1815 "sPL_token.ml" 68 1807 1821
+type(
+  t -> (t * Loc.t) Stream.t -> (t * Loc.t) Stream.t
+)
+ident(
+  def filter "sPL_token.ml" 70 1853 1857 "sPL_token.ml" 75 1972 1977
+)
+"sPL_token.ml" 68 1807 1822 "sPL_token.ml" 68 1807 1823
+type(
+  t
+)
+ident(
+  def x "sPL_token.ml" 68 1807 1830 "sPL_token.ml" 68 1807 1851
+)
+"sPL_token.ml" 68 1807 1830 "sPL_token.ml" 68 1807 1834
+type(
+  (t * Loc.t) Stream.t
+)
+ident(
+  def strm "sPL_token.ml" 68 1807 1838 "sPL_token.ml" 68 1807 1851
+)
+"sPL_token.ml" 68 1807 1838 "sPL_token.ml" 68 1807 1839
+type(
+  t
+)
+ident(
+  int_ref x "sPL_token.ml" 68 1807 1822 "sPL_token.ml" 68 1807 1823
+)
+"sPL_token.ml" 68 1807 1838 "sPL_token.ml" 68 1807 1846
+type(
+  token_filter
+)
+"sPL_token.ml" 68 1807 1847 "sPL_token.ml" 68 1807 1851
+type(
+  (t * Loc.t) Stream.t
+)
+ident(
+  int_ref strm "sPL_token.ml" 68 1807 1830 "sPL_token.ml" 68 1807 1834
+)
+"sPL_token.ml" 68 1807 1838 "sPL_token.ml" 68 1807 1851
+call(
+  tail
+)
+type(
+  (t * Loc.t) Stream.t
+)
+"sPL_token.ml" 68 1807 1830 "sPL_token.ml" 68 1807 1851
+type(
+  (t * Loc.t) Stream.t -> (t * Loc.t) Stream.t
+)
+"sPL_token.ml" 68 1807 1822 "sPL_token.ml" 68 1807 1851
+type(
+  t -> (t * Loc.t) Stream.t -> (t * Loc.t) Stream.t
+)
+"sPL_token.ml" 70 1853 1861 "sPL_token.ml" 70 1853 1874
+type(
+  t -> (token_filter -> token_filter) -> unit
+)
+ident(
+  def define_filter "sPL_token.ml" 72 1905 1909 "sPL_token.ml" 75 1972 1977
+)
+"sPL_token.ml" 70 1853 1875 "sPL_token.ml" 70 1853 1876
+type(
+  t
+)
+ident(
+  def x "sPL_token.ml" 70 1853 1877 "sPL_token.ml" 70 1853 1903
+)
+"sPL_token.ml" 70 1853 1877 "sPL_token.ml" 70 1853 1878
+type(
+  token_filter -> token_filter
+)
+ident(
+  def f "sPL_token.ml" 70 1853 1881 "sPL_token.ml" 70 1853 1903
+)
+"sPL_token.ml" 70 1853 1881 "sPL_token.ml" 70 1853 1882
+type(
+  t
+)
+ident(
+  int_ref x "sPL_token.ml" 70 1853 1875 "sPL_token.ml" 70 1853 1876
+)
+"sPL_token.ml" 70 1853 1893 "sPL_token.ml" 70 1853 1894
+type(
+  token_filter -> token_filter
+)
+ident(
+  int_ref f "sPL_token.ml" 70 1853 1877 "sPL_token.ml" 70 1853 1878
+)
+"sPL_token.ml" 70 1853 1895 "sPL_token.ml" 70 1853 1896
+type(
+  t
+)
+ident(
+  int_ref x "sPL_token.ml" 70 1853 1875 "sPL_token.ml" 70 1853 1876
+)
+"sPL_token.ml" 70 1853 1895 "sPL_token.ml" 70 1853 1903
+type(
+  token_filter
+)
+"sPL_token.ml" 70 1853 1893 "sPL_token.ml" 70 1853 1903
+call(
+  stack
+)
+type(
+  token_filter
+)
+"sPL_token.ml" 70 1853 1881 "sPL_token.ml" 70 1853 1903
+type(
+  unit
+)
+"sPL_token.ml" 70 1853 1877 "sPL_token.ml" 70 1853 1903
+type(
+  (token_filter -> token_filter) -> unit
+)
+"sPL_token.ml" 70 1853 1875 "sPL_token.ml" 70 1853 1903
+type(
+  t -> (token_filter -> token_filter) -> unit
+)
+"sPL_token.ml" 72 1905 1913 "sPL_token.ml" 72 1905 1926
+type(
+  'e -> 'f -> 'g -> unit
+)
+ident(
+  def keyword_added "sPL_token.ml" 74 1939 1943 "sPL_token.ml" 75 1972 1977
+)
+"sPL_token.ml" 72 1905 1927 "sPL_token.ml" 72 1905 1928
+type(
+  'e
+)
+"sPL_token.ml" 72 1905 1929 "sPL_token.ml" 72 1905 1930
+type(
+  'f
+)
+"sPL_token.ml" 72 1905 1931 "sPL_token.ml" 72 1905 1932
+type(
+  'g
+)
+"sPL_token.ml" 72 1905 1935 "sPL_token.ml" 72 1905 1937
+type(
+  unit
+)
+"sPL_token.ml" 72 1905 1931 "sPL_token.ml" 72 1905 1937
+type(
+  'g -> unit
+)
+"sPL_token.ml" 72 1905 1929 "sPL_token.ml" 72 1905 1937
+type(
+  'f -> 'g -> unit
+)
+"sPL_token.ml" 72 1905 1927 "sPL_token.ml" 72 1905 1937
+type(
+  'e -> 'f -> 'g -> unit
+)
+"sPL_token.ml" 74 1939 1947 "sPL_token.ml" 74 1939 1962
+type(
+  'h -> 'i -> unit
+)
+ident(
+  def keyword_removed "sPL_token.ml" 74 1939 1971 "sPL_token.ml" 75 1972 1977
+)
+"sPL_token.ml" 74 1939 1963 "sPL_token.ml" 74 1939 1964
+type(
+  'h
+)
+"sPL_token.ml" 74 1939 1965 "sPL_token.ml" 74 1939 1966
+type(
+  'i
+)
+"sPL_token.ml" 74 1939 1969 "sPL_token.ml" 74 1939 1971
+type(
+  unit
+)
+"sPL_token.ml" 74 1939 1965 "sPL_token.ml" 74 1939 1971
+type(
+  'i -> unit
+)
+"sPL_token.ml" 74 1939 1963 "sPL_token.ml" 74 1939 1971
+type(
+  'h -> 'i -> unit
+)

@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int->int}    square = fun {int->int} x -> x * x endin {int}    (fun {int -> int} x -> 4 * (square x) end 3)end
+ AS ==> let {Int->Int} square = fun {Int->Int} x -> *[Var(x),Var(x)] end in {Int}Appln[fun {Int->Int} x -> *[Int(4),Appln[Var(square); Var(x)]] end; Int(3)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int)->Int} square -> Appln[fun {Int->Int} x -> *[Int(4),Appln[Var(square); Var(x)]] end; Int(3)] end; fun {Int->Int} x -> *[Var(x),Var(x)] end]

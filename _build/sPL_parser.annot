@@ -1,0 +1,7255 @@
+"sPL_parser.ml" 4 36 47 "sPL_parser.ml" 4 36 72
+call(
+  stack
+)
+"sPL_parser.ml" 36 1049 1100 "sPL_parser.ml" 36 1049 1125
+call(
+  stack
+)
+"sPL_parser.ml" 36 1049 1066 "sPL_parser.ml" 36 1049 1126
+call(
+  stack
+)
+"sPL_parser.ml" 38 1128 1132 "sPL_parser.ml" 38 1128 1135
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  def exp "sPL_parser.ml" 40 1162 1162 "sPL_parser.ml" 1 0 -1
+)
+"sPL_parser.ml" 38 1128 1138 "sPL_parser.ml" 38 1128 1154
+type(
+  string -> SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  ext_ref SPLGram.Entry.mk
+)
+"sPL_parser.ml" 38 1128 1155 "sPL_parser.ml" 38 1128 1160
+type(
+  string
+)
+"sPL_parser.ml" 38 1128 1138 "sPL_parser.ml" 38 1128 1160
+call(
+  stack
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+"sPL_parser.ml" 40 1162 1166 "sPL_parser.ml" 40 1162 1174
+type(
+  unit SPLGram.Entry.t
+)
+ident(
+  def peek_typ "sPL_parser.ml" 48 1451 1451 "sPL_parser.ml" 1 0 -1
+)
+"sPL_parser.ml" 41 1178 1179 "sPL_parser.ml" 41 1178 1202
+type(
+  string -> (SPLGram.token_stream -> unit) -> unit SPLGram.Entry.t
+)
+ident(
+  ext_ref SPLGram.Entry.of_parser
+)
+"sPL_parser.ml" 41 1178 1203 "sPL_parser.ml" 41 1178 1213
+type(
+  string
+)
+"sPL_parser.ml" 42 1215 1225 "sPL_parser.ml" 42 1215 1229
+type(
+  SPLGram.token_stream
+)
+ident(
+  def strm "sPL_parser.ml" 43 1233 1240 "sPL_parser.ml" 45 1356 1393
+)
+"sPL_parser.ml" 43 1233 1246 "sPL_parser.ml" 43 1233 1258
+type(
+  int -> SPLGram.token_stream -> (SPLGram.Token.t * SPLGram.token_info) list
+)
+ident(
+  ext_ref Stream.npeek
+)
+"sPL_parser.ml" 43 1233 1259 "sPL_parser.ml" 43 1233 1260
+type(
+  int
+)
+"sPL_parser.ml" 43 1233 1261 "sPL_parser.ml" 43 1233 1265
+type(
+  SPLGram.token_stream
+)
+ident(
+  int_ref strm "sPL_parser.ml" 42 1215 1225 "sPL_parser.ml" 42 1215 1229
+)
+"sPL_parser.ml" 43 1233 1246 "sPL_parser.ml" 43 1233 1265
+call(
+  stack
+)
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1284 "sPL_parser.ml" 44 1271 1290
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 44 1271 1291 "sPL_parser.ml" 44 1271 1292
+type(
+  SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1284 "sPL_parser.ml" 44 1271 1292
+type(
+  SPLGram.Token.t * SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1293 "sPL_parser.ml" 44 1271 1299
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 44 1271 1300 "sPL_parser.ml" 44 1271 1301
+type(
+  SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1293 "sPL_parser.ml" 44 1271 1301
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+type(
+  SPLGram.Token.t * SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1284 "sPL_parser.ml" 44 1271 1301
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1283 "sPL_parser.ml" 44 1271 1302
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1306 "sPL_parser.ml" 44 1271 1312
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 44 1271 1313 "sPL_parser.ml" 44 1271 1314
+type(
+  SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1306 "sPL_parser.ml" 44 1271 1314
+type(
+  SPLGram.Token.t * SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1315 "sPL_parser.ml" 44 1271 1323
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 44 1271 1324 "sPL_parser.ml" 44 1271 1325
+type(
+  SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1315 "sPL_parser.ml" 44 1271 1325
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+type(
+  SPLGram.Token.t * SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1306 "sPL_parser.ml" 44 1271 1325
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1305 "sPL_parser.ml" 44 1271 1326
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1283 "sPL_parser.ml" 44 1271 1326
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1330 "sPL_parser.ml" 44 1271 1336
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 44 1271 1337 "sPL_parser.ml" 44 1271 1338
+type(
+  SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1330 "sPL_parser.ml" 44 1271 1338
+type(
+  SPLGram.Token.t * SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1339 "sPL_parser.ml" 44 1271 1346
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 44 1271 1347 "sPL_parser.ml" 44 1271 1348
+type(
+  SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1339 "sPL_parser.ml" 44 1271 1348
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+type(
+  SPLGram.Token.t * SPLGram.token_info
+)
+"sPL_parser.ml" 44 1271 1330 "sPL_parser.ml" 44 1271 1348
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1329 "sPL_parser.ml" 44 1271 1349
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1283 "sPL_parser.ml" 44 1271 1349
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 44 1271 1353 "sPL_parser.ml" 44 1271 1355
+type(
+  unit
+)
+"sPL_parser.ml" 45 1356 1368 "sPL_parser.ml" 45 1356 1369
+type(
+  (SPLGram.Token.t * SPLGram.token_info) list
+)
+"sPL_parser.ml" 45 1356 1373 "sPL_parser.ml" 45 1356 1378
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"sPL_parser.ml" 45 1356 1379 "sPL_parser.ml" 45 1356 1393
+type(
+  exn
+)
+"sPL_parser.ml" 45 1356 1373 "sPL_parser.ml" 45 1356 1393
+type(
+  unit
+)
+"sPL_parser.ml" 43 1233 1240 "sPL_parser.ml" 45 1356 1393
+type(
+  unit
+)
+"sPL_parser.ml" 42 1215 1225 "sPL_parser.ml" 45 1356 1393
+type(
+  SPLGram.token_stream -> unit
+)
+"sPL_parser.ml" 41 1178 1179 "sPL_parser.ml" 45 1356 1394
+call(
+  stack
+)
+type(
+  unit SPLGram.Entry.t
+)
+"sPL_parser.ml" 48 1451 1459 "sPL_parser.ml" 48 1451 1472
+type(
+  SPL.sPL_expr -> SPL.sPL_expr list -> SPL.sPL_expr
+)
+ident(
+  def flatten_appln "sPL_parser.ml" 48 1451 1451 "sPL_parser.ml" 1 0 -1
+)
+"sPL_parser.ml" 48 1451 1473 "sPL_parser.ml" 48 1451 1474
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 48 1451 1475 "sPL_parser.ml" 51 1547 1575
+)
+"sPL_parser.ml" 48 1451 1475 "sPL_parser.ml" 48 1451 1478
+type(
+  SPL.sPL_expr list
+)
+ident(
+  def acc "sPL_parser.ml" 49 1481 1483 "sPL_parser.ml" 51 1547 1575
+)
+"sPL_parser.ml" 49 1481 1489 "sPL_parser.ml" 49 1481 1490
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 48 1451 1473 "sPL_parser.ml" 48 1451 1474
+)
+"sPL_parser.ml" 50 1496 1509 "sPL_parser.ml" 50 1496 1510
+type(
+  SPL.sPL_expr
+)
+ident(
+  def f "sPL_parser.ml" 50 1496 1521 "sPL_parser.ml" 50 1496 1546
+)
+"sPL_parser.ml" 50 1496 1511 "sPL_parser.ml" 50 1496 1512
+type(
+  SPL.sPL_type option
+)
+"sPL_parser.ml" 50 1496 1513 "sPL_parser.ml" 50 1496 1516
+type(
+  SPL.sPL_expr list
+)
+ident(
+  def arg "sPL_parser.ml" 50 1496 1521 "sPL_parser.ml" 50 1496 1546
+)
+"sPL_parser.ml" 50 1496 1502 "sPL_parser.ml" 50 1496 1517
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 50 1496 1521 "sPL_parser.ml" 50 1496 1534
+type(
+  SPL.sPL_expr -> SPL.sPL_expr list -> SPL.sPL_expr
+)
+ident(
+  int_ref flatten_appln "sPL_parser.ml" 48 1451 1459 "sPL_parser.ml" 48 1451 1472
+)
+"sPL_parser.ml" 50 1496 1535 "sPL_parser.ml" 50 1496 1536
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref f "sPL_parser.ml" 50 1496 1509 "sPL_parser.ml" 50 1496 1510
+)
+"sPL_parser.ml" 50 1496 1538 "sPL_parser.ml" 50 1496 1541
+type(
+  SPL.sPL_expr list
+)
+ident(
+  int_ref arg "sPL_parser.ml" 50 1496 1513 "sPL_parser.ml" 50 1496 1516
+)
+"sPL_parser.ml" 50 1496 1541 "sPL_parser.ml" 50 1496 1542
+type(
+  SPL.sPL_expr list -> SPL.sPL_expr list -> SPL.sPL_expr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"sPL_parser.ml" 50 1496 1542 "sPL_parser.ml" 50 1496 1545
+type(
+  SPL.sPL_expr list
+)
+ident(
+  int_ref acc "sPL_parser.ml" 48 1451 1475 "sPL_parser.ml" 48 1451 1478
+)
+"sPL_parser.ml" 50 1496 1538 "sPL_parser.ml" 50 1496 1545
+call(
+  stack
+)
+type(
+  SPL.sPL_expr list
+)
+"sPL_parser.ml" 50 1496 1521 "sPL_parser.ml" 50 1496 1546
+call(
+  tail
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 51 1547 1553 "sPL_parser.ml" 51 1547 1554
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 51 1547 1564 "sPL_parser.ml" 51 1547 1565
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 48 1451 1473 "sPL_parser.ml" 48 1451 1474
+)
+"sPL_parser.ml" 51 1547 1566 "sPL_parser.ml" 51 1547 1570
+type(
+  SPL.sPL_type option
+)
+"sPL_parser.ml" 51 1547 1571 "sPL_parser.ml" 51 1547 1574
+type(
+  SPL.sPL_expr list
+)
+ident(
+  int_ref acc "sPL_parser.ml" 48 1451 1475 "sPL_parser.ml" 48 1451 1478
+)
+"sPL_parser.ml" 51 1547 1558 "sPL_parser.ml" 51 1547 1575
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 49 1481 1483 "sPL_parser.ml" 51 1547 1575
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 48 1451 1475 "sPL_parser.ml" 51 1547 1575
+type(
+  SPL.sPL_expr list -> SPL.sPL_expr
+)
+"sPL_parser.ml" 48 1451 1473 "sPL_parser.ml" 51 1547 1575
+type(
+  SPL.sPL_expr -> SPL.sPL_expr list -> SPL.sPL_expr
+)
+"sPL_parser.ml" 54 1592 1602 "sPL_parser.ml" 54 1592 1605
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref exp "sPL_parser.ml" 38 1128 1132 "sPL_parser.ml" 38 1128 1135
+)
+"sPL_parser.ml" 55 1607 1609 "sPL_parser.ml" 55 1607 1612
+call(
+  stack
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 55 1607 1609 "sPL_parser.ml" 55 1607 1612
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 55 1607 1609 "sPL_parser.ml" 55 1607 1612
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 55 1607 1609 "sPL_parser.ml" 55 1607 1612
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref exp "sPL_parser.ml" 38 1128 1132 "sPL_parser.ml" 38 1128 1135
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 55 1607 1612
+type(
+  (SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+"sPL_parser.ml" 55 1607 1620 "sPL_parser.ml" 55 1607 1624
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref expr "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 55 1607 1616 "sPL_parser.ml" 55 1607 1624
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 55 1607 1609 "sPL_parser.ml" 55 1607 1612
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 55 1607 1624
+type(
+  SPL.sPL_expr SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 55 1607 1626 "sPL_parser.ml" 55 1607 1629
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 55 1607 1625 "sPL_parser.ml" 55 1607 1629
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 55 1607 1633 "sPL_parser.ml" 55 1607 1634
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 55 1607 1616 "sPL_parser.ml" 55 1607 1624
+)
+"sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_type -> SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPL.sPL_type -> SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  '_a -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  '_a
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPL.sPL_type -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_type -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPL.sPL_type -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  int_ref typ "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  string
+)
+type(
+  string -> SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  int_ref grammar_entry_create "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  def typ "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 57 1640 1645
+type(
+  (SPLGram.Token.t ->
+   SPL.sPL_type -> SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_type ->
+   SPLGram.Token.t -> SPL.sPL_type -> SPLGram.Loc.t -> SPL.sPL_type) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+"sPL_parser.ml" 57 1640 1650 "sPL_parser.ml" 57 1640 1658
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 57 1640 1649 "sPL_parser.ml" 57 1640 1658
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 57 1640 1662 "sPL_parser.ml" 57 1640 1670
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+"sPL_parser.ml" 58 1671 1682 "sPL_parser.ml" 58 1671 1689
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 58 1671 1681 "sPL_parser.ml" 58 1671 1689
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 58 1671 1693 "sPL_parser.ml" 58 1671 1700
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+"sPL_parser.ml" 59 1702 1712 "sPL_parser.ml" 59 1702 1718
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 60 1719 1730 "sPL_parser.ml" 60 1719 1737
+type(
+  SPL.sPL_type
+)
+ident(
+  def t1 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 60 1719 1737
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 60 1719 1739 "sPL_parser.ml" 60 1719 1745
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 60 1719 1738 "sPL_parser.ml" 60 1719 1745
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 60 1719 1746 "sPL_parser.ml" 60 1719 1753
+type(
+  SPL.sPL_type
+)
+ident(
+  def t2 "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 60 1719 1753
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 60 1719 1763 "sPL_parser.ml" 60 1719 1765
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t1 "sPL_parser.ml" 60 1719 1730 "sPL_parser.ml" 60 1719 1737
+)
+"sPL_parser.ml" 60 1719 1766 "sPL_parser.ml" 60 1719 1768
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t2 "sPL_parser.ml" 60 1719 1746 "sPL_parser.ml" 60 1719 1753
+)
+"sPL_parser.ml" 60 1719 1757 "sPL_parser.ml" 60 1719 1769
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+"sPL_parser.ml" 61 1771 1782 "sPL_parser.ml" 61 1771 1790
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  unit SPLGram.Entry.t
+)
+type(
+  unit SPLGram.Entry.t
+)
+ident(
+  int_ref peek_typ "sPL_parser.ml" 40 1162 1166 "sPL_parser.ml" 40 1162 1174
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 61 1771 1790
+type(
+  unit SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 61 1771 1792 "sPL_parser.ml" 61 1771 1798
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 61 1771 1791 "sPL_parser.ml" 61 1771 1798
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 61 1771 1799 "sPL_parser.ml" 61 1771 1805
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 61 1771 1805
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 61 1771 1808 "sPL_parser.ml" 61 1771 1814
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 61 1771 1807 "sPL_parser.ml" 61 1771 1814
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 61 1771 1818 "sPL_parser.ml" 61 1771 1819
+type(
+  SPL.sPL_type
+)
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_parser.ml" 61 1771 1799 "sPL_parser.ml" 61 1771 1805
+)
+"sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.id list -> SPLGram.Loc.t -> SPL.id list
+)
+type(
+  SPLGram.Loc.t -> SPL.id list
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+ident(
+  int_ref args "sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+ident(
+  int_ref args "sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+type(
+  string
+)
+type(
+  string -> SPL.id list SPLGram.Entry.t
+)
+ident(
+  int_ref grammar_entry_create "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+ident(
+  def args "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 64 1827 1833
+type(
+  (SPL.id list -> SPLGram.Loc.t -> SPL.id list) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+"sPL_parser.ml" 64 1827 1862 "sPL_parser.ml" 64 1827 1863
+type(
+  string
+)
+ident(
+  def s "sPL_parser.ml" 64 1827 1849 "sPL_parser.ml" 64 1827 1869
+)
+type(
+  string
+)
+"sPL_parser.ml" 64 1827 1851 "sPL_parser.ml" 64 1827 1863
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 64 1827 1850 "sPL_parser.ml" 64 1827 1863
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 64 1827 1867 "sPL_parser.ml" 64 1827 1868
+type(
+  SPL.id
+)
+type(
+  SPL.id
+)
+ident(
+  int_ref s "sPL_parser.ml" 64 1827 1862 "sPL_parser.ml" 64 1827 1863
+)
+"sPL_parser.ml" 64 1827 1849 "sPL_parser.ml" 64 1827 1869
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  SPLGram.symbol
+)
+type(
+  (SPLGram.symbol list * SPLGram.Action.t) list
+)
+type(
+  SPLGram.symbol list * SPLGram.Action.t
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.id
+)
+type(
+  SPLGram.Loc.t -> SPL.id
+)
+type(
+  SPL.id
+)
+type(
+  SPL.id
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 64 1827 1849 "sPL_parser.ml" 64 1827 1869
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 64 1827 1849 "sPL_parser.ml" 64 1827 1869
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 64 1827 1849 "sPL_parser.ml" 64 1827 1869
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  (SPLGram.symbol list * SPLGram.Action.t) list
+)
+"sPL_parser.ml" 64 1827 1843 "sPL_parser.ml" 64 1827 1869
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 64 1827 1838 "sPL_parser.ml" 64 1827 1869
+type(
+  SPL.id list
+)
+ident(
+  def al "sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 64 1827 1869
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.id) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  SPL.id list SPLGram.Entry.t ->
+  (SPLGram.symbol list * SPLGram.Action.t) list -> SPLGram.symbol
+)
+ident(
+  ext_ref SPLGram.srules
+)
+"sPL_parser.ml" 64 1827 1873 "sPL_parser.ml" 64 1827 1875
+type(
+  SPL.id list
+)
+type(
+  SPL.id list
+)
+ident(
+  int_ref al "sPL_parser.ml" 64 1827 1838 "sPL_parser.ml" 64 1827 1869
+)
+"sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_2 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_3 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_2 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_3 "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+ident(
+  int_ref decl "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+type(
+  string
+)
+type(
+  string -> (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+ident(
+  int_ref grammar_entry_create "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+ident(
+  def decl "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 67 1883 1889
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t ->
+   SPLGram.Token.t ->
+   SPLGram.Token.t ->
+   SPL.sPL_type ->
+   SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type * SPL.id * SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+"sPL_parser.ml" 67 1883 1894 "sPL_parser.ml" 67 1883 1900
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 67 1883 1893 "sPL_parser.ml" 67 1883 1900
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 67 1883 1903 "sPL_parser.ml" 67 1883 1906
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  int_ref typ "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 67 1883 1901 "sPL_parser.ml" 67 1883 1906
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 67 1883 1906
+type(
+  SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 67 1883 1908 "sPL_parser.ml" 67 1883 1914
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 67 1883 1907 "sPL_parser.ml" 67 1883 1914
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 67 1883 1928 "sPL_parser.ml" 67 1883 1929
+type(
+  string
+)
+ident(
+  def s "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  string
+)
+"sPL_parser.ml" 67 1883 1917 "sPL_parser.ml" 67 1883 1929
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 67 1883 1916 "sPL_parser.ml" 67 1883 1929
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 67 1883 1932 "sPL_parser.ml" 67 1883 1934
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 67 1883 1931 "sPL_parser.ml" 67 1883 1934
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 67 1883 1940 "sPL_parser.ml" 67 1883 1944
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref expr "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 67 1883 1936 "sPL_parser.ml" 67 1883 1944
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 67 1883 1944
+type(
+  SPL.sPL_expr SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 67 1883 1949 "sPL_parser.ml" 67 1883 1950
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_parser.ml" 67 1883 1901 "sPL_parser.ml" 67 1883 1906
+)
+"sPL_parser.ml" 67 1883 1951 "sPL_parser.ml" 67 1883 1952
+type(
+  SPL.id
+)
+ident(
+  int_ref s "sPL_parser.ml" 67 1883 1928 "sPL_parser.ml" 67 1883 1929
+)
+"sPL_parser.ml" 67 1883 1953 "sPL_parser.ml" 67 1883 1954
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 67 1883 1936 "sPL_parser.ml" 67 1883 1944
+)
+"sPL_parser.ml" 67 1883 1949 "sPL_parser.ml" 67 1883 1954
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+type(
+  SPL.sPL_type * SPL.id * SPL.sPL_expr
+)
+"sPL_parser.ml" 69 1961 1963 "sPL_parser.ml" 69 1961 1968
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Loc.t -> (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+type(
+  SPLGram.Loc.t -> (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 69 1961 1963 "sPL_parser.ml" 69 1961 1968
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+ident(
+  int_ref ldecl "sPL_parser.ml" 69 1961 1963 "sPL_parser.ml" 69 1961 1968
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+type(
+  string
+)
+type(
+  string -> (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+ident(
+  int_ref grammar_entry_create "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+ident(
+  def ldecl "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 69 1961 1968
+type(
+  ((SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+   SPLGram.Loc.t -> (SPL.sPL_type * SPL.id * SPL.sPL_expr) list) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+"sPL_parser.ml" 69 1961 1983 "sPL_parser.ml" 69 1961 1987
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t
+)
+ident(
+  int_ref decl "sPL_parser.ml" 67 1883 1885 "sPL_parser.ml" 67 1883 1889
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 69 1961 1977 "sPL_parser.ml" 69 1961 1987
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 69 1961 1972 "sPL_parser.ml" 69 1961 1987
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  def ld "sPL_parser.ml" 69 1961 1963 "sPL_parser.ml" 69 1961 1968
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 69 1961 1987
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t ->
+  SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 69 1961 1991 "sPL_parser.ml" 69 1961 1993
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  int_ref ld "sPL_parser.ml" 69 1961 1972 "sPL_parser.ml" 69 1961 1987
+)
+"sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPLGram.Token.t ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_4 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_4 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_type ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_4 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_4 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t ->
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.id list ->
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_type ->
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t ->
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t * SPLGram.Token.t *
+  SPLGram.Token.t * SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_4 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_5 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_4 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_5 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  '_b -> SPL.sPL_expr -> '_c -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> '_c -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  '_c -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  '_c
+)
+type(
+  '_b
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr ->
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.Token.t
+)
+ident(
+  def __camlp4_0 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr -> '_d -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  '_d -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  '_d
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr -> '_e -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  '_e -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  '_e
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  SPLGram.single_extend_statment
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  SPLGram.production_rule
+)
+type(
+  SPLGram.Action.t
+)
+type(
+  SPL.sPL_expr -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t -> SPL.sPL_expr
+)
+type(
+  SPLGram.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.symbol list
+)
+type(
+  SPLGram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  SPLGram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref expr "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+type(
+  string
+)
+type(
+  string -> SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref grammar_entry_create "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  def expr "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 71 1998 2004
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t ->
+   SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t ->
+   SPL.sPL_expr ->
+   SPLGram.Token.t ->
+   SPL.sPL_expr ->
+   SPLGram.Token.t ->
+   SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t ->
+   SPL.sPL_expr ->
+   SPLGram.Token.t ->
+   SPL.sPL_type ->
+   SPLGram.Token.t ->
+   SPLGram.Token.t ->
+   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list ->
+   SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t ->
+   SPL.sPL_expr ->
+   SPLGram.Token.t ->
+   SPL.id list ->
+   SPLGram.Token.t ->
+   SPL.sPL_type ->
+   SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPLGram.Token.t ->
+   SPL.sPL_expr ->
+   SPLGram.Token.t ->
+   SPL.id list ->
+   SPLGram.Token.t ->
+   SPL.sPL_type ->
+   SPLGram.Token.t ->
+   SPLGram.Token.t -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  ('_b -> SPL.sPL_expr -> '_c -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr -> '_d -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr -> '_e -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
+)
+"sPL_parser.ml" 72 2006 2013 "sPL_parser.ml" 72 2006 2018
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 73 2019 2030 "sPL_parser.ml" 73 2019 2039
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 73 2019 2039
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 73 2019 2041 "sPL_parser.ml" 73 2019 2050
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 73 2019 2050
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 73 2019 2054 "sPL_parser.ml" 73 2019 2067
+type(
+  SPL.sPL_expr -> SPL.sPL_expr list -> SPL.sPL_expr
+)
+ident(
+  int_ref flatten_appln "sPL_parser.ml" 48 1451 1459 "sPL_parser.ml" 48 1451 1472
+)
+"sPL_parser.ml" 73 2019 2068 "sPL_parser.ml" 73 2019 2070
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 73 2019 2030 "sPL_parser.ml" 73 2019 2039
+)
+"sPL_parser.ml" 73 2019 2072 "sPL_parser.ml" 73 2019 2074
+type(
+  SPL.sPL_expr list
+)
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 73 2019 2041 "sPL_parser.ml" 73 2019 2050
+)
+type(
+  SPL.sPL_expr list
+)
+"sPL_parser.ml" 73 2019 2054 "sPL_parser.ml" 73 2019 2075
+call(
+  tail
+)
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 74 2077 2085 "sPL_parser.ml" 74 2077 2090
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 75 2093 2104 "sPL_parser.ml" 75 2093 2113
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 75 2093 2113
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 75 2093 2114 "sPL_parser.ml" 75 2093 2117
+type(
+  string
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 75 2093 2119 "sPL_parser.ml" 75 2093 2128
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 75 2093 2128
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 75 2093 2147 "sPL_parser.ml" 75 2093 2150
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 75 2093 2151 "sPL_parser.ml" 75 2093 2153
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 75 2093 2104 "sPL_parser.ml" 75 2093 2113
+)
+"sPL_parser.ml" 75 2093 2154 "sPL_parser.ml" 75 2093 2156
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 75 2093 2119 "sPL_parser.ml" 75 2093 2128
+)
+"sPL_parser.ml" 75 2093 2132 "sPL_parser.ml" 75 2093 2157
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 76 2159 2168 "sPL_parser.ml" 76 2159 2173
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 77 2174 2178 "sPL_parser.ml" 77 2174 2187
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 77 2174 2187
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 77 2174 2190 "sPL_parser.ml" 77 2174 2193
+type(
+  string
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 77 2174 2194 "sPL_parser.ml" 77 2174 2203
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 77 2174 2203
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 77 2174 2222 "sPL_parser.ml" 77 2174 2225
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 77 2174 2226 "sPL_parser.ml" 77 2174 2228
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 77 2174 2178 "sPL_parser.ml" 77 2174 2187
+)
+"sPL_parser.ml" 77 2174 2229 "sPL_parser.ml" 77 2174 2231
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 77 2174 2194 "sPL_parser.ml" 77 2174 2203
+)
+"sPL_parser.ml" 77 2174 2207 "sPL_parser.ml" 77 2174 2232
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 78 2234 2256 "sPL_parser.ml" 78 2234 2261
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 79 2263 2274 "sPL_parser.ml" 79 2263 2283
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 79 2263 2283
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 79 2263 2286 "sPL_parser.ml" 79 2263 2288
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 79 2263 2285 "sPL_parser.ml" 79 2263 2288
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 79 2263 2289 "sPL_parser.ml" 79 2263 2298
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 79 2263 2298
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 79 2263 2317 "sPL_parser.ml" 79 2263 2320
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 79 2263 2321 "sPL_parser.ml" 79 2263 2323
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 79 2263 2274 "sPL_parser.ml" 79 2263 2283
+)
+"sPL_parser.ml" 79 2263 2324 "sPL_parser.ml" 79 2263 2326
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 79 2263 2289 "sPL_parser.ml" 79 2263 2298
+)
+"sPL_parser.ml" 79 2263 2302 "sPL_parser.ml" 79 2263 2327
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 80 2329 2350 "sPL_parser.ml" 80 2329 2355
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 81 2356 2368 "sPL_parser.ml" 81 2356 2377
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 81 2356 2377
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 81 2356 2380 "sPL_parser.ml" 81 2356 2382
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 81 2356 2379 "sPL_parser.ml" 81 2356 2382
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 81 2356 2383 "sPL_parser.ml" 81 2356 2392
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 81 2356 2392
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 81 2356 2411 "sPL_parser.ml" 81 2356 2414
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 81 2356 2415 "sPL_parser.ml" 81 2356 2417
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 81 2356 2368 "sPL_parser.ml" 81 2356 2377
+)
+"sPL_parser.ml" 81 2356 2418 "sPL_parser.ml" 81 2356 2420
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 81 2356 2383 "sPL_parser.ml" 81 2356 2392
+)
+"sPL_parser.ml" 81 2356 2396 "sPL_parser.ml" 81 2356 2421
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 82 2422 2439 "sPL_parser.ml" 82 2422 2448
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 82 2422 2448
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 82 2422 2452 "sPL_parser.ml" 82 2422 2454
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 82 2422 2451 "sPL_parser.ml" 82 2422 2454
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 82 2422 2455 "sPL_parser.ml" 82 2422 2464
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 82 2422 2464
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 82 2422 2483 "sPL_parser.ml" 82 2422 2486
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 82 2422 2487 "sPL_parser.ml" 82 2422 2489
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 82 2422 2439 "sPL_parser.ml" 82 2422 2448
+)
+"sPL_parser.ml" 82 2422 2490 "sPL_parser.ml" 82 2422 2492
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 82 2422 2455 "sPL_parser.ml" 82 2422 2464
+)
+"sPL_parser.ml" 82 2422 2468 "sPL_parser.ml" 82 2422 2493
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 83 2495 2516 "sPL_parser.ml" 83 2495 2521
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 84 2522 2536 "sPL_parser.ml" 84 2522 2545
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 84 2522 2545
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 84 2522 2547 "sPL_parser.ml" 84 2522 2552
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 84 2522 2546 "sPL_parser.ml" 84 2522 2552
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 84 2522 2556 "sPL_parser.ml" 84 2522 2565
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 84 2522 2565
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 84 2522 2584 "sPL_parser.ml" 84 2522 2587
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 84 2522 2588 "sPL_parser.ml" 84 2522 2590
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 84 2522 2536 "sPL_parser.ml" 84 2522 2545
+)
+"sPL_parser.ml" 84 2522 2591 "sPL_parser.ml" 84 2522 2593
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 84 2522 2556 "sPL_parser.ml" 84 2522 2565
+)
+"sPL_parser.ml" 84 2522 2569 "sPL_parser.ml" 84 2522 2594
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 85 2595 2609 "sPL_parser.ml" 85 2595 2618
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 85 2595 2618
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 85 2595 2621 "sPL_parser.ml" 85 2595 2625
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 85 2595 2620 "sPL_parser.ml" 85 2595 2625
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 85 2595 2627 "sPL_parser.ml" 85 2595 2636
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 85 2595 2636
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 85 2595 2655 "sPL_parser.ml" 85 2595 2658
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 85 2595 2659 "sPL_parser.ml" 85 2595 2661
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 85 2595 2609 "sPL_parser.ml" 85 2595 2618
+)
+"sPL_parser.ml" 85 2595 2662 "sPL_parser.ml" 85 2595 2664
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 85 2595 2627 "sPL_parser.ml" 85 2595 2636
+)
+"sPL_parser.ml" 85 2595 2640 "sPL_parser.ml" 85 2595 2665
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 86 2668 2688 "sPL_parser.ml" 86 2668 2693
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 87 2694 2708 "sPL_parser.ml" 87 2694 2717
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 87 2694 2717
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 87 2694 2720 "sPL_parser.ml" 87 2694 2724
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 87 2694 2719 "sPL_parser.ml" 87 2694 2724
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 87 2694 2726 "sPL_parser.ml" 87 2694 2735
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 87 2694 2735
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 87 2694 2754 "sPL_parser.ml" 87 2694 2757
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 87 2694 2758 "sPL_parser.ml" 87 2694 2760
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 87 2694 2708 "sPL_parser.ml" 87 2694 2717
+)
+"sPL_parser.ml" 87 2694 2761 "sPL_parser.ml" 87 2694 2763
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 87 2694 2726 "sPL_parser.ml" 87 2694 2735
+)
+"sPL_parser.ml" 87 2694 2739 "sPL_parser.ml" 87 2694 2764
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 88 2766 2780 "sPL_parser.ml" 88 2766 2789
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 88 2766 2789
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 88 2766 2792 "sPL_parser.ml" 88 2766 2795
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 88 2766 2791 "sPL_parser.ml" 88 2766 2795
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 88 2766 2798 "sPL_parser.ml" 88 2766 2807
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 88 2766 2807
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 88 2766 2826 "sPL_parser.ml" 88 2766 2829
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 88 2766 2830 "sPL_parser.ml" 88 2766 2832
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 88 2766 2780 "sPL_parser.ml" 88 2766 2789
+)
+"sPL_parser.ml" 88 2766 2833 "sPL_parser.ml" 88 2766 2835
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 88 2766 2798 "sPL_parser.ml" 88 2766 2807
+)
+"sPL_parser.ml" 88 2766 2811 "sPL_parser.ml" 88 2766 2836
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 89 2839 2860 "sPL_parser.ml" 89 2839 2865
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 90 2866 2878 "sPL_parser.ml" 90 2866 2881
+type(
+  string
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 90 2866 2883 "sPL_parser.ml" 90 2866 2889
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 90 2866 2889
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 90 2866 2891 "sPL_parser.ml" 90 2866 2894
+type(
+  string
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 90 2866 2898 "sPL_parser.ml" 90 2866 2899
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 90 2866 2883 "sPL_parser.ml" 90 2866 2889
+)
+"sPL_parser.ml" 91 2901 2920 "sPL_parser.ml" 91 2901 2924
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 92 2925 2939 "sPL_parser.ml" 92 2925 2945
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 92 2925 2938 "sPL_parser.ml" 92 2925 2945
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 92 2925 2947 "sPL_parser.ml" 92 2925 2953
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 92 2925 2953
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 92 2925 2970 "sPL_parser.ml" 92 2925 2973
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 92 2925 2974 "sPL_parser.ml" 92 2925 2975
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 92 2925 2947 "sPL_parser.ml" 92 2925 2953
+)
+"sPL_parser.ml" 92 2925 2957 "sPL_parser.ml" 92 2925 2976
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 93 2977 2992 "sPL_parser.ml" 93 2977 2995
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 93 2977 2991 "sPL_parser.ml" 93 2977 2995
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 93 2977 2997 "sPL_parser.ml" 93 2977 3003
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 93 2977 3003
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 93 2977 3020 "sPL_parser.ml" 93 2977 3024
+type(
+  SPL.op_id
+)
+"sPL_parser.ml" 93 2977 3025 "sPL_parser.ml" 93 2977 3026
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 93 2977 2997 "sPL_parser.ml" 93 2977 3003
+)
+"sPL_parser.ml" 93 2977 3007 "sPL_parser.ml" 93 2977 3027
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 114 4056 4068 "sPL_parser.ml" 114 4056 4075
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 114 4056 4067 "sPL_parser.ml" 114 4056 4075
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4082 "sPL_parser.ml" 114 4056 4087
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t
+)
+ident(
+  int_ref ldecl "sPL_parser.ml" 69 1961 1963 "sPL_parser.ml" 69 1961 1968
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4077 "sPL_parser.ml" 114 4056 4087
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  def ld "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 114 4056 4087
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t ->
+  SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 114 4056 4091 "sPL_parser.ml" 114 4056 4097
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 114 4056 4090 "sPL_parser.ml" 114 4056 4097
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4101 "sPL_parser.ml" 114 4056 4107
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 114 4056 4100 "sPL_parser.ml" 114 4056 4107
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4112 "sPL_parser.ml" 114 4056 4115
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  int_ref typ "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4108 "sPL_parser.ml" 114 4056 4115
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 114 4056 4115
+type(
+  SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 114 4056 4118 "sPL_parser.ml" 114 4056 4124
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 114 4056 4117 "sPL_parser.ml" 114 4056 4124
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4125 "sPL_parser.ml" 114 4056 4133
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 114 4056 4133
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4137 "sPL_parser.ml" 114 4056 4144
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 114 4056 4136 "sPL_parser.ml" 114 4056 4144
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 114 4056 4152 "sPL_parser.ml" 114 4056 4154
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
+)
+ident(
+  int_ref ld "sPL_parser.ml" 114 4056 4077 "sPL_parser.ml" 114 4056 4087
+)
+"sPL_parser.ml" 114 4056 4155 "sPL_parser.ml" 114 4056 4156
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_parser.ml" 114 4056 4108 "sPL_parser.ml" 114 4056 4115
+)
+"sPL_parser.ml" 114 4056 4157 "sPL_parser.ml" 114 4056 4158
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 114 4056 4125 "sPL_parser.ml" 114 4056 4133
+)
+"sPL_parser.ml" 114 4056 4148 "sPL_parser.ml" 114 4056 4159
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 115 4161 4173 "sPL_parser.ml" 115 4161 4176
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 115 4161 4172 "sPL_parser.ml" 115 4161 4176
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4179 "sPL_parser.ml" 115 4161 4185
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 115 4161 4178 "sPL_parser.ml" 115 4161 4185
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4189 "sPL_parser.ml" 115 4161 4192
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  int_ref typ "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4186 "sPL_parser.ml" 115 4161 4192
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 115 4161 4192
+type(
+  SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 115 4161 4195 "sPL_parser.ml" 115 4161 4201
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 115 4161 4194 "sPL_parser.ml" 115 4161 4201
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4208 "sPL_parser.ml" 115 4161 4212
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+ident(
+  int_ref args "sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4203 "sPL_parser.ml" 115 4161 4212
+type(
+  SPL.id list
+)
+ident(
+  def al "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 115 4161 4212
+type(
+  SPL.id list SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 115 4161 4214 "sPL_parser.ml" 115 4161 4220
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 115 4161 4213 "sPL_parser.ml" 115 4161 4220
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4222 "sPL_parser.ml" 115 4161 4230
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 115 4161 4230
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4233 "sPL_parser.ml" 115 4161 4240
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 115 4161 4232 "sPL_parser.ml" 115 4161 4240
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 115 4161 4249 "sPL_parser.ml" 115 4161 4250
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_parser.ml" 115 4161 4186 "sPL_parser.ml" 115 4161 4192
+)
+"sPL_parser.ml" 115 4161 4251 "sPL_parser.ml" 115 4161 4253
+type(
+  SPL.id list
+)
+ident(
+  int_ref al "sPL_parser.ml" 115 4161 4203 "sPL_parser.ml" 115 4161 4212
+)
+"sPL_parser.ml" 115 4161 4254 "sPL_parser.ml" 115 4161 4255
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 115 4161 4222 "sPL_parser.ml" 115 4161 4230
+)
+"sPL_parser.ml" 115 4161 4244 "sPL_parser.ml" 115 4161 4256
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 116 4257 4269 "sPL_parser.ml" 116 4257 4275
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 116 4257 4268 "sPL_parser.ml" 116 4257 4275
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4289 "sPL_parser.ml" 116 4257 4290
+type(
+  string
+)
+ident(
+  def s "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  string
+)
+"sPL_parser.ml" 116 4257 4278 "sPL_parser.ml" 116 4257 4290
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 116 4257 4277 "sPL_parser.ml" 116 4257 4290
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4293 "sPL_parser.ml" 116 4257 4299
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 116 4257 4292 "sPL_parser.ml" 116 4257 4299
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4304 "sPL_parser.ml" 116 4257 4307
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t
+)
+ident(
+  int_ref typ "sPL_parser.ml" 57 1640 1642 "sPL_parser.ml" 57 1640 1645
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4300 "sPL_parser.ml" 116 4257 4307
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 116 4257 4307
+type(
+  SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 116 4257 4309 "sPL_parser.ml" 116 4257 4315
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 116 4257 4308 "sPL_parser.ml" 116 4257 4315
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4322 "sPL_parser.ml" 116 4257 4326
+call(
+  stack
+)
+type(
+  SPLGram.internal_entry
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+type(
+  SPL.id list SPLGram.Entry.t
+)
+ident(
+  int_ref args "sPL_parser.ml" 64 1827 1829 "sPL_parser.ml" 64 1827 1833
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4317 "sPL_parser.ml" 116 4257 4326
+type(
+  SPL.id list
+)
+ident(
+  def al "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 116 4257 4326
+type(
+  SPL.id list SPLGram.Entry.t -> SPLGram.internal_entry
+)
+ident(
+  ext_ref SPLGram.Entry.obj
+)
+"sPL_parser.ml" 116 4257 4329 "sPL_parser.ml" 116 4257 4335
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 116 4257 4328 "sPL_parser.ml" 116 4257 4335
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4337 "sPL_parser.ml" 116 4257 4345
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 116 4257 4345
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 116 4257 4348 "sPL_parser.ml" 116 4257 4355
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 116 4257 4347 "sPL_parser.ml" 116 4257 4355
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 117 4357 4378 "sPL_parser.ml" 117 4357 4379
+type(
+  SPL.sPL_type
+)
+ident(
+  int_ref t "sPL_parser.ml" 116 4257 4300 "sPL_parser.ml" 116 4257 4307
+)
+"sPL_parser.ml" 117 4357 4380 "sPL_parser.ml" 117 4357 4381
+type(
+  SPL.id
+)
+ident(
+  int_ref s "sPL_parser.ml" 116 4257 4289 "sPL_parser.ml" 116 4257 4290
+)
+"sPL_parser.ml" 117 4357 4382 "sPL_parser.ml" 117 4357 4384
+type(
+  SPL.id list
+)
+ident(
+  int_ref al "sPL_parser.ml" 116 4257 4317 "sPL_parser.ml" 116 4257 4326
+)
+"sPL_parser.ml" 117 4357 4385 "sPL_parser.ml" 117 4357 4386
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 116 4257 4337 "sPL_parser.ml" 116 4257 4345
+)
+"sPL_parser.ml" 117 4357 4370 "sPL_parser.ml" 117 4357 4387
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 120 4473 4483 "sPL_parser.ml" 120 4473 4488
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 121 4490 4504 "sPL_parser.ml" 121 4490 4510
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 121 4490 4503 "sPL_parser.ml" 121 4490 4510
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4512 "sPL_parser.ml" 121 4490 4521
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e1 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 121 4490 4521
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4524 "sPL_parser.ml" 121 4490 4532
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 121 4490 4523 "sPL_parser.ml" 121 4490 4532
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4534 "sPL_parser.ml" 121 4490 4543
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e2 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 121 4490 4543
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4546 "sPL_parser.ml" 121 4490 4554
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 121 4490 4545 "sPL_parser.ml" 121 4490 4554
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4556 "sPL_parser.ml" 121 4490 4565
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e3 "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 121 4490 4565
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4567 "sPL_parser.ml" 121 4490 4574
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 121 4490 4566 "sPL_parser.ml" 121 4490 4574
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 121 4490 4583 "sPL_parser.ml" 121 4490 4585
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e1 "sPL_parser.ml" 121 4490 4512 "sPL_parser.ml" 121 4490 4521
+)
+"sPL_parser.ml" 121 4490 4586 "sPL_parser.ml" 121 4490 4588
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e2 "sPL_parser.ml" 121 4490 4534 "sPL_parser.ml" 121 4490 4543
+)
+"sPL_parser.ml" 121 4490 4589 "sPL_parser.ml" 121 4490 4591
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e3 "sPL_parser.ml" 121 4490 4556 "sPL_parser.ml" 121 4490 4565
+)
+"sPL_parser.ml" 121 4490 4578 "sPL_parser.ml" 121 4490 4592
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 122 4594 4614 "sPL_parser.ml" 122 4594 4619
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 123 4620 4634 "sPL_parser.ml" 123 4620 4640
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 123 4620 4633 "sPL_parser.ml" 123 4620 4640
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 123 4620 4642 "sPL_parser.ml" 123 4620 4648
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 123 4620 4648
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 123 4620 4651 "sPL_parser.ml" 123 4620 4657
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 123 4620 4650 "sPL_parser.ml" 123 4620 4657
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 123 4620 4661 "sPL_parser.ml" 123 4620 4662
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 123 4620 4642 "sPL_parser.ml" 123 4620 4648
+)
+"sPL_parser.ml" 124 4664 4674 "sPL_parser.ml" 124 4664 4678
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"sPL_parser.ml" 125 4680 4702 "sPL_parser.ml" 125 4680 4703
+type(
+  int
+)
+ident(
+  def i "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  int
+)
+"sPL_parser.ml" 125 4680 4705 "sPL_parser.ml" 125 4680 4706
+type(
+  string
+)
+type(
+  string
+)
+"sPL_parser.ml" 125 4680 4693 "sPL_parser.ml" 125 4680 4707
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 125 4680 4692 "sPL_parser.ml" 125 4680 4707
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 125 4680 4720 "sPL_parser.ml" 125 4680 4721
+type(
+  int
+)
+ident(
+  int_ref i "sPL_parser.ml" 125 4680 4702 "sPL_parser.ml" 125 4680 4703
+)
+"sPL_parser.ml" 125 4680 4711 "sPL_parser.ml" 125 4680 4722
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 126 4723 4736 "sPL_parser.ml" 126 4723 4740
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 126 4723 4735 "sPL_parser.ml" 126 4723 4740
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 126 4723 4754 "sPL_parser.ml" 126 4723 4758
+type(
+  bool
+)
+"sPL_parser.ml" 126 4723 4744 "sPL_parser.ml" 126 4723 4759
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 127 4760 4773 "sPL_parser.ml" 127 4760 4778
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 127 4760 4772 "sPL_parser.ml" 127 4760 4778
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 127 4760 4792 "sPL_parser.ml" 127 4760 4797
+type(
+  bool
+)
+"sPL_parser.ml" 127 4760 4782 "sPL_parser.ml" 127 4760 4798
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 128 4799 4823 "sPL_parser.ml" 128 4799 4824
+type(
+  string
+)
+ident(
+  def s "sPL_parser.ml" 71 1998 2000 "sPL_parser.ml" 71 1998 2004
+)
+type(
+  string
+)
+"sPL_parser.ml" 128 4799 4812 "sPL_parser.ml" 128 4799 4824
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.Token.t
+)
+"sPL_parser.ml" 128 4799 4811 "sPL_parser.ml" 128 4799 4824
+type(
+  SPLGram.token_pattern
+)
+type(
+  string
+)
+type(
+  SPLGram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  SPLGram.Token.t
+)
+type(
+  SPLGram.symbol
+)
+"sPL_parser.ml" 128 4799 4832 "sPL_parser.ml" 128 4799 4833
+type(
+  SPL.id
+)
+ident(
+  int_ref s "sPL_parser.ml" 128 4799 4823 "sPL_parser.ml" 128 4799 4824
+)
+"sPL_parser.ml" 128 4799 4828 "sPL_parser.ml" 128 4799 4834
+type(
+  SPL.sPL_expr
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  SPLGram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> SPLGram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * SPLGram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t -> SPLGram.extend_statment -> unit
+)
+ident(
+  ext_ref SPLGram.extend
+)
+type(
+  unit
+)
+type(
+  SPLGram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> SPLGram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * SPLGram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) list SPLGram.Entry.t ->
+  SPLGram.extend_statment -> unit
+)
+ident(
+  ext_ref SPLGram.extend
+)
+type(
+  unit
+)
+type(
+  SPLGram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> SPLGram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * SPLGram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  (SPL.sPL_type * SPL.id * SPL.sPL_expr) SPLGram.Entry.t ->
+  SPLGram.extend_statment -> unit
+)
+ident(
+  ext_ref SPLGram.extend
+)
+type(
+  unit
+)
+type(
+  SPLGram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> SPLGram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * SPLGram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  SPL.id list SPLGram.Entry.t -> SPLGram.extend_statment -> unit
+)
+ident(
+  ext_ref SPLGram.extend
+)
+type(
+  unit
+)
+type(
+  SPLGram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> SPLGram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * SPLGram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  SPL.sPL_type SPLGram.Entry.t -> SPLGram.extend_statment -> unit
+)
+ident(
+  ext_ref SPLGram.extend
+)
+type(
+  unit
+)
+type(
+  SPLGram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> SPLGram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * SPLGram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t -> SPLGram.extend_statment -> unit
+)
+ident(
+  ext_ref SPLGram.extend
+)
+type(
+  string -> 'f SPLGram.Entry.t
+)
+ident(
+  ext_ref SPLGram.Entry.mk
+)
+type(
+  string -> 'f SPLGram.Entry.t
+)
+ident(
+  def grammar_entry_create "sPL_parser.ml" 53 1577 1584 "sPL_parser.ml" 130 4848 4856
+)
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+"sPL_parser.ml" 133 4866 4870 "sPL_parser.ml" 133 4866 4874
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  def _loc "sPL_parser.ml" 136 4931 4931 "sPL_parser.ml" 1 0 -1
+)
+"sPL_parser.ml" 133 4866 4877 "sPL_parser.ml" 133 4866 4891
+type(
+  string -> Camlp4.PreCast.Loc.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.mk
+)
+"sPL_parser.ml" 133 4866 4892 "sPL_parser.ml" 133 4866 4902
+type(
+  string
+)
+"sPL_parser.ml" 133 4866 4877 "sPL_parser.ml" 133 4866 4902
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Loc.t
+)
+"sPL_parser.ml" 136 4931 4935 "sPL_parser.ml" 136 4931 4940
+type(
+  'a -> string -> SPL.sPL_expr
+)
+ident(
+  def parse "sPL_parser.ml" 152 5343 5343 "sPL_parser.ml" 1 0 -1
+)
+"sPL_parser.ml" 136 4931 4941 "sPL_parser.ml" 136 4931 4946
+type(
+  'a
+)
+ident(
+  def fname "sPL_parser.ml" 136 4931 4947 "sPL_parser.ml" 143 5152 5167
+)
+"sPL_parser.ml" 136 4931 4947 "sPL_parser.ml" 136 4931 4950
+type(
+  string
+)
+ident(
+  def str "sPL_parser.ml" 137 4953 4953 "sPL_parser.ml" 143 5152 5167
+)
+"sPL_parser.ml" 138 4958 4964 "sPL_parser.ml" 138 4958 4965
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 138 4958 5005 "sPL_parser.ml" 138 4958 5006
+)
+"sPL_parser.ml" 138 4958 4968 "sPL_parser.ml" 138 4958 4988
+type(
+  SPL.sPL_expr SPLGram.Entry.t -> SPLGram.Loc.t -> string -> SPL.sPL_expr
+)
+ident(
+  ext_ref SPLGram.parse_string
+)
+"sPL_parser.ml" 138 4958 4989 "sPL_parser.ml" 138 4958 4992
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref exp "sPL_parser.ml" 38 1128 1132 "sPL_parser.ml" 38 1128 1135
+)
+"sPL_parser.ml" 138 4958 4993 "sPL_parser.ml" 138 4958 4997
+type(
+  SPLGram.Loc.t
+)
+ident(
+  int_ref _loc "sPL_parser.ml" 133 4866 4870 "sPL_parser.ml" 133 4866 4874
+)
+"sPL_parser.ml" 138 4958 4998 "sPL_parser.ml" 138 4958 5001
+type(
+  string
+)
+ident(
+  int_ref str "sPL_parser.ml" 136 4931 4947 "sPL_parser.ml" 136 4931 4950
+)
+"sPL_parser.ml" 138 4958 4968 "sPL_parser.ml" 138 4958 5001
+call(
+  stack
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 138 4958 5005 "sPL_parser.ml" 138 4958 5006
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 138 4958 4964 "sPL_parser.ml" 138 4958 4965
+)
+"sPL_parser.ml" 138 4958 4960 "sPL_parser.ml" 138 4958 5006
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 140 5013 5019 "sPL_parser.ml" 140 5013 5030
+type(
+  exn
+)
+"sPL_parser.ml" 140 5013 5034 "sPL_parser.ml" 140 5013 5038
+type(
+  int -> SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"sPL_parser.ml" 140 5013 5039 "sPL_parser.ml" 140 5013 5040
+type(
+  int
+)
+"sPL_parser.ml" 140 5013 5034 "sPL_parser.ml" 140 5013 5040
+call(
+  tail
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 141 5041 5066 "sPL_parser.ml" 141 5041 5067
+type(
+  M.Loc.t
+)
+ident(
+  def l "sPL_parser.ml" 142 5073 5080 "sPL_parser.ml" 143 5152 5166
+)
+"sPL_parser.ml" 141 5041 5068 "sPL_parser.ml" 141 5041 5069
+type(
+  exn
+)
+ident(
+  def t "sPL_parser.ml" 142 5073 5080 "sPL_parser.ml" 143 5152 5166
+)
+"sPL_parser.ml" 141 5041 5047 "sPL_parser.ml" 141 5041 5070
+type(
+  exn
+)
+"sPL_parser.ml" 142 5073 5080 "sPL_parser.ml" 142 5073 5092
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"sPL_parser.ml" 142 5073 5094 "sPL_parser.ml" 142 5073 5111
+type(
+  string
+)
+"sPL_parser.ml" 142 5073 5111 "sPL_parser.ml" 142 5073 5112
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_parser.ml" 142 5073 5113 "sPL_parser.ml" 142 5073 5141
+type(
+  M.Loc.t -> string
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.to_string
+)
+"sPL_parser.ml" 142 5073 5142 "sPL_parser.ml" 142 5073 5143
+type(
+  M.Loc.t
+)
+ident(
+  int_ref l "sPL_parser.ml" 141 5041 5066 "sPL_parser.ml" 141 5041 5067
+)
+"sPL_parser.ml" 142 5073 5113 "sPL_parser.ml" 142 5073 5143
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 142 5073 5144 "sPL_parser.ml" 142 5073 5145
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_parser.ml" 142 5073 5145 "sPL_parser.ml" 142 5073 5149
+type(
+  string
+)
+"sPL_parser.ml" 142 5073 5112 "sPL_parser.ml" 142 5073 5149
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 142 5073 5094 "sPL_parser.ml" 142 5073 5149
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 142 5073 5080 "sPL_parser.ml" 142 5073 5150
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_parser.ml" 143 5152 5159 "sPL_parser.ml" 143 5152 5164
+type(
+  exn -> SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"sPL_parser.ml" 143 5152 5165 "sPL_parser.ml" 143 5152 5166
+type(
+  exn
+)
+ident(
+  int_ref t "sPL_parser.ml" 141 5041 5068 "sPL_parser.ml" 141 5041 5069
+)
+"sPL_parser.ml" 143 5152 5159 "sPL_parser.ml" 143 5152 5166
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 142 5073 5080 "sPL_parser.ml" 143 5152 5166
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 137 4953 4953 "sPL_parser.ml" 143 5152 5167
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 136 4931 4947 "sPL_parser.ml" 143 5152 5167
+type(
+  string -> SPL.sPL_expr
+)
+"sPL_parser.ml" 136 4931 4941 "sPL_parser.ml" 143 5152 5167
+type(
+  'a -> string -> SPL.sPL_expr
+)
+"sPL_parser.ml" 152 5343 5347 "sPL_parser.ml" 152 5343 5357
+type(
+  string -> string * SPL.sPL_expr
+)
+ident(
+  def parse_file "sPL_parser.ml" 170 5944 5959 "sPL_parser.ml" 1 0 -1
+)
+"sPL_parser.ml" 152 5343 5359 "sPL_parser.ml" 152 5343 5367
+type(
+  string
+)
+ident(
+  def filename "sPL_parser.ml" 152 5343 5376 "sPL_parser.ml" 170 5944 5959
+)
+"sPL_parser.ml" 153 5400 5406 "sPL_parser.ml" 153 5400 5414
+type(
+  string list
+)
+ident(
+  def contents "sPL_parser.ml" 162 5630 5632 "sPL_parser.ml" 170 5944 5959
+)
+"sPL_parser.ml" 154 5417 5425 "sPL_parser.ml" 154 5417 5430
+type(
+  string list ref
+)
+ident(
+  def lines "sPL_parser.ml" 155 5443 5447 "sPL_parser.ml" 161 5589 5626
+)
+"sPL_parser.ml" 154 5417 5433 "sPL_parser.ml" 154 5417 5436
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"sPL_parser.ml" 154 5417 5437 "sPL_parser.ml" 154 5417 5439
+type(
+  string list
+)
+"sPL_parser.ml" 154 5417 5433 "sPL_parser.ml" 154 5417 5439
+type(
+  string list ref
+)
+"sPL_parser.ml" 155 5443 5451 "sPL_parser.ml" 155 5443 5455
+type(
+  in_channel
+)
+ident(
+  def chan "sPL_parser.ml" 156 5478 5482 "sPL_parser.ml" 161 5589 5626
+)
+"sPL_parser.ml" 155 5443 5458 "sPL_parser.ml" 155 5443 5465
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"sPL_parser.ml" 155 5443 5466 "sPL_parser.ml" 155 5443 5474
+type(
+  string
+)
+ident(
+  int_ref filename "sPL_parser.ml" 152 5343 5359 "sPL_parser.ml" 152 5343 5367
+)
+"sPL_parser.ml" 155 5443 5458 "sPL_parser.ml" 155 5443 5474
+call(
+  stack
+)
+type(
+  in_channel
+)
+"sPL_parser.ml" 157 5486 5498 "sPL_parser.ml" 157 5486 5502
+type(
+  bool
+)
+"sPL_parser.ml" 158 5507 5515 "sPL_parser.ml" 158 5507 5520
+type(
+  string list ref
+)
+ident(
+  int_ref lines "sPL_parser.ml" 154 5417 5425 "sPL_parser.ml" 154 5417 5430
+)
+"sPL_parser.ml" 158 5507 5524 "sPL_parser.ml" 158 5507 5534
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"sPL_parser.ml" 158 5507 5535 "sPL_parser.ml" 158 5507 5539
+type(
+  in_channel
+)
+ident(
+  int_ref chan "sPL_parser.ml" 155 5443 5451 "sPL_parser.ml" 155 5443 5455
+)
+"sPL_parser.ml" 158 5507 5524 "sPL_parser.ml" 158 5507 5539
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 158 5507 5544 "sPL_parser.ml" 158 5507 5549
+type(
+  string list ref
+)
+ident(
+  int_ref lines "sPL_parser.ml" 154 5417 5425 "sPL_parser.ml" 154 5417 5430
+)
+"sPL_parser.ml" 158 5507 5543 "sPL_parser.ml" 158 5507 5549
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"sPL_parser.ml" 158 5507 5524 "sPL_parser.ml" 158 5507 5549
+type(
+  string list
+)
+"sPL_parser.ml" 158 5507 5515 "sPL_parser.ml" 158 5507 5549
+type(
+  unit
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"sPL_parser.ml" 157 5486 5492 "sPL_parser.ml" 159 5550 5560
+type(
+  unit
+)
+"sPL_parser.ml" 159 5550 5562 "sPL_parser.ml" 159 5550 5564
+type(
+  string list
+)
+"sPL_parser.ml" 160 5565 5574 "sPL_parser.ml" 160 5565 5585
+type(
+  exn
+)
+"sPL_parser.ml" 161 5589 5597 "sPL_parser.ml" 161 5589 5605
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"sPL_parser.ml" 161 5589 5606 "sPL_parser.ml" 161 5589 5610
+type(
+  in_channel
+)
+ident(
+  int_ref chan "sPL_parser.ml" 155 5443 5451 "sPL_parser.ml" 155 5443 5455
+)
+"sPL_parser.ml" 161 5589 5597 "sPL_parser.ml" 161 5589 5610
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_parser.ml" 161 5589 5611 "sPL_parser.ml" 161 5589 5619
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"sPL_parser.ml" 161 5589 5621 "sPL_parser.ml" 161 5589 5626
+type(
+  string list ref
+)
+ident(
+  int_ref lines "sPL_parser.ml" 154 5417 5425 "sPL_parser.ml" 154 5417 5430
+)
+"sPL_parser.ml" 161 5589 5620 "sPL_parser.ml" 161 5589 5626
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"sPL_parser.ml" 161 5589 5611 "sPL_parser.ml" 161 5589 5626
+call(
+  stack
+)
+type(
+  string list
+)
+"sPL_parser.ml" 161 5589 5597 "sPL_parser.ml" 161 5589 5626
+type(
+  string list
+)
+"sPL_parser.ml" 157 5486 5492 "sPL_parser.ml" 161 5589 5626
+type(
+  string list
+)
+"sPL_parser.ml" 156 5478 5482 "sPL_parser.ml" 161 5589 5626
+type(
+  string list
+)
+"sPL_parser.ml" 155 5443 5447 "sPL_parser.ml" 161 5589 5626
+type(
+  string list
+)
+"sPL_parser.ml" 154 5417 5421 "sPL_parser.ml" 161 5589 5626
+type(
+  string list
+)
+"sPL_parser.ml" 162 5630 5636 "sPL_parser.ml" 162 5630 5639
+type(
+  string
+)
+ident(
+  def str "sPL_parser.ml" 163 5671 5673 "sPL_parser.ml" 170 5944 5959
+)
+"sPL_parser.ml" 162 5630 5642 "sPL_parser.ml" 162 5630 5655
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"sPL_parser.ml" 162 5630 5656 "sPL_parser.ml" 162 5630 5658
+type(
+  string
+)
+"sPL_parser.ml" 162 5630 5659 "sPL_parser.ml" 162 5630 5667
+type(
+  string list
+)
+ident(
+  int_ref contents "sPL_parser.ml" 153 5400 5406 "sPL_parser.ml" 153 5400 5414
+)
+"sPL_parser.ml" 162 5630 5642 "sPL_parser.ml" 162 5630 5667
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 163 5671 5677 "sPL_parser.ml" 163 5671 5681
+type(
+  in_channel
+)
+ident(
+  def chan "sPL_parser.ml" 164 5704 5706 "sPL_parser.ml" 170 5944 5959
+)
+"sPL_parser.ml" 163 5671 5684 "sPL_parser.ml" 163 5671 5691
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"sPL_parser.ml" 163 5671 5692 "sPL_parser.ml" 163 5671 5700
+type(
+  string
+)
+ident(
+  int_ref filename "sPL_parser.ml" 152 5343 5359 "sPL_parser.ml" 152 5343 5367
+)
+"sPL_parser.ml" 163 5671 5684 "sPL_parser.ml" 163 5671 5700
+call(
+  stack
+)
+type(
+  in_channel
+)
+"sPL_parser.ml" 164 5704 5710 "sPL_parser.ml" 164 5704 5717
+type(
+  char Stream.t
+)
+ident(
+  def istream "sPL_parser.ml" 165 5746 5748 "sPL_parser.ml" 170 5944 5959
+)
+"sPL_parser.ml" 164 5704 5720 "sPL_parser.ml" 164 5704 5737
+type(
+  in_channel -> char Stream.t
+)
+ident(
+  ext_ref Stream.of_channel
+)
+"sPL_parser.ml" 164 5704 5738 "sPL_parser.ml" 164 5704 5742
+type(
+  in_channel
+)
+ident(
+  int_ref chan "sPL_parser.ml" 163 5671 5677 "sPL_parser.ml" 163 5671 5681
+)
+"sPL_parser.ml" 164 5704 5720 "sPL_parser.ml" 164 5704 5742
+call(
+  stack
+)
+type(
+  char Stream.t
+)
+"sPL_parser.ml" 166 5753 5761 "sPL_parser.ml" 166 5753 5762
+type(
+  SPL.sPL_expr
+)
+ident(
+  def e "sPL_parser.ml" 167 5820 5825 "sPL_parser.ml" 167 5820 5830
+)
+"sPL_parser.ml" 166 5753 5765 "sPL_parser.ml" 166 5753 5778
+type(
+  SPL.sPL_expr SPLGram.Entry.t ->
+  SPLGram.Loc.t -> char Stream.t -> SPL.sPL_expr
+)
+ident(
+  ext_ref SPLGram.parse
+)
+"sPL_parser.ml" 166 5753 5779 "sPL_parser.ml" 166 5753 5782
+type(
+  SPL.sPL_expr SPLGram.Entry.t
+)
+ident(
+  int_ref exp "sPL_parser.ml" 38 1128 1132 "sPL_parser.ml" 38 1128 1135
+)
+"sPL_parser.ml" 166 5753 5784 "sPL_parser.ml" 166 5753 5798
+type(
+  string -> SPLGram.Loc.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.mk
+)
+"sPL_parser.ml" 166 5753 5799 "sPL_parser.ml" 166 5753 5807
+type(
+  string
+)
+ident(
+  int_ref filename "sPL_parser.ml" 152 5343 5359 "sPL_parser.ml" 152 5343 5367
+)
+"sPL_parser.ml" 166 5753 5784 "sPL_parser.ml" 166 5753 5807
+call(
+  stack
+)
+type(
+  SPLGram.Loc.t
+)
+"sPL_parser.ml" 166 5753 5809 "sPL_parser.ml" 166 5753 5816
+type(
+  char Stream.t
+)
+ident(
+  int_ref istream "sPL_parser.ml" 164 5704 5710 "sPL_parser.ml" 164 5704 5717
+)
+"sPL_parser.ml" 166 5753 5765 "sPL_parser.ml" 166 5753 5816
+call(
+  stack
+)
+type(
+  SPL.sPL_expr
+)
+"sPL_parser.ml" 167 5820 5825 "sPL_parser.ml" 167 5820 5828
+type(
+  string
+)
+ident(
+  int_ref str "sPL_parser.ml" 162 5630 5636 "sPL_parser.ml" 162 5630 5639
+)
+"sPL_parser.ml" 167 5820 5829 "sPL_parser.ml" 167 5820 5830
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref e "sPL_parser.ml" 166 5753 5761 "sPL_parser.ml" 166 5753 5762
+)
+"sPL_parser.ml" 167 5820 5825 "sPL_parser.ml" 167 5820 5830
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 166 5753 5757 "sPL_parser.ml" 167 5820 5831
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 168 5832 5858 "sPL_parser.ml" 168 5832 5859
+type(
+  M.Loc.t
+)
+ident(
+  def l "sPL_parser.ml" 169 5865 5872 "sPL_parser.ml" 170 5944 5958
+)
+"sPL_parser.ml" 168 5832 5860 "sPL_parser.ml" 168 5832 5861
+type(
+  exn
+)
+ident(
+  def t "sPL_parser.ml" 169 5865 5872 "sPL_parser.ml" 170 5944 5958
+)
+"sPL_parser.ml" 168 5832 5839 "sPL_parser.ml" 168 5832 5862
+type(
+  exn
+)
+"sPL_parser.ml" 169 5865 5872 "sPL_parser.ml" 169 5865 5884
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"sPL_parser.ml" 169 5865 5886 "sPL_parser.ml" 169 5865 5903
+type(
+  string
+)
+"sPL_parser.ml" 169 5865 5903 "sPL_parser.ml" 169 5865 5904
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_parser.ml" 169 5865 5905 "sPL_parser.ml" 169 5865 5933
+type(
+  M.Loc.t -> string
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.to_string
+)
+"sPL_parser.ml" 169 5865 5934 "sPL_parser.ml" 169 5865 5935
+type(
+  M.Loc.t
+)
+ident(
+  int_ref l "sPL_parser.ml" 168 5832 5858 "sPL_parser.ml" 168 5832 5859
+)
+"sPL_parser.ml" 169 5865 5905 "sPL_parser.ml" 169 5865 5935
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 169 5865 5936 "sPL_parser.ml" 169 5865 5937
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_parser.ml" 169 5865 5937 "sPL_parser.ml" 169 5865 5941
+type(
+  string
+)
+"sPL_parser.ml" 169 5865 5904 "sPL_parser.ml" 169 5865 5941
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 169 5865 5886 "sPL_parser.ml" 169 5865 5941
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_parser.ml" 169 5865 5872 "sPL_parser.ml" 169 5865 5942
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_parser.ml" 170 5944 5951 "sPL_parser.ml" 170 5944 5956
+type(
+  exn -> string * SPL.sPL_expr
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"sPL_parser.ml" 170 5944 5957 "sPL_parser.ml" 170 5944 5958
+type(
+  exn
+)
+ident(
+  int_ref t "sPL_parser.ml" 168 5832 5860 "sPL_parser.ml" 168 5832 5861
+)
+"sPL_parser.ml" 170 5944 5951 "sPL_parser.ml" 170 5944 5958
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 169 5865 5872 "sPL_parser.ml" 170 5944 5958
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 165 5746 5748 "sPL_parser.ml" 170 5944 5959
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 164 5704 5706 "sPL_parser.ml" 170 5944 5959
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 163 5671 5673 "sPL_parser.ml" 170 5944 5959
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 162 5630 5632 "sPL_parser.ml" 170 5944 5959
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 153 5400 5402 "sPL_parser.ml" 170 5944 5959
+type(
+  string * SPL.sPL_expr
+)
+type(
+  string * SPL.sPL_expr
+)
+"sPL_parser.ml" 152 5343 5358 "sPL_parser.ml" 170 5944 5959
+type(
+  string -> string * SPL.sPL_expr
+)

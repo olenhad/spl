@@ -1,0 +1,712 @@
+"sPL_type_m.ml" 15 270 274 "sPL_type_m.ml" 15 270 279
+type(
+  string
+)
+ident(
+  def usage "sPL_type_m.ml" 18 359 359 "sPL_type_m.ml" 1 0 -1
+)
+"sPL_type_m.ml" 15 270 282 "sPL_type_m.ml" 15 270 291
+type(
+  string
+)
+"sPL_type_m.ml" 15 270 292 "sPL_type_m.ml" 15 270 293
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type_m.ml" 15 270 294 "sPL_type_m.ml" 15 270 302
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"sPL_type_m.ml" 15 270 304 "sPL_type_m.ml" 15 270 305
+type(
+  int
+)
+"sPL_type_m.ml" 15 270 294 "sPL_type_m.ml" 15 270 306
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Array.get
+)
+"sPL_type_m.ml" 15 270 307 "sPL_type_m.ml" 15 270 308
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type_m.ml" 15 270 309 "sPL_type_m.ml" 15 270 332
+type(
+  string
+)
+"sPL_type_m.ml" 15 270 294 "sPL_type_m.ml" 15 270 332
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 15 270 282 "sPL_type_m.ml" 15 270 332
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 18 359 363 "sPL_type_m.ml" 18 359 373
+type(
+  string -> string * S.sPL_expr
+)
+ident(
+  def parse_file "sPL_type_m.ml" 25 535 535 "sPL_type_m.ml" 1 0 -1
+)
+"sPL_type_m.ml" 18 359 375 "sPL_type_m.ml" 18 359 383
+type(
+  string
+)
+ident(
+  def filename "sPL_type_m.ml" 18 359 392 "sPL_type_m.ml" 19 418 450
+)
+"sPL_type_m.ml" 19 418 420 "sPL_type_m.ml" 19 418 441
+type(
+  string -> string * S.sPL_expr
+)
+ident(
+  ext_ref SPL_parser.parse_file
+)
+"sPL_type_m.ml" 19 418 442 "sPL_type_m.ml" 19 418 450
+type(
+  string
+)
+ident(
+  int_ref filename "sPL_type_m.ml" 18 359 375 "sPL_type_m.ml" 18 359 383
+)
+"sPL_type_m.ml" 19 418 420 "sPL_type_m.ml" 19 418 450
+call(
+  tail
+)
+type(
+  string * S.sPL_expr
+)
+type(
+  string * S.sPL_expr
+)
+"sPL_type_m.ml" 18 359 374 "sPL_type_m.ml" 19 418 450
+type(
+  string -> string * S.sPL_expr
+)
+"sPL_type_m.ml" 25 535 539 "sPL_type_m.ml" 25 535 543
+type(
+  unit
+)
+ident(
+  def main "sPL_type_m.ml" 44 1331 1346 "sPL_type_m.ml" 1 0 -1
+)
+"sPL_type_m.ml" 27 584 586 "sPL_type_m.ml" 27 584 595
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"sPL_type_m.ml" 27 584 596 "sPL_type_m.ml" 27 584 598
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"sPL_type_m.ml" 27 584 604 "sPL_type_m.ml" 27 584 605
+type(
+  string
+)
+ident(
+  def s "sPL_type_m.ml" 27 584 609 "sPL_type_m.ml" 27 584 618
+)
+"sPL_type_m.ml" 27 584 609 "sPL_type_m.ml" 27 584 613
+type(
+  string ref
+)
+ident(
+  ext_ref Debug.Basic.file
+)
+"sPL_type_m.ml" 27 584 617 "sPL_type_m.ml" 27 584 618
+type(
+  string
+)
+ident(
+  int_ref s "sPL_type_m.ml" 27 584 604 "sPL_type_m.ml" 27 584 605
+)
+"sPL_type_m.ml" 27 584 609 "sPL_type_m.ml" 27 584 618
+type(
+  unit
+)
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"sPL_type_m.ml" 27 584 604 "sPL_type_m.ml" 27 584 618
+type(
+  Arg.anon_fun
+)
+"sPL_type_m.ml" 27 584 620 "sPL_type_m.ml" 27 584 625
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "sPL_type_m.ml" 15 270 274 "sPL_type_m.ml" 15 270 279
+)
+"sPL_type_m.ml" 27 584 586 "sPL_type_m.ml" 27 584 625
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 28 628 633 "sPL_type_m.ml" 28 628 646
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"sPL_type_m.ml" 28 628 648 "sPL_type_m.ml" 28 628 652
+type(
+  string ref
+)
+ident(
+  ext_ref Debug.Basic.file
+)
+"sPL_type_m.ml" 28 628 647 "sPL_type_m.ml" 28 628 652
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"sPL_type_m.ml" 28 628 633 "sPL_type_m.ml" 28 628 652
+type(
+  int
+)
+"sPL_type_m.ml" 28 628 653 "sPL_type_m.ml" 28 628 655
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"sPL_type_m.ml" 28 628 656 "sPL_type_m.ml" 28 628 657
+type(
+  int
+)
+"sPL_type_m.ml" 28 628 633 "sPL_type_m.ml" 28 628 657
+type(
+  bool
+)
+"sPL_type_m.ml" 28 628 663 "sPL_type_m.ml" 28 628 676
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 28 628 677 "sPL_type_m.ml" 28 628 682
+type(
+  string
+)
+ident(
+  int_ref usage "sPL_type_m.ml" 15 270 274 "sPL_type_m.ml" 15 270 279
+)
+"sPL_type_m.ml" 28 628 663 "sPL_type_m.ml" 28 628 682
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 29 689 697 "sPL_type_m.ml" 29 689 698
+type(
+  unit
+)
+"sPL_type_m.ml" 29 689 701 "sPL_type_m.ml" 29 689 714
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 29 689 715 "sPL_type_m.ml" 29 689 739
+type(
+  string
+)
+"sPL_type_m.ml" 29 689 701 "sPL_type_m.ml" 29 689 739
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 30 743 752 "sPL_type_m.ml" 30 743 753
+type(
+  string
+)
+ident(
+  def s "sPL_type_m.ml" 31 779 783 "sPL_type_m.ml" 44 1331 1346
+)
+"sPL_type_m.ml" 30 743 754 "sPL_type_m.ml" 30 743 755
+type(
+  S.sPL_expr
+)
+ident(
+  def p "sPL_type_m.ml" 31 779 783 "sPL_type_m.ml" 44 1331 1346
+)
+"sPL_type_m.ml" 30 743 752 "sPL_type_m.ml" 30 743 755
+type(
+  string * S.sPL_expr
+)
+"sPL_type_m.ml" 30 743 759 "sPL_type_m.ml" 30 743 769
+type(
+  string -> string * S.sPL_expr
+)
+ident(
+  int_ref parse_file "sPL_type_m.ml" 18 359 363 "sPL_type_m.ml" 18 359 373
+)
+"sPL_type_m.ml" 30 743 771 "sPL_type_m.ml" 30 743 775
+type(
+  string ref
+)
+ident(
+  ext_ref Debug.Basic.file
+)
+"sPL_type_m.ml" 30 743 770 "sPL_type_m.ml" 30 743 775
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"sPL_type_m.ml" 30 743 759 "sPL_type_m.ml" 30 743 775
+call(
+  stack
+)
+type(
+  string * S.sPL_expr
+)
+"sPL_type_m.ml" 31 779 787 "sPL_type_m.ml" 31 779 788
+type(
+  unit
+)
+"sPL_type_m.ml" 31 779 791 "sPL_type_m.ml" 31 779 804
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 31 779 806 "sPL_type_m.ml" 31 779 810
+type(
+  string
+)
+"sPL_type_m.ml" 31 779 810 "sPL_type_m.ml" 31 779 811
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type_m.ml" 31 779 811 "sPL_type_m.ml" 31 779 812
+type(
+  string
+)
+ident(
+  int_ref s "sPL_type_m.ml" 30 743 752 "sPL_type_m.ml" 30 743 753
+)
+"sPL_type_m.ml" 31 779 806 "sPL_type_m.ml" 31 779 812
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 31 779 791 "sPL_type_m.ml" 31 779 813
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 32 817 825 "sPL_type_m.ml" 32 817 826
+type(
+  unit
+)
+"sPL_type_m.ml" 32 817 829 "sPL_type_m.ml" 32 817 842
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 32 817 844 "sPL_type_m.ml" 32 817 854
+type(
+  string
+)
+"sPL_type_m.ml" 32 817 854 "sPL_type_m.ml" 32 817 855
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type_m.ml" 32 817 856 "sPL_type_m.ml" 32 817 871
+type(
+  S.sPL_expr -> string
+)
+ident(
+  ext_ref S.string_of_sPL
+)
+"sPL_type_m.ml" 32 817 872 "sPL_type_m.ml" 32 817 873
+type(
+  S.sPL_expr
+)
+ident(
+  int_ref p "sPL_type_m.ml" 30 743 754 "sPL_type_m.ml" 30 743 755
+)
+"sPL_type_m.ml" 32 817 856 "sPL_type_m.ml" 32 817 873
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 32 817 844 "sPL_type_m.ml" 32 817 874
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 32 817 829 "sPL_type_m.ml" 32 817 875
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 33 879 887 "sPL_type_m.ml" 33 879 888
+type(
+  unit
+)
+"sPL_type_m.ml" 33 879 891 "sPL_type_m.ml" 33 879 904
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 33 879 905 "sPL_type_m.ml" 33 879 931
+type(
+  string
+)
+"sPL_type_m.ml" 33 879 891 "sPL_type_m.ml" 33 879 931
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 34 935 944 "sPL_type_m.ml" 34 935 945
+type(
+  SPL.sPL_type option
+)
+ident(
+  def v "sPL_type_m.ml" 35 971 975 "sPL_type_m.ml" 44 1331 1346
+)
+"sPL_type_m.ml" 34 935 946 "sPL_type_m.ml" 34 935 948
+type(
+  SPL.sPL_expr
+)
+ident(
+  def np "sPL_type_m.ml" 35 971 975 "sPL_type_m.ml" 44 1331 1346
+)
+"sPL_type_m.ml" 34 935 944 "sPL_type_m.ml" 34 935 948
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type_m.ml" 34 935 952 "sPL_type_m.ml" 34 935 962
+type(
+  SPL_type.env_type -> S.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
+)
+ident(
+  ext_ref SPL_type.type_infer
+)
+"sPL_type_m.ml" 34 935 963 "sPL_type_m.ml" 34 935 965
+type(
+  SPL_type.env_type
+)
+"sPL_type_m.ml" 34 935 966 "sPL_type_m.ml" 34 935 967
+type(
+  S.sPL_expr
+)
+ident(
+  int_ref p "sPL_type_m.ml" 30 743 754 "sPL_type_m.ml" 30 743 755
+)
+"sPL_type_m.ml" 34 935 952 "sPL_type_m.ml" 34 935 967
+call(
+  stack
+)
+type(
+  SPL.sPL_type option * SPL.sPL_expr
+)
+"sPL_type_m.ml" 35 971 981 "sPL_type_m.ml" 35 971 982
+type(
+  SPL.sPL_type option
+)
+ident(
+  int_ref v "sPL_type_m.ml" 34 935 944 "sPL_type_m.ml" 34 935 945
+)
+"sPL_type_m.ml" 36 988 996 "sPL_type_m.ml" 36 988 1000
+type(
+  SPL.sPL_type option
+)
+"sPL_type_m.ml" 36 988 1004 "sPL_type_m.ml" 36 988 1017
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 36 988 1018 "sPL_type_m.ml" 36 988 1044
+type(
+  string
+)
+"sPL_type_m.ml" 36 988 1004 "sPL_type_m.ml" 36 988 1044
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 37 1045 1058 "sPL_type_m.ml" 37 1045 1059
+type(
+  SPL.sPL_type
+)
+ident(
+  def t "sPL_type_m.ml" 39 1081 1095 "sPL_type_m.ml" 44 1331 1346
+)
+"sPL_type_m.ml" 37 1045 1053 "sPL_type_m.ml" 37 1045 1059
+type(
+  SPL.sPL_type option
+)
+"sPL_type_m.ml" 39 1081 1095 "sPL_type_m.ml" 39 1081 1108
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 39 1081 1110 "sPL_type_m.ml" 39 1081 1131
+type(
+  string
+)
+"sPL_type_m.ml" 39 1081 1131 "sPL_type_m.ml" 39 1081 1132
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"sPL_type_m.ml" 39 1081 1133 "sPL_type_m.ml" 39 1081 1153
+type(
+  S.sPL_type -> string
+)
+ident(
+  ext_ref S.string_of_sPL_type
+)
+"sPL_type_m.ml" 39 1081 1154 "sPL_type_m.ml" 39 1081 1155
+type(
+  S.sPL_type
+)
+ident(
+  int_ref t "sPL_type_m.ml" 37 1045 1058 "sPL_type_m.ml" 37 1045 1059
+)
+"sPL_type_m.ml" 39 1081 1133 "sPL_type_m.ml" 39 1081 1155
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 39 1081 1110 "sPL_type_m.ml" 39 1081 1156
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 39 1081 1095 "sPL_type_m.ml" 39 1081 1157
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 40 1159 1177 "sPL_type_m.ml" 40 1159 1178
+type(
+  unit
+)
+"sPL_type_m.ml" 40 1159 1181 "sPL_type_m.ml" 40 1159 1193
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"sPL_type_m.ml" 40 1159 1194 "sPL_type_m.ml" 40 1159 1213
+type(
+  string
+)
+"sPL_type_m.ml" 40 1159 1181 "sPL_type_m.ml" 40 1159 1213
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 41 1217 1235 "sPL_type_m.ml" 41 1217 1237
+type(
+  SPL_type.C.sPL_expr
+)
+ident(
+  def np "sPL_type_m.ml" 42 1256 1270 "sPL_type_m.ml" 43 1314 1330
+)
+"sPL_type_m.ml" 41 1217 1240 "sPL_type_m.ml" 41 1217 1249
+type(
+  SPL.sPL_expr -> SPL_type.C.sPL_expr
+)
+ident(
+  ext_ref SPL_type.trans_exp
+)
+"sPL_type_m.ml" 41 1217 1250 "sPL_type_m.ml" 41 1217 1252
+type(
+  SPL.sPL_expr
+)
+ident(
+  int_ref np "sPL_type_m.ml" 34 935 946 "sPL_type_m.ml" 34 935 948
+)
+"sPL_type_m.ml" 41 1217 1240 "sPL_type_m.ml" 41 1217 1252
+call(
+  stack
+)
+type(
+  SPL_type.C.sPL_expr
+)
+"sPL_type_m.ml" 42 1256 1274 "sPL_type_m.ml" 42 1256 1275
+type(
+  unit
+)
+"sPL_type_m.ml" 42 1256 1278 "sPL_type_m.ml" 42 1256 1291
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"sPL_type_m.ml" 42 1256 1293 "sPL_type_m.ml" 42 1256 1306
+type(
+  SPL_type.C.sPL_expr -> string
+)
+ident(
+  ext_ref SPLc.string_of_sPL
+)
+"sPL_type_m.ml" 42 1256 1307 "sPL_type_m.ml" 42 1256 1309
+type(
+  SPL_type.C.sPL_expr
+)
+ident(
+  int_ref np "sPL_type_m.ml" 41 1217 1235 "sPL_type_m.ml" 41 1217 1237
+)
+"sPL_type_m.ml" 42 1256 1293 "sPL_type_m.ml" 42 1256 1309
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_type_m.ml" 42 1256 1278 "sPL_type_m.ml" 42 1256 1310
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_type_m.ml" 43 1314 1328 "sPL_type_m.ml" 43 1314 1330
+type(
+  unit
+)
+"sPL_type_m.ml" 42 1256 1270 "sPL_type_m.ml" 43 1314 1330
+type(
+  unit
+)
+"sPL_type_m.ml" 41 1217 1231 "sPL_type_m.ml" 43 1314 1330
+type(
+  unit
+)
+"sPL_type_m.ml" 40 1159 1173 "sPL_type_m.ml" 43 1314 1330
+type(
+  unit
+)
+"sPL_type_m.ml" 39 1081 1095 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 35 971 975 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 34 935 939 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 33 879 883 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 32 817 821 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 31 779 783 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 30 743 747 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 29 689 693 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 28 628 630 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)
+"sPL_type_m.ml" 27 584 586 "sPL_type_m.ml" 44 1331 1346
+type(
+  unit
+)

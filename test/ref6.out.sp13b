@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int->int} fac  = fun {int->int} n -> n+1 end in  {int}  fac 3 end
+ AS ==> let {Int->Int} fac = fun {Int->Int} n -> +[Var(n),Int(1)] end in {Int}Appln[Var(fac); Int(3)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int)->Int} fac -> Appln[Var(fac); Int(3)] end; fun {Int->Int} n -> +[Var(n),Int(1)] end]

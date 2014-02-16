@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int -> int -> (int -> int -> int) -> int -> int}    recurse     = recfun recurse           {int -> int -> (int -> int -> int) -> int -> int}          x y operation initvalue       -> if y = 0 then initvalue           else (operation x                 (recurse x (y - 1) operation initvalue))          end      endin {int}(recurse 2 3 (fun {int -> int -> int}                 x z -> z / x end)         128)end
+ AS ==> let {Int->Int->(Int->Int->Int)->Int->Int} recurse = recfun recurse {Int->Int->(Int->Int->Int)->Int->Int} x y operation initvalue -> if =[Var(y),Int(0)] then Var(initvalue) else Appln[Var(operation); Var(x);Appln[Var(recurse); Var(x);-[Var(y),Int(1)];Var(operation);Var(initvalue)]] end in {Int}Appln[Var(recurse); Int(2);Int(3);fun {Int->Int->Int} x z -> /[Var(z),Var(x)] end;Int(128)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int->(Int->Int->Int)->Int->Int)->Int} recurse -> Appln[Var(recurse); Int(2);Int(3);fun {Int->Int->Int} x z -> /[Var(z),Var(x)] end;Int(128)] end; recfun recurse {Int->Int->(Int->Int->Int)->Int->Int} x y operation initvalue -> if =[Var(y),Int(0)] then Var(initvalue) else Appln[Var(operation); Var(x);Appln[Var(recurse); Var(x);-[Var(y),Int(1)];Var(operation);Var(initvalue)]] end]

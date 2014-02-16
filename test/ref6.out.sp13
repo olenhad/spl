@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let  {int->int->int} facloop  = fun {int->int->int} n acc -> 1 end in  {int}  3 end
+ AS ==> let {Int->Int->Int} facloop = fun {Int->Int->Int} n acc -> Int(1) end in {Int}Int(3) end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int->Int)->Int} facloop -> Int(3) end; fun {Int->Int->Int} n acc -> Int(1) end]
