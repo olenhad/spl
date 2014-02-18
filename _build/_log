@@ -1,34 +1,34 @@
 ### Starting build.
 # Target: sPL_type_m.ml.depends, tags: { extension:ml, file:sPL_type_m.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_type_m.ml > sPL_type_m.ml.depends
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_type_m.ml > sPL_type_m.ml.depends # cached
 # Target: debug.ml.depends, tags: { extension:ml, file:debug.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules debug.ml > debug.ml.depends
-# Target: sPL.ml.depends, tags: { extension:ml, file:sPL.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPL.ml > sPL.ml.depends
+/usr/bin/ocamldep -pp camlp4of.opt -modules debug.ml > debug.ml.depends # cached
 # Target: debug.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:debug.cmo, file:debug.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o debug.cmo debug.ml
-# Target: sPL_parser.ml.depends, tags: { extension:ml, file:sPL_parser.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_parser.ml > sPL_parser.ml.depends
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o debug.cmo debug.ml # cached
+# Target: sPL.ml.depends, tags: { extension:ml, file:sPL.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPL.ml > sPL.ml.depends # cached
 # Target: sPL.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL.cmo, file:sPL.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL.cmo sPL.ml
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL.cmo sPL.ml # cached
+# Target: sPL_parser.ml.depends, tags: { extension:ml, file:sPL_parser.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_parser.ml > sPL_parser.ml.depends # cached
 # Target: sPL_lexer.mll, tags: { extension:mll, file:sPL_lexer.mll, lexer, ocaml, ocamllex, quiet }
-/usr/bin/ocamllex -q -q sPL_lexer.mll
+/usr/bin/ocamllex -q -q sPL_lexer.mll # cached
 # Target: sPL_lexer.ml.depends, tags: { extension:ml, file:sPL_lexer.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_lexer.ml > sPL_lexer.ml.depends
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_lexer.ml > sPL_lexer.ml.depends # cached
 # Target: sPL_token.ml.depends, tags: { extension:ml, file:sPL_token.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_token.ml > sPL_token.ml.depends
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_token.ml > sPL_token.ml.depends # cached
 # Target: sPL_token.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_token.cmo, file:sPL_token.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_token.cmo sPL_token.ml
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_token.cmo sPL_token.ml # cached
 # Target: sPL_lexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_lexer.cmo, file:sPL_lexer.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_lexer.cmo sPL_lexer.ml
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_lexer.cmo sPL_lexer.ml # cached
+# Target: sPL_parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_parser.cmo, file:sPL_parser.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_parser.cmo sPL_parser.ml # cached
 # Target: sPL_type.ml.depends, tags: { extension:ml, file:sPL_type.ml, ocaml, ocamldep, quiet }
 /usr/bin/ocamldep -pp camlp4of.opt -modules sPL_type.ml > sPL_type.ml.depends
-# Target: sPL_parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_parser.cmo, file:sPL_parser.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_parser.cmo sPL_parser.ml
 # Target: sPLc.ml.depends, tags: { extension:ml, file:sPLc.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPLc.ml > sPLc.ml.depends
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPLc.ml > sPLc.ml.depends # cached
 # Target: sPLc.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPLc.cmo, file:sPLc.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPLc.cmo sPLc.ml
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPLc.cmo sPLc.ml # cached
 # Target: sPL_type.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_type.cmo, file:sPL_type.ml, implem, ocaml, quiet }
 /usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type.cmo sPL_type.ml
 # Target: sPL_type_m.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_type_m.cmo, file:sPL_type_m.ml, implem, ocaml, quiet }

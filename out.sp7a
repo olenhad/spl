@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  (fun {int -> int} x -> x * x end 4)
+ AS ==> Appln[fun {Int->Int} x -> *[Var(x),Var(x)] end; Int(4)]
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {Int->Int} x -> *[Var(x),Var(x)] end; Int(4)]

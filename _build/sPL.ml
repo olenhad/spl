@@ -7,6 +7,7 @@ type sPL_type =
   | IntType
   | Arrow of sPL_type * sPL_type
 
+
 (* abstract syntax tree for sPL *)
 type sPL_expr =
   | BoolConst of bool
@@ -15,11 +16,11 @@ type sPL_expr =
   | UnaryPrimApp of op_id * sPL_expr
   | BinaryPrimApp of op_id * sPL_expr * sPL_expr
   | Cond of sPL_expr * sPL_expr * sPL_expr
-  | Func of sPL_type * (id list) * sPL_expr 
+  | Func of sPL_type * (id list) * sPL_expr
         (* min of one parameter *)
-  | RecFunc of sPL_type * id * (id list) * sPL_expr 
+  | RecFunc of sPL_type * id * (id list) * sPL_expr
         (* min of one parameter *)
-  | Appln of sPL_expr * sPL_type option * (sPL_expr list) 
+  | Appln of sPL_expr * sPL_type option * (sPL_expr list)
         (* at least one argument *)
   | Let of ((sPL_type * id * sPL_expr) list) * sPL_type * sPL_expr
         (* min of one binding; type declaration can be optional *)
@@ -37,7 +38,7 @@ open Debug.Basic
 (* display sPL_type *)
 (* PLEASE do not change *)
 let rec string_of_sPL_type (e:sPL_type):string =
-  let pr t =  
+  let pr t =
     pr_opt_bracket (fun e -> match e with Arrow _ -> true | _ ->false)
         string_of_sPL_type t
   in
@@ -61,7 +62,7 @@ let string_of_sPL (e:sPL_expr):string =
     | Func (t,args,body) -> "fun "^(pr_type t)^" "^(pr_lst " " pr_id args)^" -> "^(aux body)^" end"
     | RecFunc (t,r,args,body) -> "recfun "^r^" "^(pr_type t)^" "^(pr_lst " " pr_id args)^" -> "^(aux body)^" end"
     | Appln (e,t,args) -> "Appln["^(aux e)^"; "^(pr_lst ";" aux args)^"]"
-    | Let (lst,t,body) -> 
+    | Let (lst,t,body) ->
           let pr (t,v,e) = (pr_type t)^" "^v^" = "^(aux e)
           in "let "^(pr_lst ";" pr lst)^" in "^(pr_type t)^(aux body)^" end"
   in aux e
@@ -79,8 +80,7 @@ let rec fv (e:sPL_expr) : id list =
     | Func (_,vs,body) -> diff (fv body) vs
     | RecFunc (_,i,vs,body) -> diff (fv body) (i::vs)
     | Appln (e1,_,es) -> (fv e1)@(List.concat (List.map fv es))
-    | Let (lst,_,body) -> 
+    | Let (lst,_,body) ->
           let bv = List.map (fun (_,i,_)->i) lst in
           let vs = List.concat ((fv body)::(List.map (fun (_,i,e)->fv e) lst)) in
           diff vs bv
-

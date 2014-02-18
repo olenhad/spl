@@ -31,13 +31,25 @@ let get_type env v = Environ.get_val env v
 (* while writing this type system : please fix it *)
 
 (* use test harness below and run ./splt *)
+
+
+let rec arrow_to_list t =
+  match t with
+    | Arrow (t1,t2) -> t1 :: (arrow_to_list t2)
+    | _ -> t :: []
+
+let all_but_last xs = xs |> List.rev |> List.tl |> List.rev
+
+let last_in_list xs = xs |> List.rev |> List.hd
+
 let extr_arg_type (t:sPL_type) (args:'a list) : (('a * sPL_type) list * sPL_type) option =
   let rec aux env t args =
     match args,t with
       | [],_ -> Some (env,t)
-      | v::vs,Arrow (t1,t2) -> aux ((v,t1)::env) t2 vs
+      | v::vs,Arrow (t1,t2) -> aux (env @ [(v,t1)]) t2 vs
       | _,_ -> None
   in aux [] t args
+
 let extr_arg_type_test (t:sPL_type) (args:int list) : ((int * sPL_type) list * sPL_type) option =
   let pr1 = string_of_sPL_type in
   let pr2 = pr_list string_of_int in
@@ -47,10 +59,12 @@ let extr_arg_type_test (t:sPL_type) (args:int list) : ((int * sPL_type) list * s
 
 (* test harness below to debug extr_arg_type *)
 (* please comment them after fixing bug *)
+(*
 let t1 = Arrow (IntType,Arrow (IntType,IntType))
 let _ = extr_arg_type_test t1 [1]
 let _ = extr_arg_type_test t1 [1;2]
 let _ = extr_arg_type_test t1 [1;2;3]
+*)
 
 (* type checking method *)
 (* you may use this method to check that the your inferred *)
@@ -174,25 +188,80 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
     | Cond (e1,e2,e3) ->
           (* e1 must be bool type *)
           (* e2,e3 must be of the same inferred type *)
-          failwith "TO BE IMPLEMENTED"
+      begin
+        let (condt,ne1) = type_infer env e1 in
+        let (at1, ne2) = type_infer env e2 in
+        let (at2, ne3) = type_infer env e2 in
+        match condt with
+          | Some BoolType -> if at1 = at2 then (at1, Cond (ne1,ne2,ne3)) else (None,e)
+          | _ -> (None,e)
+      end
+
     | Func (te,args,body) ->
           (* te is the inferred function type *)
           (* infer the types of args and body *)
           (* args and body type must be consistent with te *)
           (* extend the env when checking type of body *)
-          failwith "TO BE IMPLEMENTED"
+      begin
+        let arg_types = extr_arg_type te args in
+        match arg_types with
+          | Some (arg_type_pairs, rest_types) ->
+            begin
+              let new_env = Environ.extend_env env arg_type_pairs in
+              let (body_type, nbody) = type_infer new_env body in
+              match body_type with
+                | Some t -> if t = rest_types then (Some te, Func (te, args, nbody)) else (None, e)
+                | None -> (None, e)
+            end
+          | _ -> (None, e)
+      end
+
     | RecFunc (te,id,args,body) ->
           (* te is the inferred function type *)
           (* infer the types of args and body *)
           (* args and body type must be consistent with te*)
           (* extend the env when checking type of body *)
-          failwith "TO BE IMPLEMENTED"
+      begin
+        let arg_types = extr_arg_type te args in
+        match arg_types with
+          | Some (arg_type_pairs, rest_types) ->
+            begin
+              let new_env = Environ.extend_env env ((id,te)::arg_type_pairs) in
+              let (body_type, nbody) = type_infer new_env body in
+              match body_type with
+                | Some t -> if t = rest_types then (Some te, RecFunc (te,id,args, nbody)) else (None, e)
+                | None -> (None, e)
+            end
+          | _ -> (None, e)
+      end
+
     | Appln (e1,_,args) ->
           (* infer the type of e1 first *)
           (* infer the types of args *)
           (* check that args are consistent with inferred type *)
           (* remember to update _ with inferred type of e1 *)
-          failwith "TO BE IMPLEMENTED"
+      begin
+        match type_infer env e1 with
+          | Some e1t, new_e1 ->
+            begin
+              match extr_arg_type e1t args with
+                | Some (arg_type_pairs, rest_type) ->
+                  begin
+                    let infer_args = args |> List.map (fun a -> type_infer env a) in
+                    let new_args = infer_args |> List.map (fun a -> snd a) in
+                    let inferred_arg_type_pairs =
+                      infer_args |> List.map (fun a -> fst a) in
+                    let some_arg_t_pairs =
+                      arg_type_pairs |> List.map (fun a -> Some (snd a)) in
+                    if inferred_arg_type_pairs = some_arg_t_pairs then
+                      (Some rest_type, Appln (new_e1, Some rest_type,new_args))
+                    else
+                      (None, e)
+                  end
+                | None -> (None, e)
+            end
+          | (None, _) -> (None, e)
+      end
     | Let (ldecl,te,body) ->
           (* the implementation for Let is given *)
           (* pick the type of local vars from ldecl *)
@@ -287,13 +356,20 @@ let trans_exp (e:sPL_expr) : C.sPL_expr  =
                           | None ->  C.Appln (f,t1,args)
                           | Some (t2,ns) -> C.Func(t2,ns,C.Appln(f,t1,args@(List.map (fun v -> C.Var v) ns)))
                       end
-                | _ -> failwith "missing type : not possible"
+                | _ -> failwith "missing type : not possible. Fucked"
             end
       | Let (ls,t,body) ->
             (* transform Let into a function application *)
             (* build a correct type for the function from *)
             (* the type of arguments (local vars) and body *)
-            failwith "TO BE IMPLEMENTED"
+        begin
+          let ids = ls |> List.map
+              (fun l -> match l with | t,id,exp -> id) in
+          let args = ls |> List.map (fun l -> match l with | _,_,exp -> aux exp) in
+          let ftype = build_type ls t in
+          let func = C.Func (ftype, ids, aux body) in
+          C.Appln (func, t, args)
+        end
   in aux e
 
 (* calling sPL parser *)
