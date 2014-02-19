@@ -313,12 +313,6 @@ let get_partial (t:sPL_type) (args:'b list) =
           let narg = num_of_arg rt in
           if narg=0 then None
             else Some (rt,(names # fresh_strs "_pa_var" narg))
-(*
-if not(!pa_removal_flag) then None
-  else
-    let narg = num_of_arg t in
-    if narg = 0 then None else Some (t,(names # fresh_strs "_pa_var" narg))*)
-
 
 let rec build_type ls bt =
   match ls with
