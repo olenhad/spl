@@ -132,18 +132,28 @@ let type_check (env:env_type) (e:sPL_expr) (t:sPL_type) : bool =
                       end
                 | None -> failwith "missing type : should call type_infer first"
             end
-      | Let (ldecl,te,body) ->
-            if te=t then
-              let env2 = List.map (fun (t,v,b) -> (v,t)) ldecl in
-              let nenv = env2@env in
-              (aux nenv body te) && List.for_all (fun (t,_,b) -> aux nenv b t) ldecl
-            else false
+      | Let (maybe_ldecl,te,body) ->
+        begin
+          let ldecl = lift_typed_let_decls maybe_ldecl in
+          if (List.length ldecl) = (List.length maybe_ldecl) then
+            match te with
+              | Some te ->
+                if te=t then
+                  let env2 = List.map (fun (t,v,b) -> (v,t)) ldecl in
+                  let nenv = env2@env in
+                  (aux nenv body te) && List.for_all (fun (t,_,b) -> aux nenv b t) ldecl
+                else false
+              | _ -> false
+          else
+            false
+        end
   in aux env e t
 
 let rec result_type t =
   match t with
     | Arrow (s, e) -> result_type e
     | t -> t
+
 
 (* type inference, note that None is returned  *)
 (*    if no suitable type is inferred *)
@@ -269,14 +279,35 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
       end
     | Let (ldecl,te,body) ->
           (* the implementation for Let is given *)
+      begin
+        let locals = ldecl |> List.map
+            (fun (t, name, exp) ->
+              match type_infer env exp with
+                | Some ntype, nexp -> (Some ntype, name, nexp)
+                | None, nexp -> (None, name, nexp)) in
+
+        let all_infered = locals |>
+            StdLabels.List.fold_left
+            ~init:true
+            ~f:(fun acc,(t, name, exp) ->
+              if acc = false then acc else t != None) in
+
+        if all_infered then
+          let lift_locals = locals |>
+              StdLabels.List.fold_left
+              ~init:[]
+              ~f: (fun acc,(t, name, exp) ->
+                match t with
+                | Some t1 -> t1 :: acc
+                | None -> acc) in
+
           (* pick the type of local vars from ldecl *)
-          let env2 = List.map (fun (t,v,b) -> (v,t)) ldecl in
+          let env2 = List.map (fun (t,v,b) -> (v,t)) lift_locals in
           (* build an extended type environment for checking body *)
           let nenv = env2@env in
           (* infer the type of body *)
           let (nt1,nbody) = type_infer nenv body in
           (* infer the type of local definitions *)
-          let ls_res = List.map (fun (t,v,b) -> (type_infer env b,v,t)) ldecl in
           (* why did we use env rather than nenv when checking ldecl? *)
           begin
             match nt1 with
@@ -285,12 +316,14 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
                     if t1=te then
                       (* check that local declarations are typed consistently *)
                       if List.for_all (fun ((t,e),_,t2) -> t=Some t2) ls_res then
-                        (nt1, Let(List.map (fun ((_,e),v,t)->(t,v,e)) ls_res,te,nbody))
+                        (nt1, Let (lift_locals, te ,nbody))
                       else (None,e)
                     else (None,e)
               | None -> (None,e)
           end
-
+        else
+          (None, e)
+      end
 
 (* number of arguments for full application *)
 (* Ex: num_of_arg (int->(int->int)->int) ==> 2 *)

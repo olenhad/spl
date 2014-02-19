@@ -22,7 +22,7 @@ type sPL_expr =
         (* min of one parameter *)
   | Appln of sPL_expr * sPL_type option * (sPL_expr list)
         (* at least one argument *)
-  | Let of ((sPL_type * id * sPL_expr) list) * sPL_type * sPL_expr
+  | Let of ((sPL_type option * id * sPL_expr) list) * sPL_type option * sPL_expr
         (* min of one binding; type declaration can be optional *)
 
 open Debug.Basic
@@ -47,6 +47,16 @@ let rec string_of_sPL_type (e:sPL_type):string =
     | IntType -> "Int"
     | Arrow (t1,t2) -> (pr t1)^"->"^(string_of_sPL_type t2)
 
+
+let lift_typed_let_decls ls =
+  StdLabels.List.fold_left
+    ~init:[]
+    ~f: (fun acc,(t, name, exp) ->
+      match t with
+        | Some t1 -> t1 :: acc
+        | None -> acc)
+    ls
+
 (* display sPL expr in prefix form *)
 (* PLEASE do not change *)
 let string_of_sPL (e:sPL_expr):string =
@@ -63,8 +73,11 @@ let string_of_sPL (e:sPL_expr):string =
     | RecFunc (t,r,args,body) -> "recfun "^r^" "^(pr_type t)^" "^(pr_lst " " pr_id args)^" -> "^(aux body)^" end"
     | Appln (e,t,args) -> "Appln["^(aux e)^"; "^(pr_lst ";" aux args)^"]"
     | Let (lst,t,body) ->
-          let pr (t,v,e) = (pr_type t)^" "^v^" = "^(aux e)
-          in "let "^(pr_lst ";" pr lst)^" in "^(pr_type t)^(aux body)^" end"
+      match t with
+        |Some t1 ->
+          let pr (t1,v,e) = (pr_type t1)^" "^v^" = "^(aux e)
+          in "let "^(pr_lst ";" pr (lift_typed_let_decls lst))^" in "^(pr_type t1)^(aux body)^" end"
+        |None -> "let not typed"
   in aux e
 
 (* removing vars in ys that occur in xs *)
