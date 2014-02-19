@@ -258,7 +258,6 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
                       infer_args |> List.map (fun a -> fst a) in
                     let some_arg_t_pairs =
                       arg_type_pairs |> List.map (fun a -> Some (snd a)) in
-                    let final_type = rest_type in
                     if inferred_arg_type_pairs = some_arg_t_pairs then
                       (Some rest_type, Appln (new_e1, Some e1t,new_args))
                     else

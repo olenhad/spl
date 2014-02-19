@@ -24,19 +24,16 @@
 # Target: sPL_parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_parser.cmo, file:sPL_parser.ml, implem, ocaml, quiet }
 /usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_parser.cmo sPL_parser.ml # cached
 # Target: sPL_type.ml.depends, tags: { extension:ml, file:sPL_type.ml, ocaml, ocamldep, quiet }
-/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_type.ml > sPL_type.ml.depends
+/usr/bin/ocamldep -pp camlp4of.opt -modules sPL_type.ml > sPL_type.ml.depends # cached
 # Target: sPLc.ml.depends, tags: { extension:ml, file:sPLc.ml, ocaml, ocamldep, quiet }
 /usr/bin/ocamldep -pp camlp4of.opt -modules sPLc.ml > sPLc.ml.depends # cached
 # Target: sPLc.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPLc.cmo, file:sPLc.ml, implem, ocaml, quiet }
 /usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPLc.cmo sPLc.ml # cached
 # Target: sPL_type.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_type.cmo, file:sPL_type.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type.cmo sPL_type.ml
-+ /usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type.cmo sPL_type.ml
-File "sPL_type.ml", line 261, characters 24-34:
-Warning 26: unused variable final_type.
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type.cmo sPL_type.ml # cached
 # Target: sPL_type_m.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_type_m.cmo, file:sPL_type_m.ml, implem, ocaml, quiet }
 /usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type_m.cmo sPL_type_m.ml # cached
 # Target: sPL_type_m.byte, tags: { byte, dont_link_with, extension:byte, file:sPL_type_m.byte, link, ocaml, program, quiet }
-/usr/bin/ocamlc -I +camlp4 -dtypes dynlink.cma camlp4lib.cma debug.cmo sPL.cmo sPL_token.cmo sPL_lexer.cmo sPL_parser.cmo sPLc.cmo sPL_type.cmo sPL_type_m.cmo -o sPL_type_m.byte
+/usr/bin/ocamlc -I +camlp4 -dtypes dynlink.cma camlp4lib.cma debug.cmo sPL.cmo sPL_token.cmo sPL_lexer.cmo sPL_parser.cmo sPLc.cmo sPL_type.cmo sPL_type_m.cmo -o sPL_type_m.byte # cached
 # No parallelism done
 # Compilation successful.
