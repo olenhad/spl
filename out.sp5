@@ -3,4 +3,4 @@ LOADING sPL program ..
  AS ==> let {Int->Int->Int} power = recfun mypower {Int->Int->Int} x y -> if =[Var(y),Int(0)] then Int(1) else *[Var(x),Appln[Var(mypower); Var(x);-[Var(y),Int(1)]]] end in {Int}Appln[Var(power); Int(17);Int(3)] end
 TYPE CHECKING program ..
  ==> inferred type Int
-TRANSFORMING ==> Appln[fun {(Int->Int->Int)->Int} power -> Appln[Var(power); Int(17);Int(3)] end; recfun mypower {Int->Int->Int} x y -> if =[Var(y),Int(0)] then Int(1) else Int(1) end]
+TRANSFORMING ==> Appln[fun {(Int->Int->Int)->Int} power -> Appln[Var(power); Int(17);Int(3)] end; recfun mypower {Int->Int->Int} x y -> if =[Var(y),Int(0)] then Int(1) else *[Var(x),Appln[Var(mypower); Var(x);-[Var(y),Int(1)]]] end]

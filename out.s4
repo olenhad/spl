@@ -3,4 +3,4 @@ LOADING sPL program ..
  AS ==> if =[Int(2),Int(3)] then Int(1) else Int(4)
 TYPE CHECKING program ..
  ==> inferred type Int
-TRANSFORMING ==> if =[Int(2),Int(3)] then Int(1) else Int(1)
+TRANSFORMING ==> if =[Int(2),Int(3)] then Int(1) else Int(4)

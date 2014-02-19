@@ -32,7 +32,7 @@
 # Target: sPL_type.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_type.cmo, file:sPL_type.ml, implem, ocaml, quiet }
 /usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type.cmo sPL_type.ml
 # Target: sPL_type_m.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sPL_type_m.cmo, file:sPL_type_m.ml, implem, ocaml, quiet }
-/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type_m.cmo sPL_type_m.ml
+/usr/bin/ocamlc -c -I +camlp4 -dtypes -pp camlp4of.opt -o sPL_type_m.cmo sPL_type_m.ml # cached
 # Target: sPL_type_m.byte, tags: { byte, dont_link_with, extension:byte, file:sPL_type_m.byte, link, ocaml, program, quiet }
 /usr/bin/ocamlc -I +camlp4 -dtypes dynlink.cma camlp4lib.cma debug.cmo sPL.cmo sPL_token.cmo sPL_lexer.cmo sPL_parser.cmo sPLc.cmo sPL_type.cmo sPL_type_m.cmo -o sPL_type_m.byte
 # No parallelism done

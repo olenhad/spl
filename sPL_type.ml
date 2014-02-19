@@ -191,7 +191,7 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
       begin
         let (condt,ne1) = type_infer env e1 in
         let (at1, ne2) = type_infer env e2 in
-        let (at2, ne3) = type_infer env e2 in
+        let (at2, ne3) = type_infer env e3 in
         match condt with
           | Some BoolType -> if at1 = at2 then (at1, Cond (ne1,ne2,ne3)) else (None,e)
           | _ -> (None,e)
@@ -299,8 +299,8 @@ let rec num_of_arg rt =
 (* get_partial int->int->int [2] ===> Some (["_tmp_1"],int->int *)
 (* get_partial int->int->int [] ===> Some (["_tmp_1";"_tmp_2"],int->int->int *)
 let get_partial (t:sPL_type) (args:'b list) =
-  if not(!pa_removal_flag) then None
-  else
+ (* if not(!pa_removal_flag) then None
+  else*)
   match extr_arg_type t args with
     | None -> None
     | Some (ls,rt) ->

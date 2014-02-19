@@ -191,7 +191,7 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
       begin
         let (condt,ne1) = type_infer env e1 in
         let (at1, ne2) = type_infer env e2 in
-        let (at2, ne3) = type_infer env e2 in
+        let (at2, ne3) = type_infer env e3 in
         match condt with
           | Some BoolType -> if at1 = at2 then (at1, Cond (ne1,ne2,ne3)) else (None,e)
           | _ -> (None,e)

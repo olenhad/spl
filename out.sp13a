@@ -3,4 +3,4 @@ LOADING sPL program ..
  AS ==> let {Int->Int->Int} facloop = recfun facloop {Int->Int->Int} n acc -> if =[Var(n),Int(1)] then Var(acc) else Appln[Var(facloop); -[Var(n),Int(1)];*[Var(acc),Var(n)]] end in {Int}let {Int->Int} fac = fun {Int->Int} n -> Appln[Var(facloop); Var(n);Int(1)] end in {Int}Appln[Var(fac); Int(4)] end end
 TYPE CHECKING program ..
  ==> inferred type Int
-TRANSFORMING ==> Appln[fun {(Int->Int->Int)->Int} facloop -> Appln[fun {(Int->Int)->Int} fac -> Appln[Var(fac); Int(4)] end; fun {Int->Int} n -> Appln[Var(facloop); Var(n);Int(1)] end] end; recfun facloop {Int->Int->Int} n acc -> if =[Var(n),Int(1)] then Var(acc) else Var(acc) end]
+TRANSFORMING ==> Appln[fun {(Int->Int->Int)->Int} facloop -> Appln[fun {(Int->Int)->Int} fac -> Appln[Var(fac); Int(4)] end; fun {Int->Int} n -> Appln[Var(facloop); Var(n);Int(1)] end] end; recfun facloop {Int->Int->Int} n acc -> if =[Var(n),Int(1)] then Var(acc) else Appln[Var(facloop); -[Var(n),Int(1)];*[Var(acc),Var(n)]] end]

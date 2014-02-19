@@ -3,4 +3,4 @@ LOADING sPL program ..
  AS ==> Appln[recfun fac {Int->Int} n -> if <[Var(n),Int(2)] then Int(1) else *[Var(n),Appln[Var(fac); -[Var(n),Int(1)]]] end; Int(30)]
 TYPE CHECKING program ..
  ==> inferred type Int
-TRANSFORMING ==> Appln[recfun fac {Int->Int} n -> if <[Var(n),Int(2)] then Int(1) else Int(1) end; Int(30)]
+TRANSFORMING ==> Appln[recfun fac {Int->Int} n -> if <[Var(n),Int(2)] then Int(1) else *[Var(n),Appln[Var(fac); -[Var(n),Int(1)]]] end; Int(30)]
