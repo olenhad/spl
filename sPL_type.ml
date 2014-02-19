@@ -260,7 +260,7 @@ let rec type_infer (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
                       arg_type_pairs |> List.map (fun a -> Some (snd a)) in
                     let final_type = rest_type in
                     if inferred_arg_type_pairs = some_arg_t_pairs then
-                      (Some final_type, Appln (new_e1, Some final_type,new_args))
+                      (Some rest_type, Appln (new_e1, Some e1t,new_args))
                     else
                       (None, e)
                   end
@@ -305,18 +305,19 @@ let rec num_of_arg rt =
 (* get_partial int->int->int [2] ===> Some (["_tmp_1"],int->int *)
 (* get_partial int->int->int [] ===> Some (["_tmp_1";"_tmp_2"],int->int->int *)
 let get_partial (t:sPL_type) (args:'b list) =
- (* if not(!pa_removal_flag) then None
+  if not(!pa_removal_flag) then None
   else
   match extr_arg_type t args with
     | None -> None
     | Some (ls,rt) ->
           let narg = num_of_arg rt in
           if narg=0 then None
-            else Some (rt,(names # fresh_strs "_pa_var" narg)) *)
-  if not(!pa_removal_flag) then None
+            else Some (rt,(names # fresh_strs "_pa_var" narg))
+(*
+if not(!pa_removal_flag) then None
   else
     let narg = num_of_arg t in
-    if narg = 0 then None else Some (t,(names # fresh_strs "_pa_var" narg))
+    if narg = 0 then None else Some (t,(names # fresh_strs "_pa_var" narg))*)
 
 
 let rec build_type ls bt =
